@@ -24,7 +24,151 @@
     "url": "https://guide.elm-lang.org/architecture/",
     "language": "en",
     "targetVersion": "^0.19.0",
+    "tags": ["The Elm Architecture"]
+  },
+  {
+    "title": "Buttons",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/architecture/buttons.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["The Elm Architecture"]
+  },
+  {
+    "title": "Text Fields",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/architecture/text_fields.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["The Elm Architecture"]
+  },
+  {
+    "title": "Forms",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/architecture/text_fields.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["The Elm Architecture"]
+  },
+  {
+    "title": "Types",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/types/",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types"]
+  },
+  {
+    "title": "Reading Types",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/types/reading_types.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types"]
+  },
+  {
+    "title": "Type Aliases",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/types/type_aliases.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Type Aliases"]
+  },
+  {
+    "title": "Custom Types",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/types/custom_types.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Custom Types"]
+  },
+  {
+    "title": "Pattern Matching",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/types/pattern_matching.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Pattern Matching"]
+  },
+  {
+    "title": "Error Handling",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/error_handling/",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Maybe"]
+  },
+  {
+    "title": "Maybe",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/error_handling/maybe.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Maybe"]
+  },
+  {
+    "title": "Result",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/error_handling/result.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Result"]
+  },
+  {
+    "title": "Commands and Subscriptions",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/effects/",
+    "language": "en",
+    "targetVersion": "^0.19.0",
     "tags": []
+  },
+  {
+    "title": "HTTP",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/effects/http.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["HTTP", "elm/http"]
+  },
+  {
+    "title": "JSON",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/effects/http.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["JSON", "elm/json"]
+  },
+  {
+    "title": "Random",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/effects/random.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["elm/random"]
+  },
+  {
+    "title": "Time",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/effects/time.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Task", "elm/time"]
   },
   {
     "title": "翻訳について",
@@ -51,6 +195,6 @@
     "url": "https://guide.elm-lang.jp/install.html",
     "language": "ja",
     "targetVersion": "^0.19.0",
-    "tags": ["環境構築"]
+    "tags": ["Environment Setup"]
   }
 ]
