@@ -91,10 +91,10 @@ view model =
                     [ thead []
                         [ tr []
                             [ th [] [ text "Target" ]
-                            , th [] [ text "Language" ]
-                            , th [] [ text "Title" ]
-                            , th [] [ text "Website" ]
                             , th [] [ text "Tags" ]
+                            , th [] [ text "Title" ]
+                            , th [] [ text "Language" ]
+                            , th [] [ text "Website" ]
                             ]
                         ]
                     , tbody [] (List.map tableRow model.articles)
@@ -109,8 +109,12 @@ tableRow : Article -> Html msg
 tableRow article =
     tr []
         [ td [] [ text article.targetVersion ]
-        , td [] [ text (languageToString article.language) ]
+        , td [] <|
+            List.map
+                (\tag -> span [ class "ui label" ] [ text (wordToJapanese tag) ])
+                article.tags
         , td [] [ text article.title ]
+        , td [] [ text (languageToString article.language) ]
         , td []
             [ a [ href article.url, target "_blank", rel "noopener" ]
                 [ text article.siteName
@@ -118,10 +122,6 @@ tableRow article =
                 , i [ class "external alternate icon" ] []
                 ]
             ]
-        , td [] <|
-            List.map
-                (\tag -> span [ class "ui label" ] [ text (wordToJapanese tag) ])
-                article.tags
         ]
 
 
