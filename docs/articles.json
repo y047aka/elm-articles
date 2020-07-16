@@ -1,0 +1,56 @@
+[
+  {
+    "title": "An Introduction to Elm",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "Core Language",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/core_language.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "The Elm Architecture",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/architecture/",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "翻訳について",
+    "author": "elm-jp",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/about_translation.html",
+    "language": "ja",
+    "targetVersion": "-",
+    "tags": []
+  },
+  {
+    "title": "はじめに",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "インストール",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/install.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["環境構築"]
+  }
+]
