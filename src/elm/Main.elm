@@ -1,7 +1,7 @@
 module Main exposing (main)
 
 import Browser exposing (Document)
-import Html exposing (Html, a, caption, main_, section, table, tbody, td, text, th, thead, tr)
+import Html exposing (Html, a, h1, i, main_, section, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (class, href, rel, target)
 import Http
 import Json.Decode as Decode exposing (Decoder, string)
@@ -86,15 +86,14 @@ view model =
     , body =
         [ main_ [ class "ui container" ]
             [ section [ class "ui vertical stripe segment" ]
-                [ table []
-                    [ caption [] [ text "Elm Articles" ]
-                    , thead []
+                [ h1 [] [ text "Elm Articles" ]
+                , table [ class "ui table" ]
+                    [ thead []
                         [ tr []
                             [ th [] [ text "Target" ]
                             , th [] [ text "Language" ]
                             , th [] [ text "Title" ]
-                            , th [] [ text "Site" ]
-                            , th [] [ text "URL" ]
+                            , th [] [ text "Website" ]
                             , th [] [ text "Tags" ]
                             ]
                         ]
@@ -110,12 +109,27 @@ tableRow : Article -> Html msg
 tableRow article =
     tr []
         [ td [] [ text article.targetVersion ]
-        , td [] [ text article.language ]
+        , td [] [ text (languageToString article.language) ]
         , td [] [ text article.title ]
-        , td [] [ text article.siteName ]
         , td []
             [ a [ href article.url, target "_blank", rel "noopener" ]
-                [ text article.url ]
+                [ text article.siteName
+                , text " "
+                , i [ class "external alternate icon" ] []
+                ]
             ]
         , td [] [ text (article.tags |> String.join ", ") ]
         ]
+
+
+languageToString : String -> String
+languageToString language =
+    case language of
+        "en" ->
+            "English"
+
+        "ja" ->
+            "日本語"
+
+        _ ->
+            ""
