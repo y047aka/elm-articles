@@ -2,7 +2,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "prestart": "rimraf dist && cpx src/articles.json dist",
-    "build": "parcel build src/index.html -d docs",
+    "build": "parcel build src/index.html -d docs --public-url ./",
     "prebuild": "rimraf docs && cpx src/articles.json docs"
   },
   "devDependencies": {
