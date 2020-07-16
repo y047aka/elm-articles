@@ -1,9 +1,12 @@
 {
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html -d docs"
+    "prestart": "rimraf dist && cpx src/articles.json dist",
+    "build": "parcel build src/index.html -d docs",
+    "prebuild": "rimraf docs && cpx src/articles.json docs"
   },
   "devDependencies": {
+    "cpx2": "^2.0.0",
     "elm": "^0.19.1-3",
     "elm-analyse": "^0.16.5",
     "elm-format": "^0.8.3",
@@ -12,6 +15,7 @@
     "elm-test": "^0.19.1-revision2",
     "fomantic-ui-css": "^2.8.6",
     "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2",
     "sass": "^1.26.10"
   }
 }
