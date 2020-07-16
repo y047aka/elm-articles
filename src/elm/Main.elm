@@ -1,7 +1,7 @@
 module Main exposing (main)
 
 import Browser exposing (Document)
-import Html exposing (Html, a, h1, i, main_, section, table, tbody, td, text, th, thead, tr)
+import Html exposing (Html, a, h1, i, main_, section, span, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (class, href, rel, target)
 import Http
 import Json.Decode as Decode exposing (Decoder, string)
@@ -36,16 +36,6 @@ type alias Article =
     }
 
 
-init : () -> ( Model, Cmd Msg )
-init _ =
-    ( { articles = [] }
-    , Http.get
-        { url = "articles.json"
-        , expect = Http.expectJson Loaded (Decode.list articleDecoder)
-        }
-    )
-
-
 articleDecoder : Decoder Article
 articleDecoder =
     Decode.map7 Article
@@ -56,6 +46,16 @@ articleDecoder =
         (Decode.field "language" Decode.string)
         (Decode.field "targetVersion" Decode.string)
         (Decode.field "tags" (Decode.list Decode.string))
+
+
+init : () -> ( Model, Cmd Msg )
+init _ =
+    ( { articles = [] }
+    , Http.get
+        { url = "articles.json"
+        , expect = Http.expectJson Loaded (Decode.list articleDecoder)
+        }
+    )
 
 
 
@@ -118,8 +118,15 @@ tableRow article =
                 , i [ class "external alternate icon" ] []
                 ]
             ]
-        , td [] [ text (article.tags |> String.join ", ") ]
+        , td [] <|
+            List.map
+                (\tag -> span [ class "ui label" ] [ text (wordToJapanese tag) ])
+                article.tags
         ]
+
+
+
+-- String Converter
 
 
 languageToString : String -> String
@@ -133,3 +140,25 @@ languageToString language =
 
         _ ->
             ""
+
+
+wordToJapanese : String -> String
+wordToJapanese englishWord =
+    case englishWord of
+        "Custom Types" ->
+            "カスタム型"
+
+        "Environment Setup" ->
+            "環境構築"
+
+        "Pattern Matching" ->
+            "パターンマッチ"
+
+        "Types" ->
+            "型"
+
+        "Type Aliases" ->
+            "型エイリアス"
+
+        _ ->
+            englishWord
