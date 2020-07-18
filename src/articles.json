@@ -285,7 +285,7 @@
     "url": "https://guide.elm-lang.org/webapps/structure.html",
     "language": "en",
     "targetVersion": "^0.19.0",
-    "tags": []
+    "tags": ["Modules"]
   },
   {
     "title": "Optimization",
@@ -357,7 +357,7 @@
     "url": "https://guide.elm-lang.org/appendix/function_types.html",
     "language": "en",
     "targetVersion": "^0.19.0",
-    "tags": []
+    "tags": ["Types"]
   },
   {
     "title": "翻訳について",
@@ -385,5 +385,320 @@
     "language": "ja",
     "targetVersion": "^0.19.0",
     "tags": ["Environment Setup"]
+  },
+  {
+    "title": "言語の基礎",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/core_language.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "The Elm Architecture",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/architecture/",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["The Elm Architecture"]
+  },
+  {
+    "title": "ボタン",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/architecture/buttons.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["The Elm Architecture"]
+  },
+  {
+    "title": "テキスト入力",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/architecture/text_fields.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["The Elm Architecture"]
+  },
+  {
+    "title": "フォーム",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/architecture/forms.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["The Elm Architecture"]
+  },
+  {
+    "title": "型について",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/types/",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types"]
+  },
+  {
+    "title": "型を読む",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/types/reading_types.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types"]
+  },
+  {
+    "title": "型エイリアス",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/types/type_aliases.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Type Aliases"]
+  },
+  {
+    "title": "カスタム型（Custom type）",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/types/custom_types.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Custom Types"]
+  },
+  {
+    "title": "パターンマッチ",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/types/pattern_matching.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Pattern Matching"]
+  },
+  {
+    "title": "エラーハンドリング",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/error_handling/",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Maybe"]
+  },
+  {
+    "title": "Maybe",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/error_handling/maybe.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Maybe"]
+  },
+  {
+    "title": "Result",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/error_handling/result.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Result"]
+  },
+  {
+    "title": "コマンドとサブスクリプション",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/effects/",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["elm/browser"]
+  },
+  {
+    "title": "HTTP",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/effects/http.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["HTTP", "elm/http"]
+  },
+  {
+    "title": "JSON",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/effects/json.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["JSON", "elm/json"]
+  },
+  {
+    "title": "Random",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/effects/random.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["elm/random"]
+  },
+  {
+    "title": "Time",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/effects/time.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Task", "elm/time"]
+  },
+  {
+    "title": "JavaScriptとの相互運用",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/interop/",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "フラグ",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/interop/flags.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Flags"]
+  },
+  {
+    "title": "ポート",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/interop/ports.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Ports"]
+  },
+  {
+    "title": "Custom Elements",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/interop/custom_elements.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Custom Elements"]
+  },
+  {
+    "title": "Web アプリケーション",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/webapps/",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["elm/browser"]
+  },
+  {
+    "title": "ナビゲーション",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/webapps/navigation.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["elm/browser", "elm/url"]
+  },
+  {
+    "title": "URLのパース",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/webapps/url_parsing.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["elm/url"]
+  },
+  {
+    "title": "モジュール",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/webapps/modules.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Modules"]
+  },
+  {
+    "title": "Webアプリケーションの構造化",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/webapps/structure.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Modules"]
+  },
+  {
+    "title": "最適化",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/optimization/",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "Html.Lazy",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/optimization/lazy.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Lazy", "elm/html"]
+  },
+  {
+    "title": "Html.Keyed",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/optimization/keyed.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Keyed", "elm/html"]
+  },
+  {
+    "title": "アセットサイズの縮小",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/optimization/asset_size.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "次への一歩",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/next_steps.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "集合としての型",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/appendix/types_as_sets.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Custom Types"]
+  },
+  {
+    "title": "型のビット表現",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/appendix/types_as_bits.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Custom Types"]
+  },
+  {
+    "title": "関数の型",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm (Japanese)",
+    "url": "https://guide.elm-lang.jp/appendix/function_types.html",
+    "language": "ja",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types"]
   }
 ]
