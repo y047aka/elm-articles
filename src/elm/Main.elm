@@ -3,7 +3,7 @@ module Main exposing (main)
 import Browser exposing (Document)
 import Html exposing (Html, a, div, h1, i, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
-import Html.Events exposing (onCheck)
+import Html.Events exposing (onCheck, onClick)
 import Http
 import Json.Decode as Decode exposing (Decoder, string)
 
@@ -25,6 +25,7 @@ main =
 type alias Model =
     { articles : List Article
     , selectedLanguages : List String
+    , selectedTag : Maybe String
     , selectedVersions : List String
     }
 
@@ -70,6 +71,7 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     ( { articles = []
       , selectedLanguages = List.map .value languages
+      , selectedTag = Nothing
       , selectedVersions = List.map .value versions
       }
     , Http.get
@@ -86,6 +88,7 @@ init _ =
 type Msg
     = Loaded (Result Http.Error (List Article))
     | SelectLanguages String Bool
+    | SelectTag String
     | SelectVersions String Bool
 
 
@@ -109,6 +112,9 @@ update msg model =
               }
             , Cmd.none
             )
+
+        SelectTag tag ->
+            ( { model | selectedTag = Just tag }, Cmd.none )
 
         SelectVersions l isChecked ->
             ( { model
@@ -134,6 +140,12 @@ view model =
             model.articles
                 |> List.filter (\{ language } -> List.member language model.selectedLanguages)
                 |> List.filter (\{ targetVersion } -> List.member targetVersion model.selectedVersions)
+                |> List.filter
+                    (\{ tags } ->
+                        model.selectedTag
+                            |> Maybe.map (\tag -> List.member tag tags)
+                            |> Maybe.withDefault True
+                    )
 
         listItem msg options opt =
             div [ class "field" ]
@@ -181,13 +193,13 @@ view model =
     }
 
 
-tableRow : Article -> Html msg
+tableRow : Article -> Html Msg
 tableRow article =
     tr []
         [ td [] [ text article.targetVersion ]
         , td [] <|
             List.map
-                (\tag -> span [ class "ui label" ] [ text (wordToJapanese tag) ])
+                (\tag -> span [ class "ui label", onClick (SelectTag tag) ] [ text (wordToJapanese tag) ])
                 article.tags
         , td [] [ text article.title ]
         , td [] [ text (languageToString article.language) ]
