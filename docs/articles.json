@@ -132,7 +132,7 @@
     "url": "https://guide.elm-lang.org/effects/",
     "language": "en",
     "targetVersion": "^0.19.0",
-    "tags": []
+    "tags": ["elm/browser"]
   },
   {
     "title": "HTTP",
@@ -169,6 +169,195 @@
     "language": "en",
     "targetVersion": "^0.19.0",
     "tags": ["Task", "elm/time"]
+  },
+  {
+    "title": "Installation",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/install/",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Environment Setup"]
+  },
+  {
+    "title": "Install a Code Editor",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/install/editor.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Environment Setup", "Sublime Text"]
+  },
+  {
+    "title": "Install Elm",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/install/elm.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Environment Setup"]
+  },
+  {
+    "title": "JavaScript Interop",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/interop/",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "Flags",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/interop/flags.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Flags"]
+  },
+  {
+    "title": "Ports",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/interop/ports.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Ports"]
+  },
+  {
+    "title": "Custom Elements",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/interop/custom_elements.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Custom Elements"]
+  },
+  {
+    "title": "The Limits of Elm/JS Interop",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/interop/limits.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Ports"]
+  },
+  {
+    "title": "Web Apps",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/webapps/",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["elm/browser"]
+  },
+  {
+    "title": "Navigation",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/webapps/navigation.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["elm/browser", "elm/url"]
+  },
+  {
+    "title": "Parsing URLs",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/webapps/url_parsing.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["elm/url"]
+  },
+  {
+    "title": "Modules",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/webapps/modules.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Modules"]
+  },
+  {
+    "title": "Structuring Web Apps",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/webapps/structure.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "Optimization",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/optimization/",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "Html.Lazy",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/optimization/lazy.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Lazy", "elm/html"]
+  },
+  {
+    "title": "Html.Keyed",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/optimization/keyed.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Keyed", "elm/html"]
+  },
+  {
+    "title": "Asset Size",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/optimization/asset_size.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "Next Steps",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/next_steps.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": []
+  },
+  {
+    "title": "Types as Sets",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/appendix/types_as_sets.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Custom Types"]
+  },
+  {
+    "title": "Types as Bits",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/appendix/types_as_bits.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": ["Types", "Custom Types"]
+  },
+  {
+    "title": "Function Types",
+    "author": "Evan Czaplicki",
+    "siteName": "An Introduction to Elm",
+    "url": "https://guide.elm-lang.org/appendix/function_types.html",
+    "language": "en",
+    "targetVersion": "^0.19.0",
+    "tags": []
   },
   {
     "title": "翻訳について",

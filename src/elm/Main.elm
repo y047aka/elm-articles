@@ -151,6 +151,9 @@ wordToJapanese englishWord =
         "Environment Setup" ->
             "環境構築"
 
+        "Modules" ->
+            "モジュール"
+
         "Pattern Matching" ->
             "パターンマッチ"
 
