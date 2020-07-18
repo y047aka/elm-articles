@@ -1,8 +1,9 @@
 module Main exposing (main)
 
 import Browser exposing (Document)
-import Html exposing (Html, a, h1, i, main_, section, span, table, tbody, td, text, th, thead, tr)
-import Html.Attributes exposing (class, href, rel, target)
+import Html exposing (Html, a, div, h1, i, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
+import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
+import Html.Events exposing (onCheck)
 import Http
 import Json.Decode as Decode exposing (Decoder, string)
 
@@ -22,7 +23,9 @@ main =
 
 
 type alias Model =
-    { articles : List Article }
+    { articles : List Article
+    , selectedLanguages : List String
+    }
 
 
 type alias Article =
@@ -48,9 +51,18 @@ articleDecoder =
         (Decode.field "tags" (Decode.list Decode.string))
 
 
+languages : List { id : String, value : String, label : String }
+languages =
+    [ { id = "aen", value = "en", label = "English" }
+    , { id = "aja", value = "ja", label = "日本語" }
+    ]
+
+
 init : () -> ( Model, Cmd Msg )
 init _ =
-    ( { articles = [] }
+    ( { articles = []
+      , selectedLanguages = List.map .value languages
+      }
     , Http.get
         { url = "articles.json"
         , expect = Http.expectJson Loaded (Decode.list articleDecoder)
@@ -64,6 +76,7 @@ init _ =
 
 type Msg
     = Loaded (Result Http.Error (List Article))
+    | SelectLanguages String Bool
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -75,6 +88,18 @@ update msg model =
         Loaded (Err _) ->
             ( model, Cmd.none )
 
+        SelectLanguages l isChecked ->
+            ( { model
+                | selectedLanguages =
+                    if isChecked then
+                        l :: model.selectedLanguages
+
+                    else
+                        List.filter ((/=) l) model.selectedLanguages
+              }
+            , Cmd.none
+            )
+
 
 
 -- VIEW
@@ -82,11 +107,36 @@ update msg model =
 
 view : Model -> Document Msg
 view model =
+    let
+        filteredArticles =
+            model.articles
+                |> List.filter (\{ language } -> List.member language model.selectedLanguages)
+
+        listItem opt =
+            div [ class "field" ]
+                [ div [ class "ui checkbox" ]
+                    [ input
+                        [ id opt.id
+                        , type_ "checkbox"
+                        , value opt.value
+                        , checked (List.member opt.value model.selectedLanguages)
+                        , onCheck (SelectLanguages opt.value)
+                        ]
+                        []
+                    , label [ for opt.id ] [ span [ class "ui text" ] [ text opt.label ] ]
+                    ]
+                ]
+    in
     { title = "Elm Articles"
     , body =
         [ main_ [ class "ui container" ]
             [ section [ class "ui vertical stripe segment" ]
                 [ h1 [] [ text "Elm Articles" ]
+                , div [ class "ui form" ]
+                    [ div [ class "inline fields" ] <|
+                        label [] [ text "Languages" ]
+                            :: List.map listItem languages
+                    ]
                 , table [ class "ui table" ]
                     [ thead []
                         [ tr []
@@ -97,7 +147,7 @@ view model =
                             , th [] [ text "Website" ]
                             ]
                         ]
-                    , tbody [] (List.map tableRow model.articles)
+                    , tbody [] (List.map tableRow filteredArticles)
                     ]
                 ]
             ]
