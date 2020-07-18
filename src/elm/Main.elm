@@ -25,6 +25,7 @@ main =
 type alias Model =
     { articles : List Article
     , selectedLanguages : List String
+    , selectedVersions : List String
     }
 
 
@@ -53,8 +54,15 @@ articleDecoder =
 
 languages : List { id : String, value : String, label : String }
 languages =
-    [ { id = "aen", value = "en", label = "English" }
-    , { id = "aja", value = "ja", label = "日本語" }
+    [ { id = "en", value = "en", label = "English" }
+    , { id = "ja", value = "ja", label = "日本語" }
+    ]
+
+
+versions : List { id : String, value : String, label : String }
+versions =
+    [ { id = "^0.19.0", value = "^0.19.0", label = "0.19.0" }
+    , { id = "none", value = "-", label = "-" }
     ]
 
 
@@ -62,6 +70,7 @@ init : () -> ( Model, Cmd Msg )
 init _ =
     ( { articles = []
       , selectedLanguages = List.map .value languages
+      , selectedVersions = List.map .value versions
       }
     , Http.get
         { url = "articles.json"
@@ -77,6 +86,7 @@ init _ =
 type Msg
     = Loaded (Result Http.Error (List Article))
     | SelectLanguages String Bool
+    | SelectVersions String Bool
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -100,6 +110,18 @@ update msg model =
             , Cmd.none
             )
 
+        SelectVersions l isChecked ->
+            ( { model
+                | selectedVersions =
+                    if isChecked then
+                        l :: model.selectedVersions
+
+                    else
+                        List.filter ((/=) l) model.selectedVersions
+              }
+            , Cmd.none
+            )
+
 
 
 -- VIEW
@@ -111,16 +133,17 @@ view model =
         filteredArticles =
             model.articles
                 |> List.filter (\{ language } -> List.member language model.selectedLanguages)
+                |> List.filter (\{ targetVersion } -> List.member targetVersion model.selectedVersions)
 
-        listItem opt =
+        listItem msg options opt =
             div [ class "field" ]
                 [ div [ class "ui checkbox" ]
                     [ input
                         [ id opt.id
                         , type_ "checkbox"
                         , value opt.value
-                        , checked (List.member opt.value model.selectedLanguages)
-                        , onCheck (SelectLanguages opt.value)
+                        , checked (List.member opt.value options)
+                        , onCheck (msg opt.value)
                         ]
                         []
                     , label [ for opt.id ] [ span [ class "ui text" ] [ text opt.label ] ]
@@ -135,7 +158,10 @@ view model =
                 , div [ class "ui form" ]
                     [ div [ class "inline fields" ] <|
                         label [] [ text "Languages" ]
-                            :: List.map listItem languages
+                            :: List.map (listItem SelectLanguages model.selectedLanguages) languages
+                    , div [ class "inline fields" ] <|
+                        label [] [ text "Target Versions" ]
+                            :: List.map (listItem SelectVersions model.selectedVersions) versions
                     ]
                 , table [ class "ui table" ]
                     [ thead []
