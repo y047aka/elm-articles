@@ -117,13 +117,15 @@ view model =
     let
         filteredArticles =
             model.articles
-                |> List.filter (\{ language } -> List.member language model.selectedLanguages)
-                |> List.filter (\{ targetVersion } -> List.member targetVersion model.selectedVersions)
                 |> List.filter
-                    (\{ tags } ->
-                        model.selectedTag
-                            |> Maybe.map (\tag -> List.member tag tags)
-                            |> Maybe.withDefault True
+                    (\article ->
+                        List.all identity
+                            [ List.member article.language model.selectedLanguages
+                            , List.member article.targetVersion model.selectedVersions
+                            , model.selectedTag
+                                |> Maybe.map (\tag -> List.member tag article.tags)
+                                |> Maybe.withDefault True
+                            ]
                     )
 
         listItem msg options opt =
