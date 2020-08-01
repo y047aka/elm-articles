@@ -1,9 +1,9 @@
 {
   "scripts": {
     "start": "parcel src/index.html",
-    "prestart": "rimraf dist && cpx src/articles.json dist",
+    "prestart": "rimraf dist && cpx static/articles.json dist",
     "build": "parcel build src/index.html -d docs --public-url ./",
-    "prebuild": "rimraf docs && cpx src/articles.json docs"
+    "prebuild": "rimraf docs && cpx static/articles.json docs"
   },
   "devDependencies": {
     "cpx2": "^2.0.0",
