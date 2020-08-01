@@ -1,11 +1,12 @@
 module Main exposing (main)
 
 import Browser exposing (Document)
+import Data.Article exposing (Article, articleDecoder)
 import Html exposing (Html, a, div, h1, i, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
 import Html.Events exposing (onCheck, onClick)
 import Http
-import Json.Decode as Decode exposing (Decoder, string)
+import Json.Decode as Decode
 
 
 main : Program () Model Msg
@@ -28,29 +29,6 @@ type alias Model =
     , selectedTag : Maybe String
     , selectedVersions : List String
     }
-
-
-type alias Article =
-    { title : String
-    , author : String
-    , siteName : String
-    , url : String
-    , language : String
-    , targetVersion : String
-    , tags : List String
-    }
-
-
-articleDecoder : Decoder Article
-articleDecoder =
-    Decode.map7 Article
-        (Decode.field "title" Decode.string)
-        (Decode.field "author" Decode.string)
-        (Decode.field "siteName" Decode.string)
-        (Decode.field "url" Decode.string)
-        (Decode.field "language" Decode.string)
-        (Decode.field "targetVersion" Decode.string)
-        (Decode.field "tags" (Decode.list Decode.string))
 
 
 languages : List { id : String, value : String, label : String }
