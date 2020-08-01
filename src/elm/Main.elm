@@ -1,7 +1,8 @@
 module Main exposing (main)
 
 import Browser exposing (Document)
-import Data.Article exposing (Article, articleDecoder)
+import Data.Article exposing (Article)
+import Data.Article.Qiita exposing (articleDecoder)
 import Html exposing (Html, a, div, h1, i, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
 import Html.Events exposing (onCheck, onClick)
@@ -53,7 +54,7 @@ init _ =
       , selectedVersions = List.map .value versions
       }
     , Http.get
-        { url = "articles.json"
+        { url = "articles_qiita.json"
         , expect = Http.expectJson Loaded (Decode.list articleDecoder)
         }
     )
@@ -179,7 +180,10 @@ tableRow article =
             List.map
                 (\tag -> span [ class "ui label", onClick (SelectTag tag) ] [ text (wordToJapanese tag) ])
                 article.tags
-        , td [] [ text article.title ]
+        , td []
+            [ div [] [ text article.title ]
+            , span [ class "ui small grey text" ] [ text article.author ]
+            ]
         , td [] [ text (languageToString article.language) ]
         , td []
             [ a [ href article.url, target "_blank", rel "noopener" ]
