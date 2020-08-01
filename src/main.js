@@ -1,4 +1,4 @@
 import "./style.sass";
-import { Elm } from "./elm/Main.elm";
+import { Elm } from "./Main.elm";
 
 const app = Elm.Main.init();
