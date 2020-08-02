@@ -3,7 +3,7 @@ module Main exposing (main)
 import Browser exposing (Document)
 import Data.Article exposing (Article)
 import Data.Article.Qiita exposing (articleDecoder)
-import Html exposing (Html, a, div, h1, i, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
+import Html exposing (Html, a, button, div, h1, i, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
 import Html.Events exposing (onCheck, onClick)
 import Http
@@ -30,6 +30,18 @@ type alias Model =
     , selectedTag : Maybe String
     , selectedVersions : List String
     }
+
+
+tagCloud : List (List String)
+tagCloud =
+    [ [ "型", "カスタム型", "OpaqueType", "パターンマッチ", "JSON", "Maybe", "ports", "task", "副作用" ]
+    , [ "elm-format", "elm-test", "elm-analyse", "elm-ui", "elm-live" ]
+    , [ "VirtualDom", "SPA", "WebComponents", "PWA", "REST-API", "テスト", "test", "doctest", "TDD", "cli", "GraphQL", "Firebase", "静的サイトジェネレーター", "form", "バリデーション", "SVG", "FRP" ]
+    , [ "Markdown", "HTML", "CSS", "JavaScript", "TypeScript", "React", "redux", "Vue.js", "hyperapp", "Svelte", "Swift", "Java", "PHP" ]
+    , [ "関数型プログラミング", "関数型言語", "Haskell", "purescript", "Go", "Scala", "Elixir", "Rust", "Phoenix" ]
+    , [ "parcel", "webpack", "Node.js", "Docker", "VSCode" ]
+    , [ "アルゴリズム", "FizzBuzz", "木構造", "初心者", "frontend", "フロントエンド", "ポエム" ]
+    ]
 
 
 languages : List { id : String, value : String, label : String }
@@ -149,7 +161,17 @@ view model =
             [ section [ class "ui vertical stripe segment" ]
                 [ h1 [] [ text "Elm Articles" ]
                 , div [ class "ui form" ]
-                    [ div [ class "inline fields" ] <|
+                    [ div [ class "grouped fields" ] <|
+                        List.map
+                            (\tag ->
+                                button
+                                    [ class "ui tiny button"
+                                    , onClick (SelectTag tag)
+                                    ]
+                                    [ text tag ]
+                            )
+                            (List.concat tagCloud)
+                    , div [ class "inline fields" ] <|
                         label [] [ text "Languages" ]
                             :: List.map (listItem SelectLanguages model.selectedLanguages) languages
                     , div [ class "inline fields" ] <|
