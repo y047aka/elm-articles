@@ -13,4 +13,4 @@ articleDecoder =
         (Decode.field "url" Decode.string)
         (Decode.succeed "ja")
         (Decode.succeed "-")
-        (Decode.field "tags" (Decode.list (Decode.field "name" Decode.string)))
+        (Decode.field "tags" (Decode.list Decode.string))
