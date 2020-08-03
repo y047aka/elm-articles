@@ -34,13 +34,20 @@ type alias Model =
 
 tagCloud : List (List String)
 tagCloud =
-    [ [ "型", "カスタム型", "OpaqueType", "パターンマッチ", "JSON", "Maybe", "ports", "task", "副作用" ]
-    , [ "elm-format", "elm-test", "elm-analyse", "elm-ui", "elm-live" ]
-    , [ "VirtualDom", "SPA", "WebComponents", "PWA", "REST-API", "テスト", "test", "doctest", "TDD", "cli", "GraphQL", "Firebase", "静的サイトジェネレーター", "form", "バリデーション", "SVG", "FRP" ]
+    [ [ "The Elm Architecture", "Custom Types", "Maybe", "Result", "HTTP", "JSON", "Random", "Task" ]
+    , [ "型", "OpaqueType", "パターンマッチ", "ports", "副作用" ]
+    , [ "Test", "TDD" ]
+    , [ "GraphQL" ]
+    , [ "elm-format", "elm-test" ]
+    , [ "mdgriffith/elm-ui", "arowM/elm-neat-layout" ]
+    , [ "Functional Reactive Programming" ]
+    , [ "VirtualDom", "SPA", "WebComponents", "PWA", "REST-API", "doctest", "cli", "Firebase", "静的サイトジェネレーター", "form", "バリデーション", "SVG" ]
     , [ "Markdown", "HTML", "CSS", "JavaScript", "TypeScript", "React", "redux", "Vue.js", "hyperapp", "Svelte", "Swift", "Java", "PHP" ]
-    , [ "関数型プログラミング", "関数型言語", "Haskell", "purescript", "Go", "Scala", "Elixir", "Rust", "Phoenix" ]
-    , [ "parcel", "webpack", "Node.js", "Docker", "VSCode" ]
-    , [ "アルゴリズム", "FizzBuzz", "木構造", "初心者", "frontend", "フロントエンド", "ポエム" ]
+    , [ "関数型プログラミング", "関数型言語", "Haskell", "purescript", "Go", "Scala", "Elixir", "Rust", "Phoenix", "Node.js" ]
+    , [ "Dev Environment", "elm reactor", "elm-analyse", "create-elm-app", "elm-live", "Parcel", "webpack", "VSCode", "Docker", "Windows" ]
+    , [ "アルゴリズム", "木構造", "初心者" ]
+    , [ "Hello World", "FizzBuzz", "To-Do List App" ]
+    , [ "Examples", "Poème", "Study Log", "Personal Log" ]
     ]
 
 
@@ -242,14 +249,35 @@ wordToJapanese englishWord =
         "Custom Types" ->
             "カスタム型"
 
+        "Dev Environment" ->
+            "開発環境"
+
         "Environment Setup" ->
             "環境構築"
+
+        "Examples" ->
+            "作例"
 
         "Modules" ->
             "モジュール"
 
         "Pattern Matching" ->
             "パターンマッチ"
+
+        "Personal Log" ->
+            "私的記録"
+
+        "Poème" ->
+            "ポエム"
+
+        "Study Log" ->
+            "学習記録"
+
+        "Test" ->
+            "テスト"
+
+        "To-Do List App" ->
+            "ToDoリスト"
 
         "Types" ->
             "型"
