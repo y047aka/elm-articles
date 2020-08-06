@@ -34,17 +34,16 @@ type alias Model =
 
 tagCloud : List (List String)
 tagCloud =
-    [ [ "The Elm Architecture", "Custom Types", "Maybe", "Result", "HTTP", "JSON", "Random", "Task" ]
-    , [ "型", "OpaqueType", "パターンマッチ", "ports", "副作用" ]
-    , [ "Test", "TDD" ]
-    , [ "GraphQL" ]
-    , [ "elm-format", "elm-test" ]
-    , [ "mdgriffith/elm-ui", "arowM/elm-neat-layout" ]
-    , [ "Functional Reactive Programming" ]
-    , [ "VirtualDom", "SPA", "WebComponents", "PWA", "REST-API", "doctest", "cli", "Firebase", "静的サイトジェネレーター", "form", "バリデーション", "SVG" ]
-    , [ "Markdown", "HTML", "CSS", "JavaScript", "TypeScript", "React", "redux", "Vue.js", "hyperapp", "Svelte", "Swift", "Java", "PHP" ]
-    , [ "関数型プログラミング", "関数型言語", "Haskell", "purescript", "Go", "Scala", "Elixir", "Rust", "Phoenix", "Node.js" ]
-    , [ "Dev Environment", "elm reactor", "elm-analyse", "create-elm-app", "elm-live", "Parcel", "webpack", "VSCode", "Docker", "Windows" ]
+    [ [ "Ellie", "The Elm Architecture", "Types", "Type Aliases", "Custom Types", "Maybe", "Result", "HTTP", "JSON", "Random", "Time", "Task" ]
+    , [ "Opaque Type", "Phantom Type", "パターンマッチ", "ports", "副作用" ]
+    , [ "Test", "Doctest", "TDD", "elm-test", "elm-verify-examples" ]
+    , [ "SVG", "GraphQL", "Static Site Generator" ]
+    , [ "mdgriffith/elm-ui", "arowM/elm-form-decoder", "arowM/elm-neat-layout" ]
+    , [ "CLI" ]
+    , [ "VirtualDom", "SPA", "WebComponents", "PWA", "Firebase", "form" ]
+    , [ "HTML", "CSS", "JavaScript", "TypeScript" ]
+    , [ "関数型プログラミング", "Node.js" ]
+    , [ "Dev Environment", "elm reactor", "elm-format", "elm-analyse", "create-elm-app", "elm-live", "Parcel", "webpack", "VSCode", "Docker", "Windows" ]
     , [ "アルゴリズム", "木構造", "初心者" ]
     , [ "Hello World", "FizzBuzz", "To-Do List App" ]
     , [ "Examples", "Poème", "Study Log", "Personal Log" ]
@@ -175,7 +174,7 @@ view model =
                                     [ class "ui tiny button"
                                     , onClick (SelectTag tag)
                                     ]
-                                    [ text tag ]
+                                    [ text (wordToJapanese tag) ]
                             )
                             (List.concat tagCloud)
                     , div [ class "inline fields" ] <|
@@ -269,6 +268,9 @@ wordToJapanese englishWord =
 
         "Poème" ->
             "ポエム"
+
+        "Static Site Generator" ->
+            "静的サイトジェネレーター"
 
         "Study Log" ->
             "学習記録"
