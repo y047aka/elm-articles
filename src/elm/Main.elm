@@ -161,11 +161,11 @@ view model =
                     ]
                 ]
     in
-    { title = "Elm Articles"
+    { title = "elm-articles"
     , body =
         [ main_ [ class "ui container" ]
             [ section [ class "ui vertical stripe segment" ]
-                [ h1 [] [ text "Elm Articles" ]
+                [ h1 [] [ text "elm-articles" ]
                 , div [ class "ui form" ]
                     [ div [ class "grouped fields" ] <|
                         List.map
@@ -206,19 +206,19 @@ tableRow article =
         [ td [] [ text article.targetVersion ]
         , td [] <|
             List.map
-                (\tag -> span [ class "ui label", onClick (SelectTag tag) ] [ text (wordToJapanese tag) ])
+                (\tag -> span [ class "ui tiny button", onClick (SelectTag tag) ] [ text (wordToJapanese tag) ])
                 article.tags
         , td []
-            [ div [] [ text article.title ]
+            [ div []
+                [ a
+                    [ href article.url
+                    , target "_blank"
+                    , rel "noopener"
+                    ]
+                    [ text article.title ]
+                ]
             , span [ class "ui small grey text" ] [ text (article.author ++ " | " ++ article.siteName) ]
             ]
-        , a
-            [ class "cover"
-            , href article.url
-            , target "_blank"
-            , rel "noopener"
-            ]
-            []
         ]
 
 
