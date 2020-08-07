@@ -3,7 +3,7 @@ module Main exposing (main)
 import Browser exposing (Document)
 import Data.Article exposing (Article)
 import Data.Article.Qiita exposing (articleDecoder)
-import Html exposing (Html, a, button, div, h1, i, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
+import Html exposing (Html, a, button, div, h1, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
 import Html.Events exposing (onCheck, onClick)
 import Http
@@ -52,8 +52,8 @@ tagCloud =
 
 languages : List { id : String, value : String, label : String }
 languages =
-    [ { id = "en", value = "en", label = "English" }
-    , { id = "ja", value = "ja", label = "日本語" }
+    [ { id = "en", value = "en", label = languageToString "en" }
+    , { id = "ja", value = "ja", label = languageToString "ja" }
     ]
 
 
@@ -184,14 +184,12 @@ view model =
                         label [] [ text "Target Versions" ]
                             :: List.map (listItem SelectVersions model.selectedVersions) versions
                     ]
-                , table [ class "ui table" ]
+                , table [ class "ui selectable table" ]
                     [ thead []
                         [ tr []
                             [ th [] [ text "Target" ]
                             , th [] [ text "Tags" ]
-                            , th [] [ text "Title" ]
-                            , th [] [ text "Language" ]
-                            , th [] [ text "Website" ]
+                            , th [] [ text "Title /  Author /  Site Name" ]
                             ]
                         ]
                     , tbody [] (List.map tableRow filteredArticles)
@@ -212,16 +210,15 @@ tableRow article =
                 article.tags
         , td []
             [ div [] [ text article.title ]
-            , span [ class "ui small grey text" ] [ text article.author ]
+            , span [ class "ui small grey text" ] [ text (article.author ++ " | " ++ article.siteName) ]
             ]
-        , td [] [ text (languageToString article.language) ]
-        , td []
-            [ a [ href article.url, target "_blank", rel "noopener" ]
-                [ text article.siteName
-                , text " "
-                , i [ class "external alternate icon" ] []
-                ]
+        , a
+            [ class "cover"
+            , href article.url
+            , target "_blank"
+            , rel "noopener"
             ]
+            []
         ]
 
 
