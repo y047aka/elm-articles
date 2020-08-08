@@ -214,7 +214,7 @@ tableRow article =
                     , target "_blank"
                     , rel "noopener"
                     ]
-                    [ text article.title ]
+                    [ text (article.title ++ " "), i [ class "external alternate small icon" ] [] ]
                 ]
             , span [ class "ui small grey text" ] [ text (article.author ++ " | " ++ article.siteName) ]
             ]
