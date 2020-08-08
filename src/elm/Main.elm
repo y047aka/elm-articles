@@ -3,7 +3,7 @@ module Main exposing (main)
 import Browser exposing (Document)
 import Data.Article exposing (Article)
 import Data.Article.Qiita exposing (articleDecoder)
-import Html exposing (Html, a, button, div, h1, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
+import Html exposing (Html, a, button, div, h1, header, i, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
 import Html.Events exposing (onCheck, onClick)
 import Http
@@ -84,7 +84,7 @@ init _ =
 
 type Msg
     = Loaded (Result Http.Error (List Article))
-    | SelectLanguages String Bool
+    | SetLanguages (List String)
     | SelectTag String
     | SelectVersions String Bool
 
@@ -98,17 +98,8 @@ update msg model =
         Loaded (Err _) ->
             ( model, Cmd.none )
 
-        SelectLanguages l isChecked ->
-            ( { model
-                | selectedLanguages =
-                    if isChecked then
-                        l :: model.selectedLanguages
-
-                    else
-                        List.filter ((/=) l) model.selectedLanguages
-              }
-            , Cmd.none
-            )
+        SetLanguages languages_ ->
+            ( { model | selectedLanguages = languages_ }, Cmd.none )
 
         SelectTag tag ->
             ( { model | selectedTag = Just tag }, Cmd.none )
@@ -163,41 +154,57 @@ view model =
     in
     { title = "elm-articles"
     , body =
-        [ main_ [ class "ui container" ]
-            [ section [ class "ui vertical stripe segment" ]
-                [ h1 [] [ text "elm-articles" ]
-                , div [ class "ui form" ]
-                    [ div [ class "grouped fields" ] <|
-                        List.map
-                            (\tag ->
-                                button
-                                    [ class "ui tiny button"
-                                    , onClick (SelectTag tag)
-                                    ]
-                                    [ text (wordToJapanese tag) ]
-                            )
-                            (List.concat tagCloud)
-                    , div [ class "inline fields" ] <|
-                        label [] [ text "Languages" ]
-                            :: List.map (listItem SelectLanguages model.selectedLanguages) languages
-                    , div [ class "inline fields" ] <|
-                        label [] [ text "Target Versions" ]
-                            :: List.map (listItem SelectVersions model.selectedVersions) versions
-                    ]
-                , table [ class "ui selectable table" ]
-                    [ thead []
-                        [ tr []
-                            [ th [] [ text "Target" ]
-                            , th [] [ text "Tags" ]
-                            , th [] [ text "Title /  Author /  Site Name" ]
-                            ]
+        [ siteHeader
+        , main_ [ class "ui main container" ]
+            [ div [ class "ui form" ]
+                [ div [ class "grouped fields" ] <|
+                    List.map
+                        (\tag ->
+                            button
+                                [ class "ui tiny button"
+                                , onClick (SelectTag tag)
+                                ]
+                                [ text (wordToJapanese tag) ]
+                        )
+                        (List.concat tagCloud)
+                , div [ class "inline fields" ] <|
+                    label [] [ text "Target Versions" ]
+                        :: List.map (listItem SelectVersions model.selectedVersions) versions
+                ]
+            , table [ class "ui selectable table" ]
+                [ thead []
+                    [ tr []
+                        [ th [] [ text "Target" ]
+                        , th [] [ text "Tags" ]
+                        , th [] [ text "Title /  Author /  Site Name" ]
                         ]
-                    , tbody [] (List.map tableRow filteredArticles)
                     ]
+                , tbody [] (List.map tableRow filteredArticles)
                 ]
             ]
         ]
     }
+
+
+siteHeader : Html Msg
+siteHeader =
+    header [ class "ui fixed inverted menu" ]
+        [ div [ class "ui container" ]
+            [ a [ class "header item" ] [ text "elm-articles" ]
+            , div [ class "right menu" ]
+                [ a [ class "ui simple dropdown item" ]
+                    [ text "Language"
+                    , i [ class "dropdown icon" ] []
+                    , div [ class "menu" ] <|
+                        List.map (\opt -> div [ class "item", onClick opt.msg ] [ text opt.label ])
+                            [ { label = "全て", msg = SetLanguages [ "en", "ja" ] }
+                            , { label = "English", msg = SetLanguages [ "en" ] }
+                            , { label = "日本語", msg = SetLanguages [ "ja" ] }
+                            ]
+                    ]
+                ]
+            ]
+        ]
 
 
 tableRow : Article -> Html Msg
