@@ -3,6 +3,7 @@ module Main exposing (main)
 import Browser exposing (Document)
 import Data.Article exposing (Article)
 import Data.Article.Qiita exposing (articleDecoder)
+import Data.Language exposing (Language(..), isSelectedLanguage, languageToString)
 import Html exposing (Html, a, button, div, footer, h1, header, i, input, label, main_, p, section, span, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
 import Html.Events exposing (onCheck, onClick)
@@ -26,7 +27,7 @@ main =
 
 type alias Model =
     { articles : List Article
-    , selectedLanguages : List String
+    , selectedLanguages : Language
     , selectedTag : Maybe String
     , selectedVersions : List String
     }
@@ -50,13 +51,6 @@ tagCloud =
     ]
 
 
-languages : List { id : String, value : String, label : String }
-languages =
-    [ { id = "en", value = "en", label = languageToString "en" }
-    , { id = "ja", value = "ja", label = languageToString "ja" }
-    ]
-
-
 versions : List { id : String, value : String, label : String }
 versions =
     [ { id = "^0.19.0", value = "^0.19.0", label = "0.19.0" }
@@ -67,7 +61,7 @@ versions =
 init : () -> ( Model, Cmd Msg )
 init _ =
     ( { articles = []
-      , selectedLanguages = List.map .value languages
+      , selectedLanguages = All
       , selectedTag = Nothing
       , selectedVersions = List.map .value versions
       }
@@ -84,7 +78,7 @@ init _ =
 
 type Msg
     = Loaded (Result Http.Error (List Article))
-    | SetLanguages (List String)
+    | SetLanguage Language
     | SelectTag String
     | SelectVersions String Bool
 
@@ -98,8 +92,8 @@ update msg model =
         Loaded (Err _) ->
             ( model, Cmd.none )
 
-        SetLanguages languages_ ->
-            ( { model | selectedLanguages = languages_ }, Cmd.none )
+        SetLanguage l ->
+            ( { model | selectedLanguages = l }, Cmd.none )
 
         SelectTag tag ->
             ( { model | selectedTag = Just tag }, Cmd.none )
@@ -129,7 +123,7 @@ view model =
                 |> List.filter
                     (\article ->
                         List.all identity
-                            [ List.member article.language model.selectedLanguages
+                            [ isSelectedLanguage model.selectedLanguages article.language
                             , List.member article.targetVersion model.selectedVersions
                             , model.selectedTag
                                 |> Maybe.map (\tag -> List.member tag article.tags)
@@ -154,7 +148,7 @@ view model =
     in
     { title = "elm-articles"
     , body =
-        [ siteHeader
+        [ siteHeader model
         , main_ [ class "ui main container" ]
             [ div [ class "ui form" ]
                 [ div [ class "grouped fields" ] <|
@@ -187,21 +181,18 @@ view model =
     }
 
 
-siteHeader : Html Msg
-siteHeader =
+siteHeader : Model -> Html Msg
+siteHeader { selectedLanguages } =
     header [ class "ui fixed inverted menu" ]
         [ div [ class "ui container" ]
             [ a [ class "header item" ] [ text "elm-articles" ]
             , div [ class "right menu" ]
                 [ a [ class "ui simple dropdown item" ]
-                    [ text "Language"
+                    [ text ("Language: " ++ languageToString selectedLanguages)
                     , i [ class "dropdown icon" ] []
                     , div [ class "menu" ] <|
-                        List.map (\opt -> div [ class "item", onClick opt.msg ] [ text opt.label ])
-                            [ { label = "全て", msg = SetLanguages [ "en", "ja" ] }
-                            , { label = "English", msg = SetLanguages [ "en" ] }
-                            , { label = "日本語", msg = SetLanguages [ "ja" ] }
-                            ]
+                        List.map (\l -> div [ class "item", onClick (SetLanguage l) ] [ text (languageToString l) ])
+                            [ All, English, Japanese ]
                     ]
                 ]
             ]
@@ -261,19 +252,6 @@ siteFooter =
 
 
 -- String Converter
-
-
-languageToString : String -> String
-languageToString language =
-    case language of
-        "en" ->
-            "English"
-
-        "ja" ->
-            "日本語"
-
-        _ ->
-            ""
 
 
 wordToJapanese : String -> String
