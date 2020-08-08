@@ -3,7 +3,7 @@ module Main exposing (main)
 import Browser exposing (Document)
 import Data.Article exposing (Article)
 import Data.Article.Qiita exposing (articleDecoder)
-import Html exposing (Html, a, button, div, h1, header, i, input, label, main_, section, span, table, tbody, td, text, th, thead, tr)
+import Html exposing (Html, a, button, div, footer, h1, header, i, input, label, main_, p, section, span, table, tbody, td, text, th, thead, tr)
 import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
 import Html.Events exposing (onCheck, onClick)
 import Http
@@ -34,16 +34,16 @@ type alias Model =
 
 tagCloud : List (List String)
 tagCloud =
-    [ [ "Ellie", "The Elm Architecture", "Types", "Type Aliases", "Custom Types", "Maybe", "Result", "HTTP", "JSON", "Random", "Time", "Task" ]
+    [ [ "The Elm Architecture", "Types", "Type Aliases", "Custom Types", "Maybe", "Result", "HTTP", "JSON", "Random", "Time", "Task" ]
     , [ "Opaque Type", "Phantom Type", "パターンマッチ", "ports", "副作用" ]
-    , [ "Test", "Doctest", "TDD", "elm-test", "elm-verify-examples" ]
+    , [ "Test", "TDD", "elm-test", "elm-verify-examples" ]
     , [ "SVG", "GraphQL", "Static Site Generator" ]
     , [ "mdgriffith/elm-ui", "arowM/elm-form-decoder", "arowM/elm-neat-layout" ]
     , [ "CLI" ]
     , [ "VirtualDom", "SPA", "WebComponents", "PWA", "Firebase", "form" ]
     , [ "HTML", "CSS", "JavaScript", "TypeScript" ]
     , [ "関数型プログラミング", "Node.js" ]
-    , [ "Dev Environment", "elm reactor", "elm-format", "elm-analyse", "create-elm-app", "elm-live", "Parcel", "webpack", "VSCode", "Docker", "Windows" ]
+    , [ "Dev Environment", "Ellie", "elm reactor", "elm-format", "elm-analyse", "create-elm-app", "elm-live", "Parcel", "webpack", "VSCode", "Docker", "Windows" ]
     , [ "アルゴリズム", "木構造", "初心者" ]
     , [ "Hello World", "FizzBuzz", "To-Do List App" ]
     , [ "Examples", "Poème", "Study Log", "Personal Log" ]
@@ -182,6 +182,7 @@ view model =
                 , tbody [] (List.map tableRow filteredArticles)
                 ]
             ]
+        , siteFooter
         ]
     }
 
@@ -225,6 +226,35 @@ tableRow article =
                     [ text article.title ]
                 ]
             , span [ class "ui small grey text" ] [ text (article.author ++ " | " ++ article.siteName) ]
+            ]
+        ]
+
+
+siteFooter : Html Msg
+siteFooter =
+    let
+        column { parent, children } =
+            div [ class "three wide column" ]
+                [ h1 [ class "ui small inverted header", onClick (SelectTag parent) ]
+                    [ text (wordToJapanese parent) ]
+                , div [ class "ui inverted link list" ] <|
+                    List.map (\t -> a [ class "item", onClick (SelectTag t) ] [ text (wordToJapanese t) ]) children
+                ]
+    in
+    footer [ class "ui inverted vertical footer segment" ]
+        [ div [ class "ui center aligned container" ]
+            [ div [ class "ui inverted divided grid" ] <|
+                List.map column
+                    [ { parent = "Types", children = [ "Type Aliases", "Custom Types", "Maybe", "Result" ] }
+                    , { parent = "Core", children = [ "HTTP", "JSON", "Random", "Time", "Task" ] }
+                    , { parent = "Test", children = [ "TDD", "elm-test", "elm-verify-examples" ] }
+                    , { parent = "Dev Environment", children = [ "Ellie", "elm reactor", "Parcel", "webpack", "VSCode" ] }
+                    ]
+                    ++ [ div [ class "four wide column" ]
+                            [ h1 [ class "ui small inverted header" ] [ text "elm-articles" ]
+                            , p [] [ text "© 2020 y047aka" ]
+                            ]
+                       ]
             ]
         ]
 
