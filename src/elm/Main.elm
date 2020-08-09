@@ -4,9 +4,9 @@ import Browser exposing (Document)
 import Data.Article exposing (Article)
 import Data.Article.Qiita exposing (articleDecoder)
 import Data.Language exposing (Language(..), isSelectedLanguage, languageToString)
-import Html exposing (Html, a, button, div, footer, h1, header, i, input, label, main_, p, section, span, table, tbody, td, text, th, thead, tr)
-import Html.Attributes exposing (checked, class, for, href, id, rel, target, type_, value)
-import Html.Events exposing (onCheck, onClick)
+import Html exposing (Html, a, button, div, footer, h1, header, i, main_, p, span, table, tbody, td, text, th, thead, tr)
+import Html.Attributes exposing (class, href, rel, target)
+import Html.Events exposing (onClick)
 import Http
 import Json.Decode as Decode
 
@@ -29,7 +29,6 @@ type alias Model =
     { articles : List Article
     , selectedLanguages : Language
     , selectedTag : Maybe String
-    , selectedVersions : List String
     }
 
 
@@ -51,19 +50,9 @@ tagCloud =
     ]
 
 
-versions : List { id : String, value : String, label : String }
+versions : List String
 versions =
-    [ { id = "timeless", value = "-", label = "-" }
-    , { id = "^0.19", value = "^0.19", label = "0.19" }
-    , { id = "^0.17", value = "^0.17", label = "0.17" }
-    , { id = "^0.16", value = "^0.16", label = "0.16" }
-    , { id = "^0.15.1", value = "^0.15.1", label = "0.15.1" }
-    , { id = "^0.15", value = "^0.15", label = "0.15" }
-    , { id = "^0.14.1", value = "^0.14.1", label = "0.14.1" }
-    , { id = "^0.14", value = "^0.14", label = "0.14" }
-    , { id = "^0.12.3", value = "^0.12.3", label = "0.12.3" }
-    , { id = "none", value = "", label = "" }
-    ]
+    []
 
 
 init : () -> ( Model, Cmd Msg )
@@ -71,7 +60,6 @@ init _ =
     ( { articles = []
       , selectedLanguages = All
       , selectedTag = Nothing
-      , selectedVersions = List.map .value versions
       }
     , Http.get
         { url = "articles_qiita.json"
@@ -88,7 +76,6 @@ type Msg
     = Loaded (Result Http.Error (List Article))
     | SetLanguage Language
     | SelectTag String
-    | SelectVersions String Bool
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -106,18 +93,6 @@ update msg model =
         SelectTag tag ->
             ( { model | selectedTag = Just tag }, Cmd.none )
 
-        SelectVersions l isChecked ->
-            ( { model
-                | selectedVersions =
-                    if isChecked then
-                        l :: model.selectedVersions
-
-                    else
-                        List.filter ((/=) l) model.selectedVersions
-              }
-            , Cmd.none
-            )
-
 
 
 -- VIEW
@@ -132,27 +107,11 @@ view model =
                     (\article ->
                         List.all identity
                             [ isSelectedLanguage model.selectedLanguages article.language
-                            , List.member article.targetVersion model.selectedVersions
                             , model.selectedTag
                                 |> Maybe.map (\tag -> List.member tag article.tags)
                                 |> Maybe.withDefault True
                             ]
                     )
-
-        listItem msg options opt =
-            div [ class "field" ]
-                [ div [ class "ui checkbox" ]
-                    [ input
-                        [ id opt.id
-                        , type_ "checkbox"
-                        , value opt.value
-                        , checked (List.member opt.value options)
-                        , onCheck (msg opt.value)
-                        ]
-                        []
-                    , label [ for opt.id ] [ span [ class "ui text" ] [ text opt.label ] ]
-                    ]
-                ]
     in
     { title = "elm-articles"
     , body =
@@ -169,15 +128,11 @@ view model =
                                 [ text (wordToJapanese tag) ]
                         )
                         (List.concat tagCloud)
-                , div [ class "inline fields" ] <|
-                    label [] [ text "Target Versions" ]
-                        :: List.map (listItem SelectVersions model.selectedVersions) versions
                 ]
             , table [ class "ui selectable table" ]
                 [ thead []
                     [ tr []
-                        [ th [] [ text "Target" ]
-                        , th [] [ text "Tags" ]
+                        [ th [] [ text "Tags" ]
                         , th [] [ text "Title /  Author /  Site Name" ]
                         ]
                     ]
@@ -210,8 +165,7 @@ siteHeader { selectedLanguages } =
 tableRow : Article -> Html Msg
 tableRow article =
     tr []
-        [ td [] [ text article.targetVersion ]
-        , td [] <|
+        [ td [] <|
             List.map
                 (\tag -> span [ class "ui tiny button", onClick (SelectTag tag) ] [ text (wordToJapanese tag) ])
                 article.tags
