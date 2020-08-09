@@ -12,5 +12,5 @@ articleDecoder =
         (Decode.succeed "Qiita")
         (Decode.field "url" Decode.string)
         (Decode.field "language" Decode.string)
-        (Decode.succeed "-")
+        (Decode.field "targetVersion" Decode.string)
         (Decode.field "tags" (Decode.list Decode.string))

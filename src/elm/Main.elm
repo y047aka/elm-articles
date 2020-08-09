@@ -53,8 +53,16 @@ tagCloud =
 
 versions : List { id : String, value : String, label : String }
 versions =
-    [ { id = "^0.19.0", value = "^0.19.0", label = "0.19.0" }
-    , { id = "none", value = "-", label = "-" }
+    [ { id = "timeless", value = "-", label = "-" }
+    , { id = "^0.19", value = "^0.19", label = "0.19" }
+    , { id = "^0.17", value = "^0.17", label = "0.17" }
+    , { id = "^0.16", value = "^0.16", label = "0.16" }
+    , { id = "^0.15.1", value = "^0.15.1", label = "0.15.1" }
+    , { id = "^0.15", value = "^0.15", label = "0.15" }
+    , { id = "^0.14.1", value = "^0.14.1", label = "0.14.1" }
+    , { id = "^0.14", value = "^0.14", label = "0.14" }
+    , { id = "^0.12.3", value = "^0.12.3", label = "0.12.3" }
+    , { id = "none", value = "", label = "" }
     ]
 
 
