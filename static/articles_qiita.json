@@ -8,6 +8,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème"],
     "tags_": [
       { "name": "ポエム", "versions": [] },
@@ -45,6 +46,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -82,6 +84,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": ["0.19.1"] }],
     "title": "Msgを連続でupdateに流したい",
@@ -116,6 +119,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Elixir", "Phoenix"],
     "tags_": [
       { "name": "Elixir", "versions": [] },
@@ -154,6 +158,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -191,6 +196,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["PHP"],
     "tags_": [
       { "name": "PHP", "versions": [] },
@@ -228,6 +234,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -266,6 +273,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -303,6 +311,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Type Aliases"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -340,6 +349,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ネストしたレコードの更新",
@@ -374,6 +384,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Type Aliases"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "type alias は alias といいつつコンストラクタ関数が作られる",
@@ -408,6 +419,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "SPA", "versions": [] },
@@ -445,6 +457,7 @@
     "likes_count": 47,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Ellie"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -482,6 +495,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Rust", "CLI", "GitHub"],
     "tags_": [
       { "name": "GitHub", "versions": [] },
@@ -522,6 +536,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -559,6 +574,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture", "HTTP", "Random", "Task"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] Task, Random, Httpがわからない？その前にThe Elm Architectureを確実にマスターしよう",
@@ -593,6 +609,7 @@
     "likes_count": 46,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "関数型言語", "versions": [] },
@@ -632,6 +649,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -670,6 +688,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "arowM/elm-neat-layout"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -707,6 +726,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -744,6 +764,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "HTML", "versions": [] },
@@ -781,6 +802,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "model", "versions": [] },
@@ -818,6 +840,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["HTTP", "Task"],
     "tags_": [
       { "name": "HTTP", "versions": [] },
@@ -858,6 +881,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm]foldr(とfoldl)を勉強してループなしでも再帰で頑張る",
@@ -892,6 +916,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ダメな例：ElmでMsgの遷移だけを行いたいとき",
@@ -926,6 +951,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": ".nameみたいレコードのプロパティがいきなり呼ばれてるのは匿名関数の変形でした",
@@ -960,6 +986,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Time"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでサクッと現在時刻を取得したい",
@@ -994,6 +1021,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Svelte"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -1032,6 +1060,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Go", "HeadlessCMS", "Svelte"],
     "tags_": [
       { "name": "Go", "versions": [] },
@@ -1072,6 +1101,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "【Elm】Todoリストにおける選択した要素の一括削除の実装",
@@ -1106,6 +1136,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Task", "UUID"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでUUID生成をTask化する",
@@ -1140,6 +1171,7 @@
     "likes_count": 42,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Vue.js"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -1178,6 +1210,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm]カウンタープログラムを短く書きたい",
@@ -1212,6 +1245,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Time"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "【Elm】公式マニュアルのTimeをベースに課題に挑戦して、出来たこと、出来なかったこと",
@@ -1246,6 +1280,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "Hello World"],
     "tags_": [
       { "name": "Mac", "versions": [] },
@@ -1286,6 +1321,7 @@
     "likes_count": 49,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -1324,6 +1360,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": ".htaccess", "versions": [] },
@@ -1362,6 +1399,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Maybe"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm の Maybe の知見",
@@ -1396,6 +1434,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "【Elm】オブジェクト指向のinterfaceと型注釈は別物（自戒",
@@ -1430,6 +1469,7 @@
     "likes_count": 76,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture", "Hello World"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -1467,6 +1507,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでユーザ登録フォームを作ってみた",
@@ -1501,6 +1542,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Personal Log", "FizzBuzz"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm で FizzBuzz やったよー",
@@ -1535,6 +1577,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Random"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elmのRandomで遊ぼう",
@@ -1569,6 +1612,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "プロダクト開発における、Elmを選ぶポイント・ 選ばないポイント",
@@ -1603,6 +1647,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "初心者向け", "versions": [] },
@@ -1641,6 +1686,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -1679,6 +1725,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Examples", "To-Do List App"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでCRUDを作る - 其のD",
@@ -1713,6 +1760,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Examples", "To-Do List App"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでCRUDを作る - 其のC ②",
@@ -1747,6 +1795,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Examples", "To-Do List App"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでCRUDを作る - 其のC ①",
@@ -1781,6 +1830,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Examples", "To-Do List App"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでCRUDを作る - 其のR",
@@ -1815,6 +1865,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "Hello World"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでBrowserモジュールを使って「Hello World」をシャウトする",
@@ -1849,6 +1900,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "Hello World"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでBrowserモジュールを使って「Hello World!!」する",
@@ -1883,6 +1935,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elmで入力フォームの増減を実装",
@@ -1917,6 +1970,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "【Elm】Shift + Enterを認識するイベントリスナを作る",
@@ -1951,6 +2005,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "webpack"],
     "tags_": [
       { "name": "Sass", "versions": [] },
@@ -1989,6 +2044,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "VSCode", "Windows"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -2026,6 +2082,7 @@
     "likes_count": 848,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "Test"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -2066,6 +2123,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture", "Vue.js"],
     "tags_": [
       { "name": "Vue.js", "versions": [] },
@@ -2104,6 +2162,7 @@
     "likes_count": 363,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "Maybe"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -2144,6 +2203,7 @@
     "likes_count": 62,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -2182,6 +2242,7 @@
     "likes_count": 31,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -2220,6 +2281,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "PDF", "versions": [] },
@@ -2260,6 +2322,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmの設計指針を考えた話",
@@ -2294,6 +2357,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types"],
     "tags_": [
       { "name": "型", "versions": [] },
@@ -2333,6 +2397,7 @@
     "likes_count": 44,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture", "React", "Vue.js"],
     "tags_": [
       { "name": "初心者", "versions": [] },
@@ -2372,6 +2437,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "ATDD"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -2412,6 +2478,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "ATDD"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -2450,6 +2517,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-playground-3dのざっくり解説",
@@ -2484,6 +2552,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -2522,6 +2591,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -2560,6 +2630,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -2597,6 +2668,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "初めて作ったアプリケーションをリファクタリングして、Elmに入門した1年を振り返る",
@@ -2631,6 +2703,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Time"],
     "tags_": [
       { "name": "time", "versions": [] },
@@ -2669,6 +2742,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "game", "versions": [] },
@@ -2706,6 +2780,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -2744,6 +2819,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "elm reactor", "Hello World", "SVG"],
     "tags_": [{ "name": "Elm", "versions": ["0.19"] }],
     "title": "Elm 0.19の練習（インタラクティブな似顔絵を作ろう）",
@@ -2778,6 +2854,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "デザイナ見習いがelm入門を試みた話",
@@ -2812,6 +2889,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -2850,6 +2928,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-playgroundで素数ホッケー",
@@ -2884,6 +2963,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "elm-test", "elm-program-test"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-program-testでメンテナンスしやすいテストを作る",
@@ -2918,6 +2998,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -2955,6 +3036,7 @@
     "likes_count": 159,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React", "Vue.js"],
     "tags_": [
       { "name": "Vue.js", "versions": [] },
@@ -2993,6 +3075,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["JSON"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmの基本的なJSONのデコードをかなり親切に解説する",
@@ -3027,6 +3110,7 @@
     "likes_count": 182,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment"],
     "tags_": [
       { "name": "Node.js", "versions": [] },
@@ -3065,6 +3149,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでミニExcelをつくろう",
@@ -3099,6 +3184,7 @@
     "likes_count": 35,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Mobile", "versions": [] },
@@ -3138,6 +3224,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "game", "versions": [] },
@@ -3175,6 +3262,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture"],
     "tags_": [
       { "name": "mvc", "versions": [] },
@@ -3215,6 +3303,7 @@
     "likes_count": 30,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -3255,6 +3344,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -3295,6 +3385,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmスクリプトをサッと実行する",
@@ -3329,6 +3420,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["arowM/elm-form-decoder"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-form-decoderの理解のためにelm form decoder katakata を試してみたメモ",
@@ -3363,6 +3455,7 @@
     "likes_count": 37,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "Parcel"],
     "tags_": [
       { "name": "npm", "versions": [] },
@@ -3403,6 +3496,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["CLI"],
     "tags_": [
       { "name": "cli", "versions": [] },
@@ -3440,6 +3534,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -3477,6 +3572,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "The Elm Architecture"],
     "tags_": [
       { "name": "ポエム", "versions": [] },
@@ -3515,6 +3611,7 @@
     "likes_count": 38,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "SPA", "versions": [] },
@@ -3554,6 +3651,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "SQL", "versions": [] },
@@ -3593,6 +3691,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでSetterが欲しかったので試行錯誤した",
@@ -3627,6 +3726,7 @@
     "likes_count": 26,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -3664,6 +3764,7 @@
     "likes_count": 27,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Examples", "mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -3701,6 +3802,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Task"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -3738,6 +3840,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Task"],
     "tags_": [
       { "name": "非同期処理", "versions": [] },
@@ -3775,6 +3878,7 @@
     "likes_count": 24,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Examples", "mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -3812,6 +3916,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm SPAの初歩",
@@ -3846,6 +3951,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "elm reactor", "webpack"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm reactorとwebpackを使って快適なElm開発環境を構築する",
@@ -3880,6 +3986,7 @@
     "likes_count": 25,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["GraphQL", "dillonkearns/elm-graphql", "arowM/elm-form-decoder"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -3917,6 +4024,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "関数型言語", "versions": [] },
@@ -3955,6 +4063,7 @@
     "likes_count": 141,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -3992,6 +4101,7 @@
     "likes_count": 26,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -4030,6 +4140,7 @@
     "likes_count": 30,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] Msg に更新後の値を含めるのは要注意",
@@ -4064,6 +4175,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] ナビゲーションしてみる",
@@ -4098,6 +4210,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "HTTP", "JSON"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] HttpリクエストからのDecodeしてみる",
@@ -4132,6 +4245,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Type Aliases", "Custom Types"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] typeとtype aliasの違い",
@@ -4166,6 +4280,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm初学者が感じたElmの魅力",
@@ -4200,6 +4315,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -4237,6 +4353,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Task"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -4274,6 +4391,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでドット絵エディタを作った",
@@ -4308,6 +4426,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでぷよぷよを作る（その１）",
@@ -4342,6 +4461,7 @@
     "likes_count": 74,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Examples", "mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -4379,6 +4499,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -4418,6 +4539,7 @@
     "likes_count": 19,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "Parcel"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -4455,6 +4577,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで int -\u003e 3桁区切り文字列 の変換をする",
@@ -4489,6 +4612,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm公式ガイドの未翻訳箇所の概要(2019/10/13時点)",
@@ -4523,6 +4647,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでcontenteditableを使いたかった",
@@ -4557,6 +4682,7 @@
     "likes_count": 44,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types"],
     "tags_": [
       { "name": "TypeScript", "versions": [] },
@@ -4594,6 +4720,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Static Site Generator"],
     "tags_": [
       { "name": "静的サイトジェネレーター", "versions": [] },
@@ -4631,6 +4758,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] Portで`Cannot read property 'hogehoge' of undefined`にハマった件について",
@@ -4665,6 +4793,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] 関数合成を理解する",
@@ -4699,6 +4828,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Personal Log", "Examples", "Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -4739,6 +4869,7 @@
     "likes_count": 22,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Maybe"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] Maybeを活用する",
@@ -4773,6 +4904,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Custom Types", "Opaque Type"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] より仕様にあった型定義をしてみる（CustumType, OpaqueTypeの応用）",
@@ -4807,6 +4939,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["HTTP"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -4844,6 +4977,7 @@
     "likes_count": 34,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmに入門してみた",
@@ -4878,6 +5012,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "TypeScript"],
     "tags_": [
       { "name": "TypeScript", "versions": [] },
@@ -4916,6 +5051,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "todo", "versions": [] },
@@ -4956,6 +5092,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Database", "versions": [] },
@@ -4996,6 +5133,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "elm reactor", "elm-live"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm]Browser.applicationでelm reactorがちゃんと動かない",
@@ -5030,6 +5168,7 @@
     "likes_count": 206,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -5070,6 +5209,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでストップウォッチを作った",
@@ -5104,6 +5244,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -5143,6 +5284,7 @@
     "likes_count": 33,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでディレクトリ構造エディタを作る",
@@ -5177,6 +5319,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで読み取りのみ可能なレコードを作りたい",
@@ -5211,6 +5354,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm でフォーム編集中の状態を管理しない方法",
@@ -5245,6 +5389,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": " Redux ExampleのTodo ListをはじめからていねいにをElmで",
@@ -5279,6 +5424,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["arowM/elm-form-decoder"],
     "tags_": [
       { "name": "form", "versions": [] },
@@ -5317,6 +5463,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -5355,6 +5502,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "Scala"],
     "tags_": [
       { "name": "Scala", "versions": [] },
@@ -5395,6 +5543,7 @@
     "likes_count": 23,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -5432,6 +5581,7 @@
     "likes_count": 578,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -5471,6 +5621,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Opaque Type"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] OpaqueTypeを活用する",
@@ -5505,6 +5656,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Custom Types"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] CustomTypeを活用する",
@@ -5539,6 +5691,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm meet upに行ってきたよ 〜Elmoに導かれしElmoたち〜",
@@ -5573,6 +5726,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "elm-test"],
     "tags_": [
       { "name": "テスト", "versions": [] },
@@ -5610,6 +5764,7 @@
     "likes_count": 141,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React", "Vue.js"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -5649,6 +5804,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Custom Types"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -5686,6 +5842,7 @@
     "likes_count": 210,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React", "Vue.js"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -5726,6 +5883,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm開発でもドキュメントが書きたい！",
@@ -5760,6 +5918,7 @@
     "likes_count": 45,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -5797,6 +5956,7 @@
     "likes_count": 32,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -5834,6 +5994,7 @@
     "likes_count": 23,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm文法総復習",
@@ -5868,6 +6029,7 @@
     "likes_count": 35,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "UX", "versions": [] },
@@ -5906,6 +6068,7 @@
     "likes_count": 40,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -5944,6 +6107,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -5981,6 +6145,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -6018,6 +6183,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm でラジオボタン：label [] [ input [ type_ \"radio\", name \"グループ名\", onClick Msg ] [], text \"ボタン名\" ]",
@@ -6052,6 +6218,7 @@
     "likes_count": 39,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -6092,6 +6259,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -6130,6 +6298,7 @@
     "likes_count": 26,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -6169,6 +6338,7 @@
     "likes_count": 81,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "Parcel"],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -6209,6 +6379,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -6246,6 +6417,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "elm-format", "VSCode"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -6283,6 +6455,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elmの関数合成を端的に",
@@ -6317,6 +6490,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture", "Swift"],
     "tags_": [
       { "name": "Swift", "versions": [] },
@@ -6357,6 +6531,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでHtml.Events.onを使ってクリック座標を取得する",
@@ -6391,6 +6566,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Maybe"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm パイプとmaybe繋ぐ使い方",
@@ -6425,6 +6601,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -6462,6 +6639,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -6499,6 +6677,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "HTML", "versions": [] },
@@ -6536,6 +6715,7 @@
     "likes_count": 16,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Type Aliases", "Custom Types"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "【Elm初心者】単純な型の実装方法を比較する",
@@ -6570,6 +6750,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -6607,6 +6788,7 @@
     "likes_count": 41,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "elm-live"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -6644,6 +6826,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -6681,6 +6864,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "Fuzzing", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -6718,6 +6902,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Go"],
     "tags_": [
       { "name": "Go", "versions": [] },
@@ -6758,6 +6943,7 @@
     "likes_count": 103,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "Vue.js"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -6796,6 +6982,7 @@
     "likes_count": 132,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -6833,6 +7020,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -6870,6 +7058,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm はじめました",
@@ -6904,6 +7093,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["arowM/elm-form-decoder"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "arowM/elm-form-decoderのAPIを【かんぜんりかい】しよう！",
@@ -6938,6 +7128,7 @@
     "likes_count": 34,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "HTML", "versions": [] },
@@ -6976,6 +7167,7 @@
     "likes_count": 402,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -7013,6 +7205,7 @@
     "likes_count": 108,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "Maybe"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -7052,6 +7245,7 @@
     "likes_count": 125,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -7091,6 +7285,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Attribute", "versions": [] },
@@ -7128,6 +7323,7 @@
     "likes_count": 23,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Notification", "versions": [] },
@@ -7166,6 +7362,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "form", "versions": [] },
@@ -7203,6 +7400,7 @@
     "likes_count": 57,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "SPA", "versions": [] },
@@ -7241,6 +7439,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでじゃんけん",
@@ -7275,6 +7474,7 @@
     "likes_count": 45,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -7312,6 +7512,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm]ミヤモ風SPA",
@@ -7346,6 +7547,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "Atom"],
     "tags_": [
       { "name": "ATOM", "versions": [] },
@@ -7383,6 +7585,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Custom Types", "Result", "HTTP"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm]Httpのエラーハンドリングをしよう",
@@ -7417,6 +7620,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Examples", "Random"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -7455,6 +7659,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "素振りのために Elm でフィルタ・ソート機能付きテーブルを書いた",
@@ -7489,6 +7694,7 @@
     "likes_count": 41,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでビンゴしようよ！！！！",
@@ -7523,6 +7729,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -7560,6 +7767,7 @@
     "likes_count": 90,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -7599,6 +7807,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでaタグの遷移を止めて別のことをさせたい",
@@ -7633,6 +7842,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "JSON", "Firebase"],
     "tags_": [
       { "name": "HTML", "versions": [] },
@@ -7673,6 +7883,7 @@
     "likes_count": 49,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -7710,6 +7921,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "memo", "versions": [] },
@@ -7748,6 +7960,7 @@
     "likes_count": 33,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["SVG"],
     "tags_": [
       { "name": "SVG", "versions": [] },
@@ -7785,6 +7998,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで関数と関数は比較できない。が、全く同じ場合は同じになるようだ。",
@@ -7819,6 +8033,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React", "Vue.js"],
     "tags_": [
       { "name": "Angular", "versions": [] },
@@ -7859,6 +8074,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ゆるゆる Elm",
@@ -7893,6 +8109,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Task"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm の Task について私的まとめ",
@@ -7927,6 +8144,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Windows"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm開発環境セットアップ for Windows",
@@ -7961,6 +8179,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで冗長な書き方をしていたデコーダなどをリファクタリングしたメモ",
@@ -7995,6 +8214,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8032,6 +8252,7 @@
     "likes_count": 60,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "フロントエンド", "versions": [] },
@@ -8070,6 +8291,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "初心者Elm入門（その４：削除機能付きToDoリスト）",
@@ -8104,6 +8326,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "初心者Elm入門（その３：Elmアーキテクチャ）",
@@ -8138,6 +8361,7 @@
     "likes_count": 32,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Custom Types"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8176,6 +8400,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm の型注釈をできるだけ手軽に試す (Elm 0.19)",
@@ -8210,6 +8435,7 @@
     "likes_count": 251,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["arowM/elm-form-decoder"],
     "tags_": [
       { "name": "Validation", "versions": [] },
@@ -8249,6 +8475,7 @@
     "likes_count": 34,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmアプリ開発するときに便利な共通モジュールの管理方法",
@@ -8283,6 +8510,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "初心者Elm入門（その２：文法）",
@@ -8317,6 +8545,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "Hello World"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "初心者Elm入門（その１：インストール〜Hello World!）",
@@ -8351,6 +8580,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Scala", "PlayFramework"],
     "tags_": [
       { "name": "Scala", "versions": [] },
@@ -8389,6 +8619,7 @@
     "likes_count": 66,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Opaque Type"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8426,6 +8657,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで日付を扱う0.19編",
@@ -8460,6 +8692,7 @@
     "likes_count": 322,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8497,6 +8730,7 @@
     "likes_count": 19,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8534,6 +8768,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8571,6 +8806,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8608,6 +8844,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8645,6 +8882,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで入力フォームを作るメモ",
@@ -8679,6 +8917,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのパッケージサイトのSessionを参考にして試したメモ",
@@ -8713,6 +8952,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8750,6 +8990,7 @@
     "likes_count": 27,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "mixin", "versions": [] },
@@ -8787,6 +9028,7 @@
     "likes_count": 22,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "DatePicker", "versions": [] },
@@ -8824,6 +9066,7 @@
     "likes_count": 91,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types"],
     "tags_": [
       { "name": "F#", "versions": [] },
@@ -8864,6 +9107,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8901,6 +9145,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -8938,6 +9183,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "GoogleSpreadSheet", "versions": [] },
@@ -8975,6 +9221,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm: Map.!: given key is not an element in the map が出た時に対処したメモ。",
@@ -9009,6 +9256,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでページ内ジャンプをしたメモ",
@@ -9043,6 +9291,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Markdown", "highlight.js"],
     "tags_": [
       { "name": "Markdown", "versions": [] },
@@ -9082,6 +9331,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -9119,6 +9369,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "スクレイピング", "versions": [] },
@@ -9156,6 +9407,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "初心者", "versions": [] },
@@ -9193,6 +9445,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでマス目を描画する2",
@@ -9227,6 +9480,7 @@
     "likes_count": 24,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでかんたん画像アップロード",
@@ -9261,6 +9515,7 @@
     "likes_count": 32,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Go", "CLI"],
     "tags_": [
       { "name": "Go", "versions": [] },
@@ -9299,6 +9554,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -9336,6 +9592,7 @@
     "likes_count": 60,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "GitHub", "versions": [] },
@@ -9375,6 +9632,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Custom Types", "Java"],
     "tags_": [
       { "name": "Java", "versions": [] },
@@ -9412,6 +9670,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "Types", "Type Aliases", "Custom Types"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmのデータ型　頭の整理",
@@ -9446,6 +9705,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmのエラー invalid argument (invalid byte sequence)",
@@ -9480,6 +9740,7 @@
     "likes_count": 16,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "HTTP", "JSON"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでJSON APIを叩く最低限",
@@ -9514,6 +9775,7 @@
     "likes_count": 23,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "デザインパターン", "versions": [] },
@@ -9552,6 +9814,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Random"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -9591,6 +9854,7 @@
     "likes_count": 36,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -9628,6 +9892,7 @@
     "likes_count": 1524,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React", "Vue.js"],
     "tags_": [
       { "name": "Vue.js", "versions": [] },
@@ -9668,6 +9933,7 @@
     "likes_count": 33,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "Hello World"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでHelloWorld",
@@ -9702,6 +9968,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "elm-test"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -9739,6 +10006,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm備忘録 ~CustomElementつかっていこうぜ[Popover編]~",
@@ -9773,6 +10041,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm備忘録 ~Html.Keyedの活用[前編]",
@@ -9807,6 +10076,7 @@
     "likes_count": 28,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでマス目を描画する",
@@ -9841,6 +10111,7 @@
     "likes_count": 58,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["HTTP", "Task"],
     "tags_": [
       { "name": "api", "versions": [] },
@@ -9880,6 +10151,7 @@
     "likes_count": 56,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -9919,6 +10191,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 12]",
@@ -9953,6 +10226,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "アルゴリズム", "versions": [] },
@@ -9991,6 +10265,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 11]",
@@ -10025,6 +10300,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "アルゴリズム", "versions": [] },
@@ -10063,6 +10339,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 10]",
@@ -10097,6 +10374,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 8]",
@@ -10131,6 +10409,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Extra 2]",
@@ -10165,6 +10444,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Extra 1]",
@@ -10199,6 +10479,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 7]",
@@ -10233,6 +10514,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 6]",
@@ -10267,6 +10549,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 5]",
@@ -10301,6 +10584,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 4]",
@@ -10335,6 +10619,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 3]",
@@ -10369,6 +10654,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 2]",
@@ -10403,6 +10689,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "99 PSiE [Problem 1]",
@@ -10437,6 +10724,7 @@
     "likes_count": 46,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "アルゴリズム", "versions": [] },
@@ -10477,6 +10765,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "vps", "versions": [] },
@@ -10515,6 +10804,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -10553,6 +10843,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "create-elm-app", "webpack"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -10590,6 +10881,7 @@
     "likes_count": 123,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "Types"],
     "tags_": [
       { "name": "型", "versions": [] },
@@ -10629,6 +10921,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm]API叩いた結果のエラー表示とかローディングのスピナーの表示ってどうすればいいの？",
@@ -10663,6 +10956,7 @@
     "likes_count": 180,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "Types"],
     "tags_": [
       { "name": "型", "versions": [] },
@@ -10702,6 +10996,7 @@
     "likes_count": 39,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Rust"],
     "tags_": [
       { "name": "Rust", "versions": [] },
@@ -10739,6 +11034,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "webpack", "Docker"],
     "tags_": [
       { "name": "Docker", "versions": [] },
@@ -10778,6 +11074,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm初心者がElm 0.19でライフゲームを作ってハマったところ",
@@ -10812,6 +11109,7 @@
     "likes_count": 30,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "正月にElm触りだしてつまずいたこと",
@@ -10846,6 +11144,7 @@
     "likes_count": 134,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -10886,6 +11185,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "Time", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -10924,6 +11224,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -10961,6 +11262,7 @@
     "likes_count": 33,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -10999,6 +11301,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -11036,6 +11339,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmアーキテクチャは、如何にして状態を排除しているか",
@@ -11070,6 +11374,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.19に移行する",
@@ -11104,6 +11409,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -11142,6 +11448,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -11179,6 +11486,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "canvas", "versions": [] },
@@ -11217,6 +11525,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでビュー(チャット画面)を作る",
@@ -11251,6 +11560,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -11289,6 +11599,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでカウントダウンアプリを爆速で作った時のはなし",
@@ -11323,6 +11634,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "Parcel"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -11361,6 +11673,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -11399,6 +11712,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "UIKit", "versions": [] },
@@ -11437,6 +11751,7 @@
     "likes_count": 142,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "ATDD", "elm-test"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -11476,6 +11791,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -11514,6 +11830,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -11552,6 +11869,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elmのコンパイラがめっちゃ遅かったから速くしたけどまだ遅かったからもっと早くした",
@@ -11586,6 +11904,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "API通信を伴うThe Elm Architecture を流れをサクっと体験する",
@@ -11620,6 +11939,7 @@
     "likes_count": 16,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -11657,6 +11977,7 @@
     "likes_count": 28,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Phantom Type"],
     "tags_": [
       { "name": "programming", "versions": [] },
@@ -11694,6 +12015,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "GitHub", "versions": [] },
@@ -11733,6 +12055,7 @@
     "likes_count": 83,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment"],
     "tags_": [
       { "name": "TypeScript", "versions": [] },
@@ -11770,6 +12093,7 @@
     "likes_count": 216,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème", "Types", "PHP"],
     "tags_": [
       { "name": "PHP", "versions": [] },
@@ -11810,6 +12134,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Random"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmの乱数を使いこなす",
@@ -11844,6 +12169,7 @@
     "likes_count": 119,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Atom"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -11884,6 +12210,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -11921,6 +12248,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "altjs", "versions": [] },
@@ -11959,6 +12287,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -11998,6 +12327,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Swift"],
     "tags_": [
       { "name": "Swift", "versions": [] },
@@ -12035,6 +12365,7 @@
     "likes_count": 24,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのBrowser.*の使い分け",
@@ -12069,6 +12400,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["elm-dependencies-analyzer"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm/http 2.0.0がインストールされない、またはelm.jsonの依存パッケージを更新、解決する方法",
@@ -12103,6 +12435,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -12140,6 +12473,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "webpack"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -12177,6 +12511,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmパッケージのDesign Guidelineを読む",
@@ -12211,6 +12546,7 @@
     "likes_count": 86,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmの関数型的側面の多分ていねいな解説",
@@ -12245,6 +12581,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm]SelectListの つ か い か た",
@@ -12279,6 +12616,7 @@
     "likes_count": 19,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "JSON"],
     "tags_": [
       { "name": "JSON", "versions": [] },
@@ -12316,6 +12654,7 @@
     "likes_count": 25,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "趣味から始めて、仕事でもElmを使うようになった話",
@@ -12350,6 +12689,7 @@
     "likes_count": 143,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -12387,6 +12727,7 @@
     "likes_count": 31,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "elm-test"],
     "tags_": [
       { "name": "単体テスト", "versions": [] },
@@ -12425,6 +12766,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -12462,6 +12804,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm に CodeMirror を埋め込む",
@@ -12496,6 +12839,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -12533,6 +12877,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "サクッとwebアプリケーションを作れるようにElmを勉強してる話",
@@ -12567,6 +12912,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -12604,6 +12950,7 @@
     "likes_count": 24,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -12642,6 +12989,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Poème"],
     "tags_": [
       { "name": "ポエム", "versions": [] },
@@ -12680,6 +13028,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "elm-test"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -12717,6 +13066,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm の最適化オプション --optimize",
@@ -12751,6 +13101,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -12788,6 +13139,7 @@
     "likes_count": 27,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -12825,6 +13177,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -12863,6 +13216,7 @@
     "likes_count": 29,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "TypeScript", "versions": [] },
@@ -12901,6 +13255,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -12938,6 +13293,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -12976,6 +13332,7 @@
     "likes_count": 32,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["GraphQL", "dillonkearns/elm-graphql"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13013,6 +13370,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでシクシク素数",
@@ -13047,6 +13405,7 @@
     "likes_count": 44,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -13084,6 +13443,7 @@
     "likes_count": 24,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui"],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -13122,6 +13482,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Elixir", "Phoenix"],
     "tags_": [
       { "name": "websocket", "versions": [] },
@@ -13161,6 +13522,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "SQL", "versions": [] },
@@ -13199,6 +13561,7 @@
     "likes_count": 36,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmを始めたらプログラマーとして成長してしまった話",
@@ -13233,6 +13596,7 @@
     "likes_count": 56,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.19 の初期化方法 6 種類",
@@ -13267,6 +13631,7 @@
     "likes_count": 44,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "error", "versions": [] },
@@ -13307,6 +13672,7 @@
     "likes_count": 257,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "2020年 Elmをはじめる人が最初に読むページ",
@@ -13341,6 +13707,7 @@
     "likes_count": 37,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "VSCode", "Windows"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13379,6 +13746,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "webpack"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -13419,6 +13787,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -13457,6 +13826,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13494,6 +13864,7 @@
     "likes_count": 120,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell", "PureScript"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -13532,6 +13903,7 @@
     "likes_count": 16,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13569,6 +13941,7 @@
     "likes_count": 30,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13606,6 +13979,7 @@
     "likes_count": 28,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Parser", "versions": [] },
@@ -13643,6 +14017,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13680,6 +14055,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm0.19アップデートで地味に苦労したところ",
@@ -13714,6 +14090,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -13752,6 +14129,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13790,6 +14168,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "list", "versions": [] },
@@ -13828,6 +14207,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["elm-format"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13865,6 +14245,7 @@
     "likes_count": 34,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "Parcel", "Tailwind CSS"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -13904,6 +14285,7 @@
     "likes_count": 27,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13941,6 +14323,7 @@
     "likes_count": 35,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -13978,6 +14361,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18で作っていたプロジェクトを0.19に上げてみる",
@@ -14012,6 +14396,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "Parcel"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -14052,6 +14437,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elmで対局タイマー作ってみた",
@@ -14086,6 +14472,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "VSCode"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -14123,6 +14510,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで作ったゲーム売上予測のフロントWebアプリ",
@@ -14157,6 +14545,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "JSON"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -14194,6 +14583,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -14231,6 +14621,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["mdgriffith/elm-ui", "miyamoen/bibliopola"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -14270,6 +14661,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "webpack"],
     "tags_": [
       { "name": "Docker", "versions": [] },
@@ -14308,6 +14700,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Scala", "PlayFramework"],
     "tags_": [
       { "name": "Scala", "versions": [] },
@@ -14347,6 +14740,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "webpack", "Docker"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -14387,6 +14781,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmのブームに便乗してみた",
@@ -14421,6 +14816,7 @@
     "likes_count": 53,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.19で、Elmに速攻入門。",
@@ -14455,6 +14851,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.19 について",
@@ -14489,6 +14886,7 @@
     "likes_count": 195,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "altjs", "versions": [] },
@@ -14528,6 +14926,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -14565,6 +14964,7 @@
     "likes_count": 43,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elmのコンパイラがめっちゃ遅かったから速くした",
@@ -14599,6 +14999,7 @@
     "likes_count": 33,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "list", "versions": [] },
@@ -14637,6 +15038,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -14675,6 +15077,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "バッドハック", "versions": [] },
@@ -14714,6 +15117,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-tools/parserのoneOfでハマった",
@@ -14748,6 +15152,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "Docker", "elm-workshop"],
     "tags_": [
       { "name": "Docker", "versions": [] },
@@ -14785,6 +15190,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "Fuzzing", "elm-test"],
     "tags_": [
       { "name": "テスト", "versions": [] },
@@ -14824,6 +15230,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "Docker"],
     "tags_": [
       { "name": "Docker", "versions": [] },
@@ -14861,6 +15268,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -14899,6 +15307,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "パターンマッチ", "versions": [] },
@@ -14936,6 +15345,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Phoenix"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -14974,6 +15384,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "ゲーム", "versions": [] },
@@ -15013,6 +15424,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "パターンマッチ", "versions": [] },
@@ -15050,6 +15462,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "複数のElmアプリで小さなデータを共有する - Local storage",
@@ -15084,6 +15497,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -15121,6 +15535,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "【Elm】前置記法",
@@ -15155,6 +15570,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "パーサコンビネータ elm-combine を使ってみた！",
@@ -15189,6 +15605,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Phoenix"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -15229,6 +15646,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmとleafletでつくるgeolocationの発信機・受信機",
@@ -15263,6 +15681,7 @@
     "likes_count": 24,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Maybe"],
     "tags_": [
       { "name": "input", "versions": [] },
@@ -15301,6 +15720,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmからportを通してleaflet .jsを操る",
@@ -15335,6 +15755,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Portを通したElm Record と JavaScript Object の互換性",
@@ -15369,6 +15790,7 @@
     "likes_count": 24,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "ports", "versions": [] },
@@ -15407,6 +15829,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Elixir", "Phoenix"],
     "tags_": [
       { "name": "socket", "versions": [] },
@@ -15447,6 +15870,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell", "Elixir"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -15485,6 +15909,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -15525,6 +15950,7 @@
     "likes_count": 22,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["SVG"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm Svg と elm-visualization",
@@ -15559,6 +15985,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Elixir", "Phoenix"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -15599,6 +16026,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Phoenix"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -15639,6 +16067,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Phoenix"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -15678,6 +16107,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-vegaでグラフ描画 -  JavaScriptからportsでヘッドレスElm",
@@ -15712,6 +16142,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-visualization(D3-like)を使ってみた",
@@ -15746,6 +16177,7 @@
     "likes_count": 50,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Rust"],
     "tags_": [
       { "name": "Rust", "versions": [] },
@@ -15786,6 +16218,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Elixir"],
     "tags_": [
       { "name": "Elixir", "versions": [] },
@@ -15824,6 +16257,7 @@
     "likes_count": 16,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Phoenix"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -15861,6 +16295,7 @@
     "likes_count": 38,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types", "Phantom Type"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでPhantom Type (幽霊型)入門",
@@ -15895,6 +16330,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "webpack", "Docker"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -15935,6 +16371,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -15972,6 +16409,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Neverについて",
@@ -16006,6 +16444,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Phoenix"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmからPhoenix v1.3のRest APIを叩いてみる",
@@ -16040,6 +16479,7 @@
     "likes_count": 81,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Elixir"],
     "tags_": [
       { "name": "api", "versions": [] },
@@ -16080,6 +16520,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "教育", "versions": [] },
@@ -16120,6 +16561,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Java"],
     "tags_": [
       { "name": "Java", "versions": [] },
@@ -16160,6 +16602,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm で Video Element や Audio Element の Media Event を扱う",
@@ -16194,6 +16637,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Phoenix"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -16234,6 +16678,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "JSON"],
     "tags_": [
       { "name": "JSON", "versions": [] },
@@ -16271,6 +16716,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Phoenix"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -16311,6 +16757,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Phoenix"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -16351,6 +16798,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでrouter-link",
@@ -16385,6 +16833,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -16424,6 +16873,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでマテリアルデザインをためしてみた！",
@@ -16458,6 +16908,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Examples", "HTTP", "Task"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで非同期Http通信を含んだSPAを試してみる",
@@ -16492,6 +16943,7 @@
     "likes_count": 37,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "WebAudioAPI", "versions": [] },
@@ -16529,6 +16981,7 @@
     "likes_count": 19,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのSPAとRouting",
@@ -16563,6 +17016,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "Doctest", "elm-doctest"],
     "tags_": [
       { "name": "doctest", "versions": [] },
@@ -16600,6 +17054,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "create-elm-app"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -16637,6 +17092,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["HTTP", "JSON", "Task"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのHttpとJson.Decode、Taskの実践的な使い方",
@@ -16671,6 +17127,7 @@
     "likes_count": 72,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React", "Hyperapp"],
     "tags_": [
       { "name": "フロントエンド", "versions": [] },
@@ -16711,6 +17168,7 @@
     "likes_count": 26,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmのパイプライン演算子と関数合成",
@@ -16745,6 +17203,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -16783,6 +17242,7 @@
     "likes_count": 24,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": ["0.18.0"] },
@@ -16820,6 +17280,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのSPAへの第一歩のNavigation",
@@ -16854,6 +17315,7 @@
     "likes_count": 31,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -16891,6 +17353,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ふつうのフロントエンドエンジニアが何も考えずにElmウェブアプリケーション開発を始める方法",
@@ -16925,6 +17388,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["JSON"],
     "tags_": [
       { "name": "JSON", "versions": [] },
@@ -16962,6 +17426,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Task"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのTaskを試してみる",
@@ -16996,6 +17461,7 @@
     "likes_count": 19,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "Fuzzing", "elm-test"],
     "tags_": [
       { "name": "test", "versions": [] },
@@ -17033,6 +17499,7 @@
     "likes_count": 23,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "create-elm-app"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -17070,6 +17537,7 @@
     "likes_count": 33,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでプルダウンメニューのonChangeイベント",
@@ -17104,6 +17572,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "iframe", "versions": [] },
@@ -17143,6 +17612,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Signal時代から、イマドキのElmに移行中である話。",
@@ -17177,6 +17647,7 @@
     "likes_count": 31,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "lambda", "versions": [] },
@@ -17216,6 +17687,7 @@
     "likes_count": 25,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "フロントエンド", "versions": [] },
@@ -17256,6 +17728,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでカルーセル（スライドショー）を作る",
@@ -17290,6 +17763,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmモジュールをReactのComponentにする",
@@ -17324,6 +17798,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでWebSocketを試してみた(Sub)",
@@ -17358,6 +17833,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "組み込みのライブラリだけでライフゲームを作ってみる",
@@ -17392,6 +17868,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmとJavaScriptの会話(Port)",
@@ -17426,6 +17903,7 @@
     "likes_count": 27,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Chrome", "versions": [] },
@@ -17464,6 +17942,7 @@
     "likes_count": 26,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "Doctest", "elm-verify-examples"],
     "tags_": [
       { "name": "test", "versions": [] },
@@ -17502,6 +17981,7 @@
     "likes_count": 47,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "SPA", "versions": [] },
@@ -17539,6 +18019,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Types"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmの型システムを少しだけ覗いてみる",
@@ -17573,6 +18054,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] elm-touch-events使ってみた",
@@ -17607,6 +18089,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-xml-decodeつくった",
@@ -17641,6 +18124,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでサーバと通信する(Cmd)",
@@ -17675,6 +18159,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "関数型言語", "versions": [] },
@@ -17713,6 +18198,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでTodoリストを作る",
@@ -17747,6 +18233,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "パズル", "versions": [] },
@@ -17786,6 +18273,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Random"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで乱数を扱う(Cmd)",
@@ -17820,6 +18308,7 @@
     "likes_count": 47,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -17859,6 +18348,7 @@
     "likes_count": 16,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -17897,6 +18387,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm Architecture の Model-View-Updateについて",
@@ -17931,6 +18422,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test"],
     "tags_": [
       { "name": "CircleCI", "versions": [] },
@@ -17969,6 +18461,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのCmdをスタブする",
@@ -18003,6 +18496,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm開発環境について",
@@ -18037,6 +18531,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -18076,6 +18571,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで再帰的データ構造を扱う",
@@ -18110,6 +18606,7 @@
     "likes_count": 70,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["JSON"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -18147,6 +18644,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -18184,6 +18682,7 @@
     "likes_count": 19,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] 危険🐐スクリプト芸",
@@ -18218,6 +18717,7 @@
     "likes_count": 65,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "フロントエンド", "versions": [] },
@@ -18257,6 +18757,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -18294,6 +18795,7 @@
     "likes_count": 36,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "GitHub", "versions": [] },
@@ -18332,6 +18834,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -18369,6 +18872,7 @@
     "likes_count": 16,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elmについてlifegameをつくりながらいろいろ初学者向けに説明してみた。",
@@ -18403,6 +18907,7 @@
     "likes_count": 39,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "初心者", "versions": [] },
@@ -18440,6 +18945,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Style Elementsに対する感想を書くので気になったら使うといいと思う",
@@ -18474,6 +18980,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-todofukenってpackageを出してみた",
@@ -18508,6 +19015,7 @@
     "likes_count": 33,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Java"],
     "tags_": [
       { "name": "Java", "versions": [] },
@@ -18548,6 +19056,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "Fuzzing", "elm-test"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -18585,6 +19094,7 @@
     "likes_count": 27,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Routing", "versions": [] },
@@ -18624,6 +19134,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "elm-analyse"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -18661,6 +19172,7 @@
     "likes_count": 52,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Parser", "versions": [] },
@@ -18699,6 +19211,7 @@
     "likes_count": 547,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "フロントエンド", "versions": [] },
@@ -18739,6 +19252,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -18776,6 +19290,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -18813,6 +19328,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "初学者がelm-workshopを通じてElmを学ぶ",
@@ -18847,6 +19363,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "Java", "versions": [] },
@@ -18887,6 +19404,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18 入門(5) Subscriptionsによるイベント処理、関数合成",
@@ -18921,6 +19439,7 @@
     "likes_count": 23,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React", "D3.js"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -18961,6 +19480,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -19001,6 +19521,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -19041,6 +19562,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -19081,6 +19603,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "Java", "versions": [] },
@@ -19121,6 +19644,7 @@
     "likes_count": 28,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Node.js", "versions": [] },
@@ -19159,6 +19683,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -19196,6 +19721,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18で作るTodoアプリ(5)",
@@ -19230,6 +19756,7 @@
     "likes_count": 75,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "TDD", "versions": [] },
@@ -19269,6 +19796,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "関数型言語", "versions": [] },
@@ -19309,6 +19837,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18で作るTodoアプリ(4)",
@@ -19343,6 +19872,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18で作るTodoアプリ(3)",
@@ -19377,6 +19907,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Maybe", "Task"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18 入門(4) 時刻の取得とMaybe",
@@ -19411,6 +19942,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "関数型言語", "versions": [] },
@@ -19451,6 +19983,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18で作るTodoアプリ(2)",
@@ -19485,6 +20018,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18で作るTodoアプリ(1)",
@@ -19519,6 +20053,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment"],
     "tags_": [
       { "name": "Ubuntu", "versions": [] },
@@ -19556,6 +20091,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18 入門 (3)アクションの連鎖",
@@ -19590,6 +20126,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18 入門 (2)パラメータ付きのアクションと入力フォーム",
@@ -19624,6 +20161,7 @@
     "likes_count": 34,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -19664,6 +20202,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Style Elements 使ってみたよ！",
@@ -19698,6 +20237,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18 入門 (1)カウントアプリを作ってみる",
@@ -19732,6 +20272,7 @@
     "likes_count": 26,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Rails", "versions": [] },
@@ -19770,6 +20311,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -19808,6 +20350,7 @@
     "likes_count": 20,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elmでぷよぷよ",
@@ -19842,6 +20385,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -19880,6 +20424,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "FizzBuzz"],
     "tags_": [
       { "name": "FizzBuzz", "versions": [] },
@@ -19917,6 +20462,7 @@
     "likes_count": 16,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -19955,6 +20501,7 @@
     "likes_count": 16,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["React"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -19994,6 +20541,7 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
+    "language": "en",
     "tags": ["PureScript"],
     "tags_": [
       { "name": "purescript", "versions": [] },
@@ -20031,6 +20579,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "en",
     "tags": ["PureScript"],
     "tags_": [
       { "name": "purescript", "versions": [] },
@@ -20068,6 +20617,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Result"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Resultの型を共通化してUpdate処理を軽量化する",
@@ -20102,6 +20652,7 @@
     "likes_count": 19,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["JSON"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18でJSON APIにアクセスする",
@@ -20136,6 +20687,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "create-elm-app", "webpack"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -20173,6 +20725,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -20211,6 +20764,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -20249,6 +20803,7 @@
     "likes_count": 25,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -20289,6 +20844,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-monocleでスッキリする",
@@ -20323,6 +20879,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -20360,6 +20917,7 @@
     "likes_count": 27,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -20397,6 +20955,7 @@
     "likes_count": 58,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmを本番運用するためのツールあれこれ",
@@ -20431,6 +20990,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "（ネストした）recordの更新でエラーが出る",
@@ -20465,6 +21025,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "TDD", "elm-test"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -20503,6 +21064,7 @@
     "likes_count": 26,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] Effect Manager のしくみ",
@@ -20537,6 +21099,7 @@
     "likes_count": 26,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["GraphQL"],
     "tags_": [
       { "name": "Node.js", "versions": [] },
@@ -20576,6 +21139,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "The Elm Architecture（0.18）effect moduleメモ",
@@ -20610,6 +21174,7 @@
     "likes_count": 29,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -20647,6 +21212,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] Web API サポート状況",
@@ -20681,6 +21247,7 @@
     "likes_count": 143,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -20719,6 +21286,7 @@
     "likes_count": 48,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -20757,6 +21325,7 @@
     "likes_count": 35,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -20794,6 +21363,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.18への対応方法",
@@ -20828,6 +21398,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Functional Reactive Programming"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Functional Reactive ProgrammingとElm",
@@ -20862,6 +21433,7 @@
     "likes_count": 37,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm] Html.Lazyによるパフォーマンス最適化",
@@ -20896,6 +21468,7 @@
     "likes_count": 21,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmのライブラリの探し方",
@@ -20930,6 +21503,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmにおけるバグ報告・機能要望の出し方",
@@ -20964,6 +21538,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Time", "SVG"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm: アナログ時計のsampleで現在時刻を表示させる(SVGの練習)",
@@ -20998,6 +21573,7 @@
     "likes_count": 31,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -21035,6 +21611,7 @@
     "likes_count": 29,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm0.18で簡単なの作ったのでThe Elm Architectureをざっくり説明する",
@@ -21069,6 +21646,7 @@
     "likes_count": 14,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm 0.17~0.18版 NativeModuleの書き方",
@@ -21103,6 +21681,7 @@
     "likes_count": 29,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -21140,6 +21719,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Haxe", "versions": [] },
@@ -21177,6 +21757,7 @@
     "likes_count": 9,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "HTML", "versions": [] },
@@ -21214,6 +21795,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -21251,6 +21833,7 @@
     "likes_count": 22,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "CSS", "versions": [] },
@@ -21289,6 +21872,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -21329,6 +21913,7 @@
     "likes_count": 136,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Swift"],
     "tags_": [
       { "name": "iOS", "versions": [] },
@@ -21369,6 +21954,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "今日から始めるelm-lang",
@@ -21403,6 +21989,7 @@
     "likes_count": 10,
     "private": false,
     "reactions_count": 0,
+    "language": "en",
     "tags": ["Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -21440,6 +22027,7 @@
     "likes_count": 17,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm Architecture + Effects （パート１）",
@@ -21474,6 +22062,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm Architecture イントロダクション（テキストフィールド編）",
@@ -21508,6 +22097,7 @@
     "likes_count": 120,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell", "PureScript"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
@@ -21548,6 +22138,7 @@
     "likes_count": 32,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm v0.17の時点の学習メモ  1日目",
@@ -21582,6 +22173,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -21619,6 +22211,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "HTML", "versions": [] },
@@ -21657,6 +22250,7 @@
     "likes_count": 121,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["The Elm Architecture", "Functional Reactive Programming"],
     "tags_": [
       { "name": "FRP", "versions": [] },
@@ -21695,6 +22289,7 @@
     "likes_count": 15,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -21733,6 +22328,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment", "elm reactor", "Hello World"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm Reactor で Hello World",
@@ -21767,6 +22363,7 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -21804,6 +22401,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["SVG"],
     "tags_": [
       { "name": "SVG", "versions": [] },
@@ -21841,6 +22439,7 @@
     "likes_count": 788,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["PureScript"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -21881,6 +22480,7 @@
     "likes_count": 13,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -21918,6 +22518,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Test", "elm-test"],
     "tags_": [
       { "name": "jsdom", "versions": [] },
@@ -21955,6 +22556,7 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "websocket", "versions": [] },
@@ -21993,6 +22595,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Functional Reactive Programming"],
     "tags_": [
       { "name": "FRP", "versions": [] },
@@ -22030,6 +22633,7 @@
     "likes_count": 4,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Task"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのTasksについて",
@@ -22064,6 +22668,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "collageでチェックを描く",
@@ -22098,6 +22703,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Tuple"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "タプルの書き方をサクッと変える",
@@ -22132,6 +22738,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ELMはじめの一歩",
@@ -22166,6 +22773,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmの無名関数は\"\\...\"と書かずに\"λ...\"でもOK",
@@ -22200,6 +22808,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Dev Environment"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "$HOMEへElmをインストール",
@@ -22234,6 +22843,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "en",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "How I wrote a hybrid Elm/Javascript Node.js application",
@@ -22268,6 +22878,7 @@
     "likes_count": 7,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Functional Reactive Programming"],
     "tags_": [
       { "name": "FRP", "versions": [] },
@@ -22305,6 +22916,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "en",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "A simple introduction to using Elm ports",
@@ -22339,6 +22951,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "en",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Making a scroll table with Elm",
@@ -22373,6 +22986,7 @@
     "likes_count": 53,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Functional Reactive Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
@@ -22410,6 +23024,7 @@
     "likes_count": 11,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "SPA", "versions": [] },
@@ -22447,6 +23062,7 @@
     "likes_count": 18,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Functional Reactive Programming"],
     "tags_": [
       { "name": "FRP", "versions": [] },
@@ -22484,6 +23100,7 @@
     "likes_count": 2,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "HTML", "versions": [] },
@@ -22521,6 +23138,7 @@
     "likes_count": 38,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "HTML", "versions": [] },
@@ -22558,6 +23176,7 @@
     "likes_count": 8,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log", "Dev Environment"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "windowsにelm入れただけのメモ",
@@ -22592,6 +23211,7 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Functional Reactive Programming"],
     "tags_": [
       { "name": "AdventCalendar", "versions": [] },
@@ -22629,6 +23249,7 @@
     "likes_count": 33,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Functional Reactive Programming"],
     "tags_": [
       { "name": "AdventCalendar", "versions": [] },
@@ -22667,6 +23288,7 @@
     "likes_count": 134,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
@@ -22707,6 +23329,7 @@
     "likes_count": 66,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Haskell 的視点から見た Elm",
@@ -22741,6 +23364,7 @@
     "likes_count": 12,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Functional Reactive Programming"],
     "tags_": [
       { "name": "AdventCalendar", "versions": [] },
@@ -22779,6 +23403,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Study Log"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "はじめてのElm その１",
@@ -22813,6 +23438,7 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": [],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmでやってみようシリーズ1",
@@ -22847,6 +23473,7 @@
     "likes_count": 149,
     "private": false,
     "reactions_count": 0,
+    "language": "ja",
     "tags": ["Haskell"],
     "tags_": [
       { "name": "Haskell", "versions": [] },

@@ -11,6 +11,6 @@ articleDecoder =
         (Decode.at [ "user", "id" ] Decode.string)
         (Decode.succeed "Qiita")
         (Decode.field "url" Decode.string)
-        (Decode.succeed "ja")
+        (Decode.field "language" Decode.string)
         (Decode.succeed "-")
         (Decode.field "tags" (Decode.list Decode.string))
