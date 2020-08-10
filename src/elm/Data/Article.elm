@@ -10,15 +10,17 @@ type alias Article =
     , url : String
     , language : String
     , tags : List String
+    , created_at : String
     }
 
 
 articleDecoder : Decoder Article
 articleDecoder =
-    Decode.map6 Article
+    Decode.map7 Article
         (Decode.field "title" Decode.string)
         (Decode.field "author" Decode.string)
         (Decode.field "siteName" Decode.string)
         (Decode.field "url" Decode.string)
         (Decode.field "language" Decode.string)
         (Decode.field "tags" (Decode.list Decode.string))
+        (Decode.succeed "")

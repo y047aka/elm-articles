@@ -1,11 +1,14 @@
 module Main exposing (main)
 
+import AssocList
+import AssocList.Extra
 import Browser exposing (Document)
 import Data.Article exposing (Article)
 import Data.Article.Qiita exposing (articleDecoder)
 import Data.Language exposing (Language(..), isSelectedLanguage, languageToString)
+import Data.Version as Version
 import Html exposing (Html, a, button, div, footer, h1, header, i, main_, p, span, table, tbody, td, text, th, thead, tr)
-import Html.Attributes exposing (class, href, rel, target)
+import Html.Attributes exposing (class, colspan, href, rel, target)
 import Html.Events exposing (onClick)
 import Http
 import Json.Decode as Decode
@@ -48,11 +51,6 @@ tagCloud =
     , [ "Hello World", "FizzBuzz", "To-Do List App" ]
     , [ "Examples", "Poème", "Study Log", "Personal Log" ]
     ]
-
-
-versions : List String
-versions =
-    []
 
 
 init : () -> ( Model, Cmd Msg )
@@ -112,6 +110,11 @@ view model =
                                 |> Maybe.withDefault True
                             ]
                     )
+
+        articlesByVersion =
+            filteredArticles
+                |> AssocList.Extra.filterGroupBy (.created_at >> Version.fromDateString >> Maybe.map Version.getRecord)
+                |> AssocList.toList
     in
     { title = "elm-articles"
     , body =
@@ -129,15 +132,7 @@ view model =
                         )
                         (List.concat tagCloud)
                 ]
-            , table [ class "ui selectable table" ]
-                [ thead []
-                    [ tr []
-                        [ th [] [ text "Tags" ]
-                        , th [] [ text "Title /  Author /  Site Name" ]
-                        ]
-                    ]
-                , tbody [] (List.map tableRow filteredArticles)
-                ]
+            , div [] <| List.map (\( v, a ) -> tableFor v a) articlesByVersion
             ]
         , siteFooter
         ]
@@ -162,14 +157,28 @@ siteHeader { selectedLanguages } =
         ]
 
 
+tableFor : { version : String, released_at : String, topic : String, url : String } -> List Article -> Html Msg
+tableFor { version, topic, url } articles =
+    table [ class "ui selectable table" ]
+        [ thead []
+            [ tr []
+                [ th [ colspan 3 ]
+                    [ a
+                        [ href url, target "_blank", rel "noopener" ]
+                        [ text (version ++ " - " ++ topic ++ " ")
+                        , i [ class "external alternate small icon" ] []
+                        ]
+                    ]
+                ]
+            ]
+        , tbody [] (List.map tableRow articles)
+        ]
+
+
 tableRow : Article -> Html Msg
 tableRow article =
     tr []
-        [ td [] <|
-            List.map
-                (\tag -> span [ class "ui tiny button", onClick (SelectTag tag) ] [ text (wordToJapanese tag) ])
-                article.tags
-        , td []
+        [ td [ class "ten wide" ]
             [ div []
                 [ a
                     [ href article.url
@@ -180,6 +189,10 @@ tableRow article =
                 ]
             , span [ class "ui small grey text" ] [ text (article.author ++ " | " ++ article.siteName) ]
             ]
+        , td [ class "six wide" ] <|
+            List.map
+                (\tag -> span [ class "ui tiny button", onClick (SelectTag tag) ] [ text (wordToJapanese tag) ])
+                article.tags
         ]
 
 
