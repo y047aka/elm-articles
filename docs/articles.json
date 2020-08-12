@@ -5,7 +5,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -14,7 +13,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/core_language.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -23,7 +21,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/architecture/",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["The Elm Architecture"]
   },
   {
@@ -32,7 +29,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/architecture/buttons.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["The Elm Architecture"]
   },
   {
@@ -41,7 +37,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/architecture/text_fields.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["The Elm Architecture"]
   },
   {
@@ -50,7 +45,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/architecture/text_fields.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["The Elm Architecture"]
   },
   {
@@ -59,7 +53,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/types/",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Types"]
   },
   {
@@ -68,7 +61,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/types/reading_types.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Types"]
   },
   {
@@ -77,7 +69,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/types/type_aliases.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Type Aliases"]
   },
   {
@@ -86,7 +77,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/types/custom_types.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Custom Types"]
   },
   {
@@ -95,7 +85,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/types/pattern_matching.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Pattern Matching"]
   },
   {
@@ -104,7 +93,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/error_handling/",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Maybe"]
   },
   {
@@ -113,7 +101,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/error_handling/maybe.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Maybe"]
   },
   {
@@ -122,7 +109,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/error_handling/result.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Result"]
   },
   {
@@ -131,7 +117,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/effects/",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/browser"]
   },
   {
@@ -140,7 +125,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/effects/http.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["HTTP", "elm/http"]
   },
   {
@@ -149,7 +133,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/effects/http.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["JSON", "elm/json"]
   },
   {
@@ -158,7 +141,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/effects/random.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/random"]
   },
   {
@@ -167,7 +149,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/effects/time.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Task", "elm/time"]
   },
   {
@@ -176,7 +157,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/install/",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Environment Setup"]
   },
   {
@@ -185,7 +165,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/install/editor.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Environment Setup", "Sublime Text"]
   },
   {
@@ -194,7 +173,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/install/elm.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Environment Setup"]
   },
   {
@@ -203,7 +181,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/interop/",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -212,7 +189,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/interop/flags.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Flags"]
   },
   {
@@ -221,7 +197,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/interop/ports.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Ports"]
   },
   {
@@ -230,7 +205,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/interop/custom_elements.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Custom Elements"]
   },
   {
@@ -239,7 +213,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/interop/limits.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Ports"]
   },
   {
@@ -248,7 +221,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/webapps/",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/browser"]
   },
   {
@@ -257,7 +229,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/webapps/navigation.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/browser", "elm/url"]
   },
   {
@@ -266,7 +237,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/webapps/url_parsing.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/url"]
   },
   {
@@ -275,7 +245,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/webapps/modules.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Modules"]
   },
   {
@@ -284,7 +253,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/webapps/structure.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Modules"]
   },
   {
@@ -293,7 +261,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/optimization/",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -302,7 +269,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/optimization/lazy.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Lazy", "elm/html"]
   },
   {
@@ -311,7 +277,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/optimization/keyed.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Keyed", "elm/html"]
   },
   {
@@ -320,7 +285,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/optimization/asset_size.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -329,7 +293,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/next_steps.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -338,7 +301,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/appendix/types_as_sets.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Custom Types"]
   },
   {
@@ -347,7 +309,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/appendix/types_as_bits.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Custom Types"]
   },
   {
@@ -356,7 +317,6 @@
     "siteName": "An Introduction to Elm",
     "url": "https://guide.elm-lang.org/appendix/function_types.html",
     "language": "en",
-    "targetVersion": "^0.19.0",
     "tags": ["Types"]
   },
   {
@@ -365,7 +325,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/about_translation.html",
     "language": "ja",
-    "targetVersion": "-",
     "tags": []
   },
   {
@@ -374,7 +333,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -383,7 +341,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/install.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Environment Setup"]
   },
   {
@@ -392,7 +349,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/core_language.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -401,7 +357,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/architecture/",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["The Elm Architecture"]
   },
   {
@@ -410,7 +365,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/architecture/buttons.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["The Elm Architecture"]
   },
   {
@@ -419,7 +373,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/architecture/text_fields.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["The Elm Architecture"]
   },
   {
@@ -428,7 +381,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/architecture/forms.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["The Elm Architecture"]
   },
   {
@@ -437,7 +389,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/types/",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Types"]
   },
   {
@@ -446,7 +397,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/types/reading_types.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Types"]
   },
   {
@@ -455,7 +405,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/types/type_aliases.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Type Aliases"]
   },
   {
@@ -464,7 +413,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/types/custom_types.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Custom Types"]
   },
   {
@@ -473,7 +421,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/types/pattern_matching.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Pattern Matching"]
   },
   {
@@ -482,7 +429,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/error_handling/",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Maybe"]
   },
   {
@@ -491,7 +437,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/error_handling/maybe.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Maybe"]
   },
   {
@@ -500,7 +445,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/error_handling/result.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Result"]
   },
   {
@@ -509,7 +453,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/effects/",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/browser"]
   },
   {
@@ -518,7 +461,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/effects/http.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["HTTP", "elm/http"]
   },
   {
@@ -527,7 +469,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/effects/json.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["JSON", "elm/json"]
   },
   {
@@ -536,7 +477,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/effects/random.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/random"]
   },
   {
@@ -545,7 +485,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/effects/time.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Task", "elm/time"]
   },
   {
@@ -554,7 +493,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/interop/",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -563,7 +501,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/interop/flags.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Flags"]
   },
   {
@@ -572,7 +509,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/interop/ports.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Ports"]
   },
   {
@@ -581,7 +517,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/interop/custom_elements.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Custom Elements"]
   },
   {
@@ -590,7 +525,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/webapps/",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/browser"]
   },
   {
@@ -599,7 +533,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/webapps/navigation.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/browser", "elm/url"]
   },
   {
@@ -608,7 +541,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/webapps/url_parsing.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["elm/url"]
   },
   {
@@ -617,7 +549,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/webapps/modules.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Modules"]
   },
   {
@@ -626,7 +557,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/webapps/structure.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Modules"]
   },
   {
@@ -635,7 +565,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/optimization/",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -644,7 +573,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/optimization/lazy.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Lazy", "elm/html"]
   },
   {
@@ -653,7 +581,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/optimization/keyed.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Keyed", "elm/html"]
   },
   {
@@ -662,7 +589,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/optimization/asset_size.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -671,7 +597,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/next_steps.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": []
   },
   {
@@ -680,7 +605,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/appendix/types_as_sets.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Custom Types"]
   },
   {
@@ -689,7 +613,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/appendix/types_as_bits.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Types", "Custom Types"]
   },
   {
@@ -698,7 +621,6 @@
     "siteName": "An Introduction to Elm (Japanese)",
     "url": "https://guide.elm-lang.jp/appendix/function_types.html",
     "language": "ja",
-    "targetVersion": "^0.19.0",
     "tags": ["Types"]
   }
 ]
