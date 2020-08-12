@@ -2438,7 +2438,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Test", "TDD", "ATDD"],
+    "tags": ["Test", "TDD", "ATDD", "Firebase"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "ATDD", "versions": [] },
@@ -3185,7 +3185,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["PWA"],
     "tags_": [
       { "name": "Mobile", "versions": [] },
       { "name": "SPA", "versions": [] },
@@ -3727,7 +3727,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["PWA"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "PWA", "versions": [] }
@@ -5052,7 +5052,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Firebase"],
     "tags_": [
       { "name": "todo", "versions": [] },
       { "name": "Database", "versions": [] },
@@ -5093,7 +5093,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Firebase"],
     "tags_": [
       { "name": "Database", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -7021,7 +7021,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Firebase"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "Firestore", "versions": [] }
@@ -9555,7 +9555,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Firebase"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "Firebase", "versions": [] }
@@ -9593,7 +9593,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Firebase"],
     "tags_": [
       { "name": "GitHub", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -10152,7 +10152,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Ports"],
+    "tags": ["Ports", "Firebase"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "Firebase", "versions": [] },
@@ -11263,7 +11263,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Firebase"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -11561,7 +11561,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Firebase"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "Firebase", "versions": [] },
