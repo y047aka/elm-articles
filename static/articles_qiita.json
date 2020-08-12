@@ -274,7 +274,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] }
@@ -420,7 +420,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "SPA", "versions": [] },
       { "name": "Elm", "versions": [] }
@@ -650,7 +650,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Examples"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -1361,7 +1361,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Dev Environment"],
     "tags_": [
       { "name": ".htaccess", "versions": [] },
       { "name": "SPA", "versions": [] },
@@ -2358,7 +2358,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Types"],
+    "tags": ["Types", "Functional Programming"],
     "tags_": [
       { "name": "型", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -2999,7 +2999,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] }
@@ -3612,7 +3612,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "SPA", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -3727,7 +3727,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["PWA"],
+    "tags": ["Ports", "PWA"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "PWA", "versions": [] }
@@ -3803,7 +3803,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Task", "Ports"],
+    "tags": ["Task", "Ports", "Functional Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] }
@@ -3917,7 +3917,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm SPAの初歩",
     "updated_at": "2019-12-04T00:39:15+09:00",
@@ -4316,7 +4316,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] }
@@ -5052,7 +5052,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Firebase"],
+    "tags": ["Firebase", "To-Do List App"],
     "tags_": [
       { "name": "todo", "versions": [] },
       { "name": "Database", "versions": [] },
@@ -5544,7 +5544,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] }
@@ -5957,7 +5957,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] }
@@ -6108,7 +6108,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] }
@@ -6299,7 +6299,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -7021,7 +7021,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Firebase"],
+    "tags": ["JSON", "Firebase"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "Firestore", "versions": [] }
@@ -7401,7 +7401,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "SPA", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -7475,7 +7475,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "SinglePageApplication", "versions": [] }
@@ -7513,7 +7513,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "[Elm]ミヤモ風SPA",
     "updated_at": "2019-06-06T13:56:28+09:00",
@@ -7884,7 +7884,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] }
@@ -9067,7 +9067,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Types"],
+    "tags": ["Types", "Functional Programming"],
     "tags_": [
       { "name": "F#", "versions": [] },
       { "name": "関数型言語", "versions": [] },
@@ -9776,7 +9776,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "デザインパターン", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -10725,7 +10725,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Algorithm"],
     "tags_": [
       { "name": "アルゴリズム", "versions": [] },
       { "name": "Web", "versions": [] },
@@ -11263,7 +11263,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Firebase"],
+    "tags": ["Ports", "Firebase"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -12547,7 +12547,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["The Elm Architecture", "Functional Programming"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmの関数型的側面の多分ていねいな解説",
     "updated_at": "2018-12-17T13:58:18+09:00",
@@ -12690,7 +12690,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] }
@@ -13102,7 +13102,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
       { "name": "Elm", "versions": [] }
@@ -13140,7 +13140,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
       { "name": "Elm", "versions": [] }
@@ -13942,7 +13942,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "闇の魔術", "versions": [] }
@@ -16909,7 +16909,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Examples", "HTTP", "Task"],
+    "tags": ["Examples", "HTTP", "Task", "Single Page Application"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmで非同期Http通信を含んだSPAを試してみる",
     "updated_at": "2018-05-12T22:21:27+09:00",
@@ -16982,7 +16982,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのSPAとRouting",
     "updated_at": "2018-05-12T22:20:47+09:00",
@@ -17281,7 +17281,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmのSPAへの第一歩のNavigation",
     "updated_at": "2018-05-12T22:19:27+09:00",
@@ -17982,7 +17982,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "SPA", "versions": [] },
       { "name": "Elm", "versions": [] }
@@ -19016,7 +19016,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Java"],
+    "tags": ["Functional Programming", "Java"],
     "tags_": [
       { "name": "Java", "versions": [] },
       { "name": "オブジェクト指向", "versions": [] },
@@ -19095,7 +19095,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "Routing", "versions": [] },
       { "name": "SPA", "versions": [] },
@@ -19797,7 +19797,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "関数型言語", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -19943,7 +19943,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "関数型言語", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -21287,7 +21287,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
       { "name": "SPA", "versions": [] },
@@ -22098,7 +22098,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["Haskell", "PureScript"],
+    "tags": ["Functional Programming", "Haskell", "PureScript"],
     "tags_": [
       { "name": "Haskell", "versions": [] },
       { "name": "OCaml", "versions": [] },
@@ -23025,7 +23025,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Single Page Application"],
     "tags_": [
       { "name": "SPA", "versions": [] },
       { "name": "Elm", "versions": [] }

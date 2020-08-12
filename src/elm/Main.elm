@@ -38,16 +38,15 @@ type alias Model =
 tagCloud : List (List String)
 tagCloud =
     [ [ "The Elm Architecture", "Types", "Type Aliases", "Custom Types", "Maybe", "Result", "HTTP", "JSON", "Random", "Time", "Task", "Flags", "Ports" ]
-    , [ "Opaque Type", "Phantom Type", "パターンマッチ" ]
+    , [ "Opaque Type", "Phantom Type", "Functional Programming" ]
     , [ "Test", "TDD", "elm-test", "elm-verify-examples" ]
-    , [ "SVG", "Firebase", "GraphQL", "Static Site Generator" ]
-    , [ "mdgriffith/elm-ui", "arowM/elm-form-decoder", "arowM/elm-neat-layout" ]
+    , [ "SVG", "Single Page Application", "Firebase", "GraphQL", "Static Site Generator" ]
+    , [ "mdgriffith/elm-ui", "arowM/elm-form-decoder" ]
     , [ "CLI" ]
-    , [ "VirtualDom", "SPA", "WebComponents", "PWA", "form" ]
-    , [ "HTML", "CSS", "JavaScript", "TypeScript" ]
-    , [ "関数型プログラミング", "Node.js" ]
+    , [ "VirtualDom", "WebComponents", "form" ]
+    , [ "HTML", "CSS", "JavaScript", "TypeScript", "Node.js" ]
     , [ "Dev Environment", "Ellie", "elm reactor", "elm-format", "elm-analyse", "create-elm-app", "elm-live", "Parcel", "webpack", "VSCode", "Docker", "Windows" ]
-    , [ "アルゴリズム", "木構造", "初心者" ]
+    , [ "Algorithm", "木構造", "初心者" ]
     , [ "Hello World", "FizzBuzz", "To-Do List App" ]
     , [ "Examples", "Poème", "Study Log", "Personal Log" ]
     ]
@@ -232,6 +231,9 @@ siteFooter =
 wordToJapanese : String -> String
 wordToJapanese englishWord =
     case englishWord of
+        "Algorithm" ->
+            "アルゴリズム"
+
         "Custom Types" ->
             "カスタム型"
 
@@ -243,6 +245,9 @@ wordToJapanese englishWord =
 
         "Examples" ->
             "作例"
+
+        "Functional Programming" ->
+            "関数型プログラミング"
 
         "Modules" ->
             "モジュール"
