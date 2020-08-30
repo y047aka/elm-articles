@@ -38,7 +38,7 @@ type alias Model =
 tagCloud : List (List String)
 tagCloud =
     [ [ "The Elm Architecture", "Types", "Type Aliases", "Custom Types", "Maybe", "Result", "HTTP", "JSON", "Random", "Time", "Task", "Flags", "Ports" ]
-    , [ "Opaque Type", "Phantom Type", "Functional Programming" ]
+    , [ "Opaque Type", "Phantom Type", "Parser", "Functional Programming" ]
     , [ "Test", "TDD", "elm-test", "elm-verify-examples" ]
     , [ "SVG", "Single Page Application", "Firebase", "GraphQL", "Static Site Generator" ]
     , [ "mdgriffith/elm-ui", "arowM/elm-form-decoder" ]

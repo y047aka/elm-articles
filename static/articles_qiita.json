@@ -13980,7 +13980,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Parser"],
     "tags_": [
       { "name": "Parser", "versions": [] },
       { "name": "Elm", "versions": [] }
@@ -15118,7 +15118,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Parser"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "elm-tools/parserのoneOfでハマった",
     "updated_at": "2018-10-31T01:55:30+09:00",
@@ -19173,7 +19173,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Parser"],
     "tags_": [
       { "name": "Parser", "versions": [] },
       { "name": "構文解析", "versions": [] },
