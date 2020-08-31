@@ -4,7 +4,7 @@ import AssocList
 import AssocList.Extra
 import Browser exposing (Document)
 import Data.Article exposing (Article)
-import Data.Article.Qiita exposing (articleDecoder)
+import Data.Article.Qiita as Qiita exposing (articleDecoder)
 import Data.Language exposing (Language(..), isSelectedLanguage, languageToString)
 import Data.Version as Version
 import Html exposing (Html, a, button, div, footer, h1, header, i, main_, p, span, table, tbody, td, text, th, thead, tr)
@@ -29,7 +29,8 @@ main =
 
 
 type alias Model =
-    { articles : List Article
+    { guideArticles : List Article
+    , qiitaArticles : List Article
     , selectedLanguages : Language
     , selectedTag : Maybe String
     }
@@ -54,14 +55,21 @@ tagCloud =
 
 init : () -> ( Model, Cmd Msg )
 init _ =
-    ( { articles = []
+    ( { guideArticles = []
+      , qiitaArticles = []
       , selectedLanguages = All
       , selectedTag = Nothing
       }
-    , Http.get
-        { url = "articles_qiita.json"
-        , expect = Http.expectJson Loaded (Decode.list articleDecoder)
-        }
+    , Cmd.batch <|
+        [ Http.get
+            { url = "articles_guide.json"
+            , expect = Http.expectJson Loaded_Guide (Decode.list Data.Article.articleDecoder)
+            }
+        , Http.get
+            { url = "articles_qiita.json"
+            , expect = Http.expectJson Loaded_Qiita (Decode.list Qiita.articleDecoder)
+            }
+        ]
     )
 
 
@@ -70,7 +78,8 @@ init _ =
 
 
 type Msg
-    = Loaded (Result Http.Error (List Article))
+    = Loaded_Qiita (Result Http.Error (List Article))
+    | Loaded_Guide (Result Http.Error (List Article))
     | SetLanguage Language
     | SelectTag String
 
@@ -78,10 +87,16 @@ type Msg
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
-        Loaded (Ok articles) ->
-            ( { model | articles = articles }, Cmd.none )
+        Loaded_Guide (Ok articles) ->
+            ( { model | guideArticles = articles }, Cmd.none )
 
-        Loaded (Err _) ->
+        Loaded_Guide (Err _) ->
+            ( model, Cmd.none )
+
+        Loaded_Qiita (Ok articles) ->
+            ( { model | qiitaArticles = articles }, Cmd.none )
+
+        Loaded_Qiita (Err _) ->
             ( model, Cmd.none )
 
         SetLanguage l ->
@@ -98,22 +113,44 @@ update msg model =
 view : Model -> Document Msg
 view model =
     let
-        filteredArticles =
-            model.articles
-                |> List.filter
-                    (\article ->
-                        List.all identity
-                            [ isSelectedLanguage model.selectedLanguages article.language
-                            , model.selectedTag
-                                |> Maybe.map (\tag -> List.member tag article.tags)
-                                |> Maybe.withDefault True
-                            ]
-                    )
+        byLanguageAndTag article =
+            List.all identity
+                [ isSelectedLanguage model.selectedLanguages article.language
+                , model.selectedTag
+                    |> Maybe.map (\tag -> List.member tag article.tags)
+                    |> Maybe.withDefault True
+                ]
+
+        guideArticles =
+            model.guideArticles
+                |> List.filter byLanguageAndTag
 
         articlesByVersion =
-            filteredArticles
-                |> AssocList.Extra.filterGroupBy (.created_at >> Version.fromDateString >> Maybe.map Version.getRecord)
+            model.qiitaArticles
+                |> List.filter byLanguageAndTag
+                |> AssocList.Extra.filterGroupBy
+                    (.created_at
+                        >> Version.fromDateString
+                        >> Maybe.map Version.getRecord
+                        >> Maybe.map
+                            (\{ version, topic, url } ->
+                                a [ href url, target "_blank", rel "noopener" ]
+                                    [ text (version ++ " - " ++ topic ++ " ")
+                                    , i [ class "external alternate small icon" ] []
+                                    ]
+                            )
+                    )
                 |> AssocList.toList
+
+        articles =
+            (case guideArticles of
+                [] ->
+                    []
+
+                nonEmpty ->
+                    [ ( text "An Introduction to Elm（Evan Czaplicki によるガイド）", nonEmpty ) ]
+            )
+                ++ articlesByVersion
     in
     { title = "elm-articles"
     , body =
@@ -131,7 +168,7 @@ view model =
                         )
                         (List.concat tagCloud)
                 ]
-            , div [] <| List.map (\( v, a ) -> tableFor v a) articlesByVersion
+            , div [] <| List.map (\( h, a ) -> tableFor h a) articles
             ]
         , siteFooter
         ]
@@ -156,19 +193,12 @@ siteHeader { selectedLanguages } =
         ]
 
 
-tableFor : { version : String, released_at : String, topic : String, url : String } -> List Article -> Html Msg
-tableFor { version, topic, url } articles =
+tableFor : Html Msg -> List Article -> Html Msg
+tableFor heading articles =
     table [ class "ui selectable table" ]
         [ thead []
             [ tr []
-                [ th [ colspan 3 ]
-                    [ a
-                        [ href url, target "_blank", rel "noopener" ]
-                        [ text (version ++ " - " ++ topic ++ " ")
-                        , i [ class "external alternate small icon" ] []
-                        ]
-                    ]
-                ]
+                [ th [ colspan 3 ] [ heading ] ]
             ]
         , tbody [] (List.map tableRow articles)
         ]
