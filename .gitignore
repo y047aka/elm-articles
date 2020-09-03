@@ -1,11 +1,8 @@
-# Dependency directory
-node_modules
-
-# Parcel Cash directory
-.cache
-
-# Elm Dependency directory
+# Folders to ignore
 elm-stuff
+node_modules
+public/dist
+src/Spa/Generated
 
-# Default directory at "npm start"
-dist
+# MacOS weird stuff
+.DS_Store

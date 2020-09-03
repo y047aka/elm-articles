@@ -1,86 +1,61 @@
-module Main exposing (main)
+module Pages.Top exposing (Model, Msg, Params, page)
 
 import AssocList
 import AssocList.Extra
-import Browser exposing (Document)
 import Data.Article exposing (Article)
 import Data.Article.Qiita as Qiita exposing (articleDecoder)
-import Data.Language exposing (Language(..), isSelectedLanguage, languageToString)
+import Data.Language exposing (isSelectedLanguage)
 import Data.Version as Version
-import Html exposing (Html, a, button, div, footer, h1, header, i, main_, p, span, table, tbody, td, text, th, thead, tr)
+import Html exposing (..)
 import Html.Attributes exposing (class, colspan, href, rel, target)
 import Html.Events exposing (onClick)
 import Http
 import Json.Decode as Decode
+import Shared
+import Spa.Document exposing (Document)
+import Spa.Page as Page exposing (Page)
+import Spa.Url exposing (Url)
 
 
-main : Program () Model Msg
-main =
-    Browser.document
+type alias Params =
+    ()
+
+
+type alias Model =
+    Shared.Model
+
+
+page : Page Params Model Msg
+page =
+    Page.application
         { init = init
         , update = update
         , view = view
         , subscriptions = \_ -> Sub.none
+        , save = \_ shared -> shared
+        , load = \_ model -> ( model, Cmd.none )
         }
 
 
-
--- MODEL
-
-
-type alias Model =
-    { guideArticles : List Article
-    , qiitaArticles : List Article
-    , selectedLanguages : Language
-    , selectedTag : Maybe String
-    }
-
-
-tagCloud : List (List String)
-tagCloud =
-    [ [ "The Elm Architecture", "Types", "Type Aliases", "Custom Types", "Maybe", "Result", "HTTP", "JSON", "Random", "Time", "Task", "Flags", "Ports" ]
-    , [ "Opaque Type", "Phantom Type", "Parser", "Functional Programming" ]
-    , [ "Test", "TDD", "elm-test", "elm-verify-examples" ]
-    , [ "SVG", "Single Page Application", "Firebase", "GraphQL", "Static Site Generator" ]
-    , [ "mdgriffith/elm-ui", "arowM/elm-form-decoder" ]
-    , [ "CLI" ]
-    , [ "VirtualDom", "WebComponents", "form" ]
-    , [ "HTML", "CSS", "JavaScript", "TypeScript", "Node.js" ]
-    , [ "Dev Environment", "Ellie", "elm reactor", "elm-format", "elm-analyse", "create-elm-app", "elm-live", "Parcel", "webpack", "VSCode", "Docker", "Windows" ]
-    , [ "Algorithm", "木構造", "初心者" ]
-    , [ "Hello World", "FizzBuzz", "To-Do List App" ]
-    , [ "Examples", "Poème", "Study Log", "Personal Log" ]
-    ]
-
-
-init : () -> ( Model, Cmd Msg )
-init _ =
-    ( { guideArticles = []
-      , qiitaArticles = []
-      , selectedLanguages = All
-      , selectedTag = Nothing
-      }
+init : Shared.Model -> Url Params -> ( Model, Cmd Msg )
+init shared _ =
+    ( shared
     , Cmd.batch <|
         [ Http.get
-            { url = "articles_guide.json"
+            { url = "static/articles_guide.json"
             , expect = Http.expectJson Loaded_Guide (Decode.list Data.Article.articleDecoder)
             }
         , Http.get
-            { url = "articles_qiita.json"
+            { url = "static/articles_qiita.json"
             , expect = Http.expectJson Loaded_Qiita (Decode.list Qiita.articleDecoder)
             }
         ]
     )
 
 
-
--- UPDATE
-
-
 type Msg
     = Loaded_Qiita (Result Http.Error (List Article))
     | Loaded_Guide (Result Http.Error (List Article))
-    | SetLanguage Language
     | SelectTag String
 
 
@@ -98,9 +73,6 @@ update msg model =
 
         Loaded_Qiita (Err _) ->
             ( model, Cmd.none )
-
-        SetLanguage l ->
-            ( { model | selectedLanguages = l }, Cmd.none )
 
         SelectTag tag ->
             ( { model | selectedTag = Just tag }, Cmd.none )
@@ -154,43 +126,38 @@ view model =
     in
     { title = "elm-articles"
     , body =
-        [ siteHeader model
-        , main_ [ class "ui main container" ]
-            [ div [ class "ui form" ]
-                [ div [ class "grouped fields" ] <|
-                    List.map
-                        (\tag ->
-                            button
-                                [ class "ui tiny button"
-                                , onClick (SelectTag tag)
-                                ]
-                                [ text (wordToJapanese tag) ]
-                        )
-                        (List.concat tagCloud)
-                ]
-            , div [] <| List.map (\( h, a ) -> tableFor h a) articles
+        [ div [ class "ui form" ]
+            [ div [ class "grouped fields" ] <|
+                List.map
+                    (\tag ->
+                        button
+                            [ class "ui tiny button"
+                            , onClick (SelectTag tag)
+                            ]
+                            [ text (wordToJapanese tag) ]
+                    )
+                    (List.concat tagCloud)
             ]
-        , siteFooter
+        , div [] <| List.map (\( h, a ) -> tableFor h a) articles
         ]
     }
 
 
-siteHeader : Model -> Html Msg
-siteHeader { selectedLanguages } =
-    header [ class "ui fixed inverted menu" ]
-        [ div [ class "ui container" ]
-            [ a [ class "header item" ] [ text "elm-articles" ]
-            , div [ class "right menu" ]
-                [ a [ class "ui simple dropdown item" ]
-                    [ text ("Language: " ++ languageToString selectedLanguages)
-                    , i [ class "dropdown icon" ] []
-                    , div [ class "menu" ] <|
-                        List.map (\l -> div [ class "item", onClick (SetLanguage l) ] [ text (languageToString l) ])
-                            [ All, English, Japanese ]
-                    ]
-                ]
-            ]
-        ]
+tagCloud : List (List String)
+tagCloud =
+    [ [ "The Elm Architecture", "Types", "Type Aliases", "Custom Types", "Maybe", "Result", "HTTP", "JSON", "Random", "Time", "Task", "Flags", "Ports" ]
+    , [ "Opaque Type", "Phantom Type", "Parser", "Functional Programming" ]
+    , [ "Test", "TDD", "elm-test", "elm-verify-examples" ]
+    , [ "SVG", "Single Page Application", "Firebase", "GraphQL", "Static Site Generator" ]
+    , [ "mdgriffith/elm-ui", "arowM/elm-form-decoder" ]
+    , [ "CLI" ]
+    , [ "VirtualDom", "WebComponents", "form" ]
+    , [ "HTML", "CSS", "JavaScript", "TypeScript", "Node.js" ]
+    , [ "Dev Environment", "Ellie", "elm reactor", "elm-format", "elm-analyse", "create-elm-app", "elm-live", "Parcel", "webpack", "VSCode", "Docker", "Windows" ]
+    , [ "Algorithm", "木構造", "初心者" ]
+    , [ "Hello World", "FizzBuzz", "To-Do List App" ]
+    , [ "Examples", "Poème", "Study Log", "Personal Log" ]
+    ]
 
 
 tableFor : Html Msg -> List Article -> Html Msg
@@ -220,37 +187,14 @@ tableRow article =
             ]
         , td [ class "six wide" ] <|
             List.map
-                (\tag -> span [ class "ui tiny button", onClick (SelectTag tag) ] [ text (wordToJapanese tag) ])
+                (\tag ->
+                    span
+                        [ class "ui tiny button"
+                        , onClick (SelectTag tag)
+                        ]
+                        [ text (wordToJapanese tag) ]
+                )
                 article.tags
-        ]
-
-
-siteFooter : Html Msg
-siteFooter =
-    let
-        column { parent, children } =
-            div [ class "three wide column" ]
-                [ h1 [ class "ui small inverted header", onClick (SelectTag parent) ]
-                    [ text (wordToJapanese parent) ]
-                , div [ class "ui inverted link list" ] <|
-                    List.map (\t -> a [ class "item", onClick (SelectTag t) ] [ text (wordToJapanese t) ]) children
-                ]
-    in
-    footer [ class "ui inverted vertical footer segment" ]
-        [ div [ class "ui center aligned container" ]
-            [ div [ class "ui inverted divided grid" ] <|
-                List.map column
-                    [ { parent = "Types", children = [ "Type Aliases", "Custom Types", "Maybe", "Result" ] }
-                    , { parent = "Core", children = [ "HTTP", "JSON", "Random", "Time", "Task" ] }
-                    , { parent = "Test", children = [ "TDD", "elm-test", "elm-verify-examples" ] }
-                    , { parent = "Dev Environment", children = [ "Ellie", "elm reactor", "Parcel", "webpack", "VSCode" ] }
-                    ]
-                    ++ [ div [ class "four wide column" ]
-                            [ h1 [ class "ui small inverted header" ] [ text "elm-articles" ]
-                            , p [] [ text "© 2020 y047aka" ]
-                            ]
-                       ]
-            ]
         ]
 
 
