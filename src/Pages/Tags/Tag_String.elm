@@ -1,4 +1,4 @@
-module Pages.Top exposing (Model, Msg, Params, page)
+module Pages.Tags.Tag_String exposing (Model, Msg, Params, page)
 
 import AssocList
 import AssocList.Extra
@@ -32,16 +32,22 @@ page =
 
 
 type alias Params =
-    ()
+    { tag : String }
 
 
 type alias Model =
-    { shared : Shared.Model }
+    { shared : Shared.Model
+    , selectedTag : String
+    }
 
 
 init : Shared.Model -> Url Params -> ( Model, Cmd Msg )
-init shared _ =
-    ( { shared = shared }, Cmd.none )
+init shared { params } =
+    ( { shared = shared
+      , selectedTag = params.tag
+      }
+    , Cmd.none
+    )
 
 
 
@@ -71,7 +77,13 @@ load shared model =
         shared_ =
             model.shared
     in
-    ( { model | shared = { shared_ | qiitaArticles = shared.qiitaArticles } }
+    ( { model
+        | shared =
+            { shared_
+                | guideArticles = shared.guideArticles
+                , qiitaArticles = shared.qiitaArticles
+            }
+      }
     , Cmd.none
     )
 
@@ -83,9 +95,33 @@ load shared model =
 view : Model -> Document Msg
 view m =
     let
+        byLanguageAndTag article =
+            List.all identity
+                [ isSelectedLanguage m.shared.language article.language
+                , List.member m.selectedTag (List.map normalize article.tags)
+                ]
+
+        normalize =
+            String.map
+                (\c ->
+                    if c == ' ' then
+                        '-'
+
+                    else
+                        c
+                )
+
+        filteredGuideArticles =
+            m.shared.guideArticles |> List.filter byLanguageAndTag
+
+        filteredQiitaArticles =
+            m.shared.qiitaArticles |> List.filter byLanguageAndTag
+
+        filteredArticlesCount =
+            List.length filteredGuideArticles + List.length filteredQiitaArticles
+
         articlesByVersion =
-            m.shared.qiitaArticles
-                |> List.filter (.language >> isSelectedLanguage m.shared.language)
+            filteredQiitaArticles
                 |> AssocList.Extra.filterGroupBy
                     (.created_at
                         >> Version.fromDateString
@@ -99,11 +135,23 @@ view m =
                             )
                     )
                 |> AssocList.toList
+
+        articles =
+            (case filteredGuideArticles of
+                [] ->
+                    []
+
+                nonEmpty ->
+                    [ ( text "An Introduction to Elm（Evan Czaplicki によるガイド）", nonEmpty ) ]
+            )
+                ++ articlesByVersion
     in
-    { title = "elm-articles"
+    { title = m.selectedTag ++ " | elm-articles"
     , body =
         [ div [ class "ui menu" ]
-            [ div [ class "item" ] []
+            [ div [ class "item" ]
+                [ text (wordToJapanese m.selectedTag ++ ": " ++ String.fromInt filteredArticlesCount ++ "件の記事が見つかりました")
+                ]
             , div [ class "right menu" ]
                 [ div [ class "ui simple dropdown item" ]
                     [ text ("Language: " ++ languageToString m.shared.language)
@@ -114,7 +162,8 @@ view m =
                     ]
                 ]
             ]
-        , div [] <| List.map (\( h, a ) -> tableFor h a) articlesByVersion
+        , div [ class "ui vertical segment" ] <|
+            List.map (\( h, a ) -> tableFor h a) articles
         ]
     }
 
