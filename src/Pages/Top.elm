@@ -4,12 +4,14 @@ import AssocList
 import AssocList.Extra
 import Data.Article exposing (Article)
 import Data.Language exposing (Language(..), isSelectedLanguage, languageToString)
+import Data.Tag as Tag exposing (fromString, toString)
 import Data.Version as Version
 import Html exposing (..)
 import Html.Attributes exposing (class, colspan, href, rel, target)
 import Html.Events exposing (onClick)
 import Shared
 import Spa.Document exposing (Document)
+import Spa.Generated.Route as Route
 import Spa.Page as Page exposing (Page)
 import Spa.Url exposing (Url)
 import String.Converter exposing (wordToJapanese)
@@ -132,17 +134,6 @@ tableFor heading articles =
 
 tableRow : Article -> Html Msg
 tableRow article =
-    let
-        normalize =
-            String.map
-                (\c ->
-                    if c == ' ' then
-                        '-'
-
-                    else
-                        c
-                )
-    in
     tr []
         [ td [ class "ten wide" ]
             [ div []
@@ -158,7 +149,7 @@ tableRow article =
         , td [ class "six wide" ] <|
             List.map
                 (\tag ->
-                    a [ href ("/tags/" ++ normalize tag) ]
+                    a [ href (Route.toString <| Route.Tags__Tag_String { tag = Tag.fromString tag }) ]
                         [ span [ class "ui tiny button" ] [ text (wordToJapanese tag) ] ]
                 )
                 article.tags
