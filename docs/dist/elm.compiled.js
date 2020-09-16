@@ -6125,35 +6125,38 @@ var $elm$url$Url$Parser$top = function (state) {
 	return _List_fromArray(
 		[state]);
 };
-var $author$project$Spa$Generated$Route$routes = $elm$url$Url$Parser$oneOf(
-	_List_fromArray(
-		[
-			A2($elm$url$Url$Parser$map, $author$project$Spa$Generated$Route$Top, $elm$url$Url$Parser$top),
-			A2(
-			$elm$url$Url$Parser$map,
-			$author$project$Spa$Generated$Route$Guide,
-			$elm$url$Url$Parser$s('guide')),
-			A2(
-			$elm$url$Url$Parser$map,
-			$author$project$Spa$Generated$Route$NotFound,
-			$elm$url$Url$Parser$s('not-found')),
-			A2(
-			$elm$url$Url$Parser$map,
-			$author$project$Spa$Generated$Route$Tags,
-			$elm$url$Url$Parser$s('tags')),
-			A2(
-			$elm$url$Url$Parser$map,
-			$author$project$Spa$Generated$Route$Tags__Tag_String,
-			A2(
-				$elm$url$Url$Parser$map,
-				function (tag) {
-					return {cm: tag};
-				},
+var $author$project$Spa$Generated$Route$routes = A2(
+	$elm$url$Url$Parser$slash,
+	$elm$url$Url$Parser$s('elm-articles'),
+	$elm$url$Url$Parser$oneOf(
+		_List_fromArray(
+			[
+				A2($elm$url$Url$Parser$map, $author$project$Spa$Generated$Route$Top, $elm$url$Url$Parser$top),
 				A2(
-					$elm$url$Url$Parser$slash,
-					$elm$url$Url$Parser$s('tags'),
-					$elm$url$Url$Parser$string)))
-		]));
+				$elm$url$Url$Parser$map,
+				$author$project$Spa$Generated$Route$Guide,
+				$elm$url$Url$Parser$s('guide')),
+				A2(
+				$elm$url$Url$Parser$map,
+				$author$project$Spa$Generated$Route$NotFound,
+				$elm$url$Url$Parser$s('not-found')),
+				A2(
+				$elm$url$Url$Parser$map,
+				$author$project$Spa$Generated$Route$Tags,
+				$elm$url$Url$Parser$s('tags')),
+				A2(
+				$elm$url$Url$Parser$map,
+				$author$project$Spa$Generated$Route$Tags__Tag_String,
+				A2(
+					$elm$url$Url$Parser$map,
+					function (tag) {
+						return {cm: tag};
+					},
+					A2(
+						$elm$url$Url$Parser$slash,
+						$elm$url$Url$Parser$s('tags'),
+						$elm$url$Url$Parser$string)))
+			])));
 var $author$project$Spa$Generated$Route$fromUrl = $elm$url$Url$Parser$parse($author$project$Spa$Generated$Route$routes);
 var $elm$core$Maybe$withDefault = F2(
 	function (_default, maybe) {
