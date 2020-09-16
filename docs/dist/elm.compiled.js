@@ -7671,20 +7671,21 @@ var $author$project$Spa$Generated$Route$toString = function (route) {
 	var segments = function () {
 		switch (route.$) {
 			case 0:
-				return _List_Nil;
+				return _List_fromArray(
+					['elm-articles']);
 			case 1:
 				return _List_fromArray(
-					['guide']);
+					['elm-articles', 'guide']);
 			case 2:
 				return _List_fromArray(
-					['not-found']);
+					['elm-articles', 'not-found']);
 			case 3:
 				return _List_fromArray(
-					['tags']);
+					['elm-articles', 'tags']);
 			default:
 				var tag = route.a.cm;
 				return _List_fromArray(
-					['tags', tag]);
+					['elm-articles', 'tags', tag]);
 		}
 	}();
 	return A2(
