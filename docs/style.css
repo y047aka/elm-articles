@@ -1,0 +1,53 @@
+.ui.bold.text {
+  font-weight: bold;
+}
+
+.ui.button {
+  margin-bottom: 0.4em;
+}
+
+.ui.vertical.stripe {
+  padding: 8em 0em;
+  padding-top: 8em;
+  padding-right: 0em;
+  padding-bottom: 8em;
+  padding-left: 0em;
+}
+
+.main.container {
+  margin-top: 3em;
+}
+
+.ui.header.segment {
+  position: relative;
+  left: -13px;
+}
+
+.ui.footer.segment {
+  margin: 3em 0em 0em;
+}
+
+.ui.vertical.footer.segment {
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+}
+
+.ui.table > thead > tr > th {
+  font-weight: normal;
+}
+
+.ui.selectable.table > tbody > tr {
+  cursor: default;
+}
+
+.ui.table .ui.button {
+  padding: 0.6em 0.9em;
+}
+.ui.table a {
+  color: inherit;
+}
+.ui.table a:hover {
+  text-decoration: underline;
+  color: #4183c4;
+}
+
+/*# sourceMappingURL=style.css.map */
