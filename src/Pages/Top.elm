@@ -104,19 +104,21 @@ view m =
     in
     { title = "elm-articles"
     , body =
-        [ div [ class "ui menu" ]
-            [ div [ class "item" ] []
-            , div [ class "right menu" ]
-                [ div [ class "ui simple dropdown item" ]
-                    [ text ("Language: " ++ languageToString m.shared.language)
-                    , i [ class "dropdown icon" ] []
-                    , div [ class "menu" ] <|
-                        List.map (\l -> div [ class "item", onClick (SetLanguage l) ] [ text (languageToString l) ])
-                            [ All, English, Japanese ]
+        [ section [ class "ui vertical padded segment" ]
+            [ h3 [] [ text "最新の記事" ]
+            , div [ class "ui secondary menu" ]
+                [ div [ class "right menu" ]
+                    [ div [ class "ui simple dropdown item" ]
+                        [ text ("Language: " ++ languageToString m.shared.language)
+                        , i [ class "dropdown icon" ] []
+                        , div [ class "menu" ] <|
+                            List.map (\l -> div [ class "item", onClick (SetLanguage l) ] [ text (languageToString l) ])
+                                [ All, English, Japanese ]
+                        ]
                     ]
                 ]
+            , div [] <| List.map (\( h, a ) -> tableFor h a) articlesByVersion
             ]
-        , div [] <| List.map (\( h, a ) -> tableFor h a) articlesByVersion
         ]
     }
 

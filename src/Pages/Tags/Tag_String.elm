@@ -140,11 +140,9 @@ view m =
     in
     { title = m.selectedTag ++ " | elm-articles"
     , body =
-        [ div [ class "ui menu" ]
-            [ div [ class "item" ]
-                [ text (wordToJapanese m.selectedTag ++ ": " ++ String.fromInt filteredArticlesCount ++ "件の記事が見つかりました")
-                ]
-            , div [ class "right menu" ]
+        [ h3 [] [ text (wordToJapanese m.selectedTag ++ ": " ++ String.fromInt filteredArticlesCount ++ "件の記事が見つかりました") ]
+        , div [ class "ui secondary menu" ]
+            [ div [ class "right menu" ]
                 [ div [ class "ui simple dropdown item" ]
                     [ text ("Language: " ++ languageToString m.shared.language)
                     , i [ class "dropdown icon" ] []

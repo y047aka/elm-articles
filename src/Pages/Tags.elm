@@ -107,10 +107,11 @@ view : Model -> Document Msg
 view m =
     { title = "elm-articles"
     , body =
-        [ section [ class "ui basic segments" ] <|
+        [ h2 [] [ text "タグから探す" ]
+        , section [ class "ui basic segments" ] <|
             List.map
                 (\( initial, tags ) ->
-                    div [ class "ui horizontally fitted segment" ] <|
+                    div [ class "ui  padded horizontally fitted segment" ] <|
                         h3 [] [ text (String.fromChar initial) ]
                             :: List.map
                                 (\tag ->

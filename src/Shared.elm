@@ -105,15 +105,24 @@ view { page, toMsg } _ =
 
 siteHeader : Html Msg
 siteHeader =
-    header [ class "ui inverted menu" ]
+    header [ class "ui vertical header segment" ]
         [ div [ class "ui container" ]
-            [ a [ class "header item", href (Route.toString Route.Top) ] [ text "elm-articles" ] ]
+            [ div [ class "ui secondary menu" ] <|
+                a [ class "item", href (Route.toString Route.Top) ] [ span [ class "ui bold text" ] [ text "elm-articles" ] ]
+                    :: List.map
+                        (\{ label, route } ->
+                            a [ class "item", href (Route.toString route) ] [ text label ]
+                        )
+                        [ { label = "Elmを学ぶ", route = Route.Guide }
+                        , { label = "タグから探す", route = Route.Tags }
+                        ]
+            ]
         ]
 
 
 siteFooter : Html msg
 siteFooter =
-    footer [ class "ui inverted vertical footer segment" ]
+    footer [ class "ui vertical padded footer segment" ]
         [ div [ class "ui right aligned container" ]
             [ p [] [ text "© 2020 y047aka" ] ]
         ]
