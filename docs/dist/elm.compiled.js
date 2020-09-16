@@ -6497,7 +6497,7 @@ var $author$project$Shared$init = F3(
 								$elm$http$Http$expectJson,
 								$author$project$Shared$Loaded_Guide,
 								$elm$json$Json$Decode$list($author$project$Data$Article$articleDecoder)),
-							cs: '/static/articles_guide.json'
+							cs: '../static/articles_guide.json'
 						}),
 						$elm$http$Http$get(
 						{
@@ -6505,7 +6505,7 @@ var $author$project$Shared$init = F3(
 								$elm$http$Http$expectJson,
 								$author$project$Shared$Loaded_Qiita,
 								$elm$json$Json$Decode$list($author$project$Data$Article$Qiita$articleDecoder)),
-							cs: '/static/articles_qiita.json'
+							cs: '../static/articles_qiita.json'
 						})
 					])));
 	});
