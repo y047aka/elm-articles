@@ -7,6 +7,7 @@
     "prestart": "sass public",
     "test": "elm-test",
     "test:watch": "elm-test --watch",
+    "prebuild": "sass public",
     "build": "run-s build:elm-spa build:elm",
     "build:dev": "run-s build:elm-spa build:dev:elm",
     "dev": "run-p dev:elm-spa dev:elm",
