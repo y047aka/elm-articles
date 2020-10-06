@@ -115,7 +115,7 @@ view m =
         articlesByVersion =
             filteredQiitaArticles
                 |> AssocList.Extra.filterGroupBy
-                    (.created_at
+                    (.createdAt
                         >> Version.fromDateString
                         >> Maybe.map Version.getRecord
                         >> Maybe.map

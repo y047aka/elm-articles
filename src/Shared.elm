@@ -1,8 +1,7 @@
 module Shared exposing (Flags, Model, Msg, init, subscriptions, update, view)
 
 import Browser.Navigation exposing (Key)
-import Data.Article exposing (Article)
-import Data.Article.Qiita as Qiita exposing (articleDecoder)
+import Data.Article as Article exposing (Article)
 import Data.Language exposing (Language(..))
 import Html exposing (..)
 import Html.Attributes exposing (class, href)
@@ -27,6 +26,7 @@ type alias Model =
     , language : Language
     , guideArticles : List Article
     , qiitaArticles : List Article
+    , zennArticles : List Article
     }
 
 
@@ -37,15 +37,20 @@ init _ url key =
       , language = All
       , guideArticles = []
       , qiitaArticles = []
+      , zennArticles = []
       }
     , Cmd.batch <|
         [ Http.get
             { url = "/static/articles_guide.json"
-            , expect = Http.expectJson Loaded_Guide (Decode.list Data.Article.articleDecoder)
+            , expect = Http.expectJson Loaded_Guide (Decode.list Article.articleDecoder)
             }
         , Http.get
             { url = "/static/articles_qiita.json"
-            , expect = Http.expectJson Loaded_Qiita (Decode.list Qiita.articleDecoder)
+            , expect = Http.expectJson Loaded_Qiita (Decode.list Article.qiitaDecoder)
+            }
+        , Http.get
+            { url = "/static/articles_zenn.json"
+            , expect = Http.expectJson Loaded_Zenn (Decode.list Article.zennDecoder)
             }
         ]
     )
@@ -56,8 +61,9 @@ init _ url key =
 
 
 type Msg
-    = Loaded_Qiita (Result Http.Error (List Article))
-    | Loaded_Guide (Result Http.Error (List Article))
+    = Loaded_Guide (Result Http.Error (List Article))
+    | Loaded_Qiita (Result Http.Error (List Article))
+    | Loaded_Zenn (Result Http.Error (List Article))
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
@@ -77,6 +83,14 @@ update msg model =
             )
 
         Loaded_Qiita (Err _) ->
+            ( model, Cmd.none )
+
+        Loaded_Zenn (Ok articles) ->
+            ( { model | zennArticles = articles }
+            , Cmd.none
+            )
+
+        Loaded_Zenn (Err _) ->
             ( model, Cmd.none )
 
 

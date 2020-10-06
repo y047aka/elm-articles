@@ -73,7 +73,13 @@ load shared model =
         shared_ =
             model.shared
     in
-    ( { model | shared = { shared_ | qiitaArticles = shared.qiitaArticles } }
+    ( { model
+        | shared =
+            { shared_
+                | qiitaArticles = shared.qiitaArticles
+                , zennArticles = shared.zennArticles
+            }
+      }
     , Cmd.none
     )
 
@@ -86,21 +92,22 @@ view : Model -> Document Msg
 view m =
     let
         articlesByVersion =
-            m.shared.qiitaArticles
+            (m.shared.qiitaArticles ++ m.shared.zennArticles)
                 |> List.filter (.language >> isSelectedLanguage m.shared.language)
-                |> AssocList.Extra.filterGroupBy
-                    (.created_at
-                        >> Version.fromDateString
-                        >> Maybe.map Version.getRecord
-                        >> Maybe.map
-                            (\{ version, topic, url } ->
-                                a [ href url, target "_blank", rel "noopener" ]
-                                    [ text (version ++ " - " ++ topic ++ " ")
-                                    , i [ class "external alternate small icon" ] []
-                                    ]
-                            )
-                    )
+                |> AssocList.Extra.filterGroupBy (.createdAt >> Version.fromDateString >> Maybe.map Version.getRecord)
                 |> AssocList.toList
+                |> List.map (Tuple.mapSecond (List.sortBy .createdAt >> List.reverse))
+                |> List.sortBy (Tuple.first >> .releasedAt)
+                |> List.reverse
+                |> List.map
+                    (\( { version, topic, url }, articles ) ->
+                        ( a [ href url, target "_blank", rel "noopener" ]
+                            [ text (version ++ " - " ++ topic ++ " ")
+                            , i [ class "external alternate small icon" ] []
+                            ]
+                        , articles
+                        )
+                    )
     in
     { title = "elm-articles"
     , body =
