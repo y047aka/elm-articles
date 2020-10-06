@@ -8,8 +8,9 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
-    "tags": [{ "name": "Elm", "versions": [] }],
-    "tags_": [],
+    "language": "ja",
+    "tags": [],
+    "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmのクラウド開発環境Ellieのショートカットキーまとめ",
     "updated_at": "2020-09-22T21:18:11+09:00",
     "url": "https://qiita.com/sugawani/items/b8b331a555218200fe59",
@@ -42,8 +43,9 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
-    "tags": [{ "name": "Elm", "versions": [] }],
-    "tags_": [],
+    "language": "ja",
+    "tags": [],
+    "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでつくったBMI計算機MVPをデプロイしてみた",
     "updated_at": "2020-09-16T20:40:35+09:00",
     "url": "https://qiita.com/atsu6/items/e3bdf9af5edef0e2453c",
@@ -76,8 +78,9 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
-    "tags": [{ "name": "Elm", "versions": [] }],
-    "tags_": [],
+    "language": "ja",
+    "tags": [],
+    "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "【自分用】Elmチートシート",
     "updated_at": "2020-09-14T16:02:54+09:00",
     "url": "https://qiita.com/atsu6/items/5999f2377a3d3cac1689",
@@ -110,12 +113,13 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "next.js", "versions": [] },
       { "name": "Vercel", "versions": [] }
     ],
-    "tags_": [],
     "title": "ElmをNext.jsの静的ページで動作させたメモ",
     "updated_at": "2020-09-14T00:16:38+09:00",
     "url": "https://qiita.com/hibohiboo/items/3d14a8810b519a7edf09",
@@ -148,8 +152,9 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
-    "tags": [{ "name": "Elm", "versions": [] }],
-    "tags_": [],
+    "language": "ja",
+    "tags": [],
+    "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでBMI計算機をつくってみた",
     "updated_at": "2020-10-02T20:15:53+09:00",
     "url": "https://qiita.com/atsu6/items/34ba5b78d619da32a57b",
@@ -182,13 +187,14 @@
     "likes_count": 3,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "HTML", "versions": [] },
       { "name": "JavaScript", "versions": [] },
       { "name": "初心者", "versions": [] },
       { "name": "Elm", "versions": [] }
     ],
-    "tags_": [],
     "title": "フワッとわかった気になるElm入門",
     "updated_at": "2020-09-11T19:09:43+09:00",
     "url": "https://qiita.com/kazurego7/items/4f074c3e3972cf43dbcd",
@@ -221,13 +227,14 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] },
       { "name": "手続き型", "versions": [] },
       { "name": "命令型プログラミング", "versions": [] }
     ],
-    "tags_": [],
     "title": "手続き型脳から関数型脳にシフトしてElmにヌルッと入門しよう！",
     "updated_at": "2020-09-06T21:35:28+09:00",
     "url": "https://qiita.com/ababup1192/items/aa4d68ac7cde9a73ec59",
@@ -260,8 +267,9 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
-    "tags": [{ "name": "Elm", "versions": [] }],
-    "tags_": [],
+    "language": "ja",
+    "tags": [],
+    "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmを勉強してるときに出会ったエラー備忘録【随時更新予定】",
     "updated_at": "2020-09-06T01:54:08+09:00",
     "url": "https://qiita.com/xxl/items/feb359d1ae02a4abcb85",
@@ -294,12 +302,13 @@
     "likes_count": 5,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "JavaScript", "versions": [] },
       { "name": "Elm", "versions": [] },
       { "name": "クロージャ", "versions": [] }
     ],
-    "tags_": [],
     "title": "JavaScript: ElmのTEAっぽいことを素のJSでやってみた",
     "updated_at": "2020-09-24T18:54:36+09:00",
     "url": "https://qiita.com/ttatsf/items/22a15913c30f04d718ca",
@@ -332,11 +341,12 @@
     "likes_count": 1,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "tea", "versions": [] }
     ],
-    "tags_": [],
     "title": "The Elm Architectureをコードで触れてみた。",
     "updated_at": "2020-09-04T19:27:04+09:00",
     "url": "https://qiita.com/atsu6/items/7da3324604e5e251467e",
@@ -369,11 +379,12 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "tea", "versions": [] }
     ],
-    "tags_": [],
     "title": "The Elm Architecture を自分流に理解してみた。",
     "updated_at": "2020-09-02T22:12:11+09:00",
     "url": "https://qiita.com/atsu6/items/bea02b88143601279503",
@@ -406,8 +417,9 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
-    "tags": [{ "name": "Elm", "versions": [] }],
-    "tags_": [],
+    "language": "ja",
+    "tags": [],
+    "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "ElmでHTMLを書く練習をしてみた",
     "updated_at": "2020-09-02T19:01:36+09:00",
     "url": "https://qiita.com/atsu6/items/c9c82316990b7af12d6b",
@@ -440,8 +452,9 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
-    "tags": [{ "name": "Elm", "versions": [] }],
-    "tags_": [],
+    "language": "ja",
+    "tags": [],
+    "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elm基礎文法やってみた",
     "updated_at": "2020-09-17T10:19:26+09:00",
     "url": "https://qiita.com/atsu6/items/115e19d375f4195e4ff7",
@@ -474,11 +487,12 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "デバッグ", "versions": [] },
       { "name": "Elm", "versions": [] }
     ],
-    "tags_": [],
     "title": "再帰関数をデバッグしようとしたらDebug.logの表示が逆だった",
     "updated_at": "2020-09-06T02:16:53+09:00",
     "url": "https://qiita.com/GoldentTuft/items/a983f8282f97db97d419",
@@ -511,11 +525,12 @@
     "likes_count": 0,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "tailwindcss", "versions": [] }
     ],
-    "tags_": [],
     "title": "Elmでtailwinduiのドロップダウンを実装してみる",
     "updated_at": "2020-08-30T00:56:07+09:00",
     "url": "https://qiita.com/kyasu1/items/fd1dd1dafd215e172cd8",
@@ -548,12 +563,13 @@
     "likes_count": 115,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "altjs", "versions": [] },
       { "name": "フロントエンド", "versions": [] },
       { "name": "Elm", "versions": [] }
     ],
-    "tags_": [],
     "title": "きっとこれから流行る関数型言語Elmを使えばHTML/CSS/JavaScriptを統一できるよ❗",
     "updated_at": "2020-08-31T17:37:56+09:00",
     "url": "https://qiita.com/imtaplet/items/71003c4e2fa322f4298f",
@@ -586,11 +602,12 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "CSS", "versions": [] },
       { "name": "Elm", "versions": [] }
     ],
-    "tags_": [],
     "title": "Yet Another elm-css作った",
     "updated_at": "2020-08-18T20:18:29+09:00",
     "url": "https://qiita.com/miyamo_madoka/items/6ecb7936b15d99179865",
@@ -623,12 +640,13 @@
     "likes_count": 6,
     "private": false,
     "reactions_count": 0,
-    "tags": [
+    "language": "ja",
+    "tags": [],
+    "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "elm-doc", "versions": [] },
       { "name": "Elmer", "versions": [] }
     ],
-    "tags_": [],
     "title": "Elmのコメント記法について調べてみた",
     "updated_at": "2020-08-01T09:13:01+09:00",
     "url": "https://qiita.com/Atzz/items/641b5d4548d4ffa1827e",
