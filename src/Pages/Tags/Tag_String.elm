@@ -7,7 +7,7 @@ import Data.Language exposing (Language(..), isSelectedLanguage, languageToStrin
 import Data.Tag as Tag exposing (fromString, toString)
 import Data.Version as Version
 import Html exposing (..)
-import Html.Attributes exposing (class, colspan, href, rel, target)
+import Html.Attributes exposing (class, href, rel, target)
 import Html.Events exposing (onClick)
 import Shared
 import Spa.Document exposing (Document)
@@ -114,18 +114,7 @@ view m =
 
         articlesByVersion =
             filteredQiitaArticles
-                |> AssocList.Extra.filterGroupBy
-                    (.createdAt
-                        >> Version.fromDateString
-                        >> Maybe.map Version.getRecord
-                        >> Maybe.map
-                            (\{ version, topic, url } ->
-                                a [ href url, target "_blank", rel "noopener" ]
-                                    [ text (version ++ " - " ++ topic ++ " ")
-                                    , i [ class "external alternate small icon" ] []
-                                    ]
-                            )
-                    )
+                |> AssocList.Extra.filterGroupBy (.createdAt >> Version.fromDateString >> Maybe.map Version.getRecord)
                 |> AssocList.toList
 
         articles =
@@ -134,7 +123,7 @@ view m =
                     []
 
                 nonEmpty ->
-                    [ ( text "An Introduction to Elm（Evan Czaplicki によるガイド）", nonEmpty ) ]
+                    [ ( { version = "An Introduction to Elm", releasedAt = "", topic = "Evan Czaplicki によるガイド", url = "https://guide.elm-lang.org" }, nonEmpty ) ]
             )
                 ++ articlesByVersion
     in
@@ -153,41 +142,50 @@ view m =
                 ]
             ]
         , div [ class "ui vertical segment" ] <|
-            List.map (\( h, a ) -> tableFor h a) articles
+            List.map (\( h, a ) -> segmentWithCards { heading = h, articles = a }) articles
         ]
     }
 
 
-tableFor : Html Msg -> List Article -> Html Msg
-tableFor heading articles =
-    table [ class "ui selectable table" ]
-        [ thead []
-            [ tr []
-                [ th [ colspan 3 ] [ heading ] ]
+segmentWithCards :
+    { heading : { version : String, releasedAt : String, topic : String, url : String }
+    , articles : List Article
+    }
+    -> Html Msg
+segmentWithCards { heading, articles } =
+    div [ class "ui vertical padded segment" ]
+        [ h1 [ class "ui small grey header" ]
+            [ a [ href heading.url, target "_blank", rel "noopener" ]
+                [ text (heading.version ++ " - " ++ heading.topic ++ " ")
+                , i [ class "external alternate small icon" ] []
+                ]
             ]
-        , tbody [] (List.map tableRow articles)
+        , div [ class "ui three cards" ] (List.map card articles)
         ]
 
 
-tableRow : Article -> Html Msg
-tableRow article =
-    tr []
-        [ td [ class "ten wide" ]
-            [ div []
-                [ a
-                    [ href article.url
-                    , target "_blank"
-                    , rel "noopener"
-                    ]
-                    [ text (article.title ++ " "), i [ class "external alternate small icon" ] [] ]
-                ]
-            , span [ class "ui small grey text" ] [ text (article.author ++ " | " ++ article.siteName) ]
+card : Article -> Html Msg
+card article =
+    a
+        [ class "card"
+        , href article.url
+        , target "_blank"
+        , rel "noopener"
+        ]
+        [ div [ class "content" ]
+            [ div [ class "header" ] [ text article.title ]
+            , div [ class "meta" ] [ text (article.author ++ " | " ++ article.siteName) ]
             ]
-        , td [ class "six wide" ] <|
-            List.map
-                (\tag ->
-                    a [ href (Route.toString <| Route.Tags__Tag_String { tag = Tag.fromString tag }) ]
-                        [ span [ class "ui tiny button" ] [ text (wordToJapanese tag) ] ]
-                )
-                article.tags
+        , case article.tags of
+            [] ->
+                text ""
+
+            nonEmpty ->
+                div [ class "extra content" ] <|
+                    List.map
+                        (\tag ->
+                            a [ href (Route.toString <| Route.Tags__Tag_String { tag = Tag.fromString tag }) ]
+                                [ span [ class "ui tiny button" ] [ text (wordToJapanese tag) ] ]
+                        )
+                        nonEmpty
         ]

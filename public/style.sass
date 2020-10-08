@@ -2,7 +2,8 @@
     font-weight: bold
 
 .ui.button
-    margin-bottom: 0.4em
+    margin-top: 0.2em
+    margin-bottom: 0.2em
 
 .ui.vertical.stripe
     padding: 8em 0em
@@ -24,15 +25,9 @@
 .ui.vertical.footer.segment
     border-top: 1px solid rgba(34, 36, 38, 0.15)
 
-.ui.table>thead>tr>th
+/* Cards */
+.ui.small.header
     font-weight: normal
-
-.ui.selectable.table>tbody>tr
-    cursor: default
-
-.ui.table
-    .ui.button
-        padding: 0.6em 0.9em
 
     a
         color: inherit
@@ -40,3 +35,16 @@
         &:hover
             text-decoration: underline
             color: #4183c4
+
+.ui.cards>.card>.content>.header:not(.ui)
+    font-size: 16px
+
+.card
+    &:nth-child(3n+2)
+        top: 0.5em
+
+    &:nth-child(3n)
+        top: 1em
+
+    .ui.button
+        padding: 0.6em 0.9em
