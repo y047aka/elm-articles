@@ -7,7 +7,7 @@ import Data.Language exposing (Language(..), isSelectedLanguage, languageToStrin
 import Data.Tag as Tag exposing (fromString, toString)
 import Data.Version as Version
 import Html exposing (..)
-import Html.Attributes exposing (class, href, rel, target)
+import Html.Attributes exposing (class, href, rel, src, target)
 import Html.Events exposing (onClick)
 import Shared
 import Spa.Document exposing (Document)
@@ -166,6 +166,18 @@ segmentWithCards { heading, articles } =
 
 card : Article -> Html Msg
 card article =
+    let
+        author { name, image } =
+            case image of
+                Just image_ ->
+                    span []
+                        [ img [ class "ui avatar mini image", src image_ ] []
+                        , text (" " ++ name)
+                        ]
+
+                Nothing ->
+                    text name
+    in
     a
         [ class "card"
         , href article.url
@@ -174,18 +186,23 @@ card article =
         ]
         [ div [ class "content" ]
             [ div [ class "header" ] [ text article.title ]
-            , div [ class "meta" ] [ text (article.author ++ " | " ++ article.siteName) ]
-            ]
-        , case article.tags of
-            [] ->
-                text ""
+            , case article.tags of
+                [] ->
+                    text ""
 
-            nonEmpty ->
-                div [ class "extra content" ] <|
-                    List.map
-                        (\tag ->
-                            a [ href (Route.toString <| Route.Tags__Tag_String { tag = Tag.fromString tag }) ]
-                                [ span [ class "ui tiny button" ] [ text (wordToJapanese tag) ] ]
-                        )
-                        nonEmpty
+                nonEmpty ->
+                    div [ class "extra content" ] <|
+                        List.map
+                            (\tag ->
+                                a [ href (Route.toString <| Route.Tags__Tag_String { tag = Tag.fromString tag }) ]
+                                    [ span [ class "ui tiny button" ] [ text (wordToJapanese tag) ] ]
+                            )
+                            nonEmpty
+            ]
+        , div [ class "extra content" ]
+            [ div [ class "meta" ]
+                [ author article.author
+                , span [ class "right floated" ] [ text article.siteName ]
+                ]
+            ]
         ]
