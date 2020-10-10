@@ -50,8 +50,8 @@ init shared _ =
 
 
 gatherAllTagsByInitial : Shared.Model -> List ( Char, List String )
-gatherAllTagsByInitial { guideArticles, qiitaArticles, zennArticles } =
-    (guideArticles ++ qiitaArticles ++ zennArticles)
+gatherAllTagsByInitial { articles, guideArticles } =
+    (articles ++ guideArticles)
         |> List.map .tags
         |> List.concat
         |> Set.fromList
@@ -90,9 +90,8 @@ load shared model =
     ( { model
         | shared =
             { shared_
-                | guideArticles = shared.guideArticles
-                , qiitaArticles = shared.qiitaArticles
-                , zennArticles = shared.zennArticles
+                | articles = shared.articles
+                , guideArticles = shared.guideArticles
             }
         , tagsByInitial = gatherAllTagsByInitial shared
       }

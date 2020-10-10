@@ -82,8 +82,8 @@ load shared model =
     ( { model
         | shared =
             { shared_
-                | guideArticles = shared.guideArticles
-                , qiitaArticles = shared.qiitaArticles
+                | articles = shared.articles
+                , guideArticles = shared.guideArticles
             }
       }
     , Cmd.none
@@ -106,14 +106,14 @@ view m =
         filteredGuideArticles =
             m.shared.guideArticles |> List.filter byLanguageAndTag
 
-        filteredQiitaArticles =
-            m.shared.qiitaArticles |> List.filter byLanguageAndTag
+        filteredArticles =
+            m.shared.articles |> List.filter byLanguageAndTag
 
         filteredArticlesCount =
-            List.length filteredGuideArticles + List.length filteredQiitaArticles
+            List.length filteredGuideArticles + List.length filteredArticles
 
         articlesByVersion =
-            filteredQiitaArticles
+            filteredArticles
                 |> AssocList.Extra.filterGroupBy (.createdAt >> Version.fromDateString >> Maybe.map Version.getRecord)
                 |> AssocList.toList
 

@@ -74,11 +74,7 @@ load shared model =
             model.shared
     in
     ( { model
-        | shared =
-            { shared_
-                | qiitaArticles = shared.qiitaArticles
-                , zennArticles = shared.zennArticles
-            }
+        | shared = { shared_ | articles = shared.articles }
       }
     , Cmd.none
     )
@@ -92,13 +88,10 @@ view : Model -> Document Msg
 view m =
     let
         articlesByVersion =
-            (m.shared.qiitaArticles ++ m.shared.zennArticles)
+            m.shared.articles
                 |> List.filter (.language >> isSelectedLanguage m.shared.language)
                 |> AssocList.Extra.filterGroupBy (.createdAt >> Version.fromDateString >> Maybe.map Version.getRecord)
                 |> AssocList.toList
-                |> List.map (Tuple.mapSecond (List.sortBy .createdAt >> List.reverse))
-                |> List.sortBy (Tuple.first >> .releasedAt)
-                |> List.reverse
     in
     { title = "elm-articles"
     , body =

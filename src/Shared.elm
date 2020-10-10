@@ -24,9 +24,8 @@ type alias Model =
     { url : Url
     , key : Key
     , language : Language
+    , articles : List Article
     , guideArticles : List Article
-    , qiitaArticles : List Article
-    , zennArticles : List Article
     }
 
 
@@ -35,9 +34,8 @@ init _ url key =
     ( { url = url
       , key = key
       , language = All
+      , articles = []
       , guideArticles = []
-      , qiitaArticles = []
-      , zennArticles = []
       }
     , Cmd.batch <|
         [ Http.get
@@ -78,7 +76,12 @@ update msg model =
             ( model, Cmd.none )
 
         Loaded_Qiita (Ok articles) ->
-            ( { model | qiitaArticles = articles }
+            ( { model
+                | articles =
+                    (model.articles ++ articles)
+                        |> List.sortBy .createdAt
+                        |> List.reverse
+              }
             , Cmd.none
             )
 
@@ -86,7 +89,12 @@ update msg model =
             ( model, Cmd.none )
 
         Loaded_Zenn (Ok articles) ->
-            ( { model | zennArticles = articles }
+            ( { model
+                | articles =
+                    (model.articles ++ articles)
+                        |> List.sortBy .createdAt
+                        |> List.reverse
+              }
             , Cmd.none
             )
 

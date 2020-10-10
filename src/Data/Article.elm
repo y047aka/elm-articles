@@ -76,5 +76,5 @@ zennDecoder =
         (Decode.succeed "Zenn")
         urlDecoder
         (Decode.succeed "ja")
-        (Decode.succeed [])
+        (Decode.field "tags" (Decode.list Decode.string))
         (Decode.field "createdAt" Decode.string)
