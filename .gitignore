@@ -4,7 +4,8 @@ node_modules
 public/dist
 src/Spa/Generated
 
-.css
+*.css
+*.css.map
 
 # MacOS weird stuff
 .DS_Store
