@@ -135,7 +135,7 @@ segmentWithCards { heading, articles } =
                 , i [ class "external alternate small icon" ] []
                 ]
             ]
-        , div [ class "ui three cards" ] (List.map card articles)
+        , div [ class "ui stackable three cards" ] (List.map card articles)
         ]
 
 
