@@ -146,7 +146,7 @@ card article =
             case image of
                 Just image_ ->
                     span []
-                        [ img [ class "ui avatar mini image", src image_ ] []
+                        [ img [ class "ui avatar image", src image_ ] []
                         , text (" " ++ name)
                         ]
 
@@ -160,8 +160,14 @@ card article =
         , rel "noopener"
         ]
         [ div [ class "content" ]
-            [ div [ class "header" ] [ text article.title ]
-            , case article.tags of
+            [ div [ class "header" ] [ text (article.title ++ " "), i [ class "external alternate small icon" ] [] ]
+            , div [ class "meta" ]
+                [ author article.author
+                , span [ class "right floated" ] [ text article.siteName ]
+                ]
+            ]
+        , div [ class "extra content" ]
+            [ case article.tags of
                 [] ->
                     text ""
 
@@ -169,15 +175,12 @@ card article =
                     div [ class "extra content" ] <|
                         List.map
                             (\tag ->
-                                a [ href (Route.toString <| Route.Tags__Tag_String { tag = Tag.fromString tag }) ]
-                                    [ span [ class "ui tiny button" ] [ text (wordToJapanese tag) ] ]
+                                a
+                                    [ class "ui label"
+                                    , href (Route.toString <| Route.Tags__Tag_String { tag = Tag.fromString tag })
+                                    ]
+                                    [ text (wordToJapanese tag) ]
                             )
                             nonEmpty
-            ]
-        , div [ class "extra content" ]
-            [ div [ class "meta" ]
-                [ author article.author
-                , span [ class "right floated" ] [ text article.siteName ]
-                ]
             ]
         ]
