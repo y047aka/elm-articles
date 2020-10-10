@@ -9,7 +9,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Ellie"],
     "tags_": [{ "name": "Elm", "versions": [] }],
     "title": "Elmのクラウド開発環境Ellieのショートカットキーまとめ",
     "updated_at": "2020-09-22T21:18:11+09:00",
@@ -188,7 +188,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["The Elm Architecture"],
     "tags_": [
       { "name": "HTML", "versions": [] },
       { "name": "JavaScript", "versions": [] },
@@ -228,7 +228,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["関数型プログラミング"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] },
@@ -303,7 +303,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["The Elm Architecture", "JavaScript"],
     "tags_": [
       { "name": "JavaScript", "versions": [] },
       { "name": "Elm", "versions": [] },
@@ -342,7 +342,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["The Elm Architecture"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "tea", "versions": [] }
@@ -380,7 +380,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["The Elm Architecture"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "tea", "versions": [] }
@@ -488,7 +488,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["Debug"],
     "tags_": [
       { "name": "デバッグ", "versions": [] },
       { "name": "Elm", "versions": [] }
@@ -526,7 +526,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": [],
+    "tags": ["mdgriffith/elm-animator"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "tailwindcss", "versions": [] }
@@ -8149,7 +8149,7 @@
     "tags": ["Single Page Application"],
     "tags_": [
       { "name": "Elm", "versions": [] },
-      { "name": "SinglePageApplication", "versions": [] }
+      { "name": "Single Page Application", "versions": [] }
     ],
     "title": "あなたはelmでSPAをわかってしまいたいのか？",
     "updated_at": "2019-06-09T13:48:30+09:00",
