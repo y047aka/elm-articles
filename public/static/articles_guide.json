@@ -43,7 +43,7 @@
     "title": "Forms",
     "author": "Evan Czaplicki",
     "siteName": "An Introduction to Elm",
-    "url": "https://guide.elm-lang.org/architecture/text_fields.html",
+    "url": "https://guide.elm-lang.org/architecture/forms.html",
     "language": "en",
     "tags": ["The Elm Architecture"]
   },
@@ -131,7 +131,7 @@
     "title": "JSON",
     "author": "Evan Czaplicki",
     "siteName": "An Introduction to Elm",
-    "url": "https://guide.elm-lang.org/effects/http.html",
+    "url": "https://guide.elm-lang.org/effects/json.html",
     "language": "en",
     "tags": ["JSON", "elm/json"]
   },
