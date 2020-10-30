@@ -103,33 +103,32 @@ view m =
                 , List.member m.selectedTag article.tags
                 ]
 
-        filteredGuideArticles =
-            m.shared.guideArticles |> List.filter byLanguageAndTag
+        hasGuideArticles =
+            m.shared.guideArticles
+                |> List.filter byLanguageAndTag
+                |> (\articles -> List.length articles /= 0)
 
         filteredArticles =
             m.shared.articles |> List.filter byLanguageAndTag
-
-        filteredArticlesCount =
-            List.length filteredGuideArticles + List.length filteredArticles
 
         articlesByVersion =
             filteredArticles
                 |> AssocList.Extra.filterGroupBy (.createdAt >> Version.fromDateString >> Maybe.map Version.getRecord)
                 |> AssocList.toList
-
-        articles =
-            (case filteredGuideArticles of
-                [] ->
-                    []
-
-                nonEmpty ->
-                    [ ( { version = "An Introduction to Elm", releasedAt = "", topic = "Evan Czaplicki によるガイド", url = "https://guide.elm-lang.org" }, nonEmpty ) ]
-            )
-                ++ articlesByVersion
     in
     { title = m.selectedTag ++ " | elm-articles"
     , body =
-        [ h3 [] [ text (wordToJapanese m.selectedTag ++ ": " ++ String.fromInt filteredArticlesCount ++ "件の記事が見つかりました") ]
+        [ h3 []
+            [ text (wordToJapanese m.selectedTag)
+            , text ": "
+            , text (String.fromInt <| List.length filteredArticles)
+            , text "件の記事が見つかりました"
+            ]
+        , if hasGuideArticles then
+            a [ class "item", href (Route.toString Route.Guide) ] [ text <| wordToJapanese m.selectedTag ++ " についての公式のガイドがあります" ]
+
+          else
+            text ""
         , div [ class "ui secondary menu" ]
             [ div [ class "right menu" ]
                 [ div [ class "ui simple dropdown item" ]
@@ -142,7 +141,7 @@ view m =
                 ]
             ]
         , div [ class "ui vertical segment" ] <|
-            List.map (\( h, a ) -> segmentWithCards { heading = h, articles = a }) articles
+            List.map (\( h, a ) -> segmentWithCards { heading = h, articles = a }) articlesByVersion
         ]
     }
 
