@@ -41,267 +41,267 @@ view _ =
             List.map listItem
                 [ { title = "はじめに"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/"
+                  , url = Just "https://guide.elm-lang.org/"
                   , url_ja = "https://guide.elm-lang.jp/"
-                  , tag = ""
+                  , tag = Nothing
                   }
                 , { title = "インストール"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/install/"
+                  , url = Just "https://guide.elm-lang.org/install/"
                   , url_ja = "https://guide.elm-lang.jp/install.html"
-                  , tag = "Environment Setup"
+                  , tag = Just "Environment Setup"
                   }
                 , { title = "言語の基礎"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/core_language.html"
+                  , url = Just "https://guide.elm-lang.org/core_language.html"
                   , url_ja = "https://guide.elm-lang.jp/core_language.html"
-                  , tag = ""
+                  , tag = Nothing
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "The Elm Architecture"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/architecture/"
+                  , url = Just "https://guide.elm-lang.org/architecture/"
                   , url_ja = "https://guide.elm-lang.jp/architecture/"
-                  , tag = "The Elm Architecture"
+                  , tag = Just "The Elm Architecture"
                   }
                 , { title = "ボタン"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/architecture/buttons.html"
+                  , url = Just "https://guide.elm-lang.org/architecture/buttons.html"
                   , url_ja = "https://guide.elm-lang.jp/architecture/buttons.html"
-                  , tag = "The Elm Architecture"
+                  , tag = Just "The Elm Architecture"
                   }
                 , { title = "テキスト入力"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/architecture/text_fields.html"
+                  , url = Just "https://guide.elm-lang.org/architecture/text_fields.html"
                   , url_ja = "https://guide.elm-lang.jp/architecture/text_fields.html"
-                  , tag = "The Elm Architecture"
+                  , tag = Just "The Elm Architecture"
                   }
                 , { title = "フォーム"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/architecture/forms.html"
+                  , url = Just "https://guide.elm-lang.org/architecture/forms.html"
                   , url_ja = "https://guide.elm-lang.jp/architecture/forms.html"
-                  , tag = "The Elm Architecture"
+                  , tag = Just "The Elm Architecture"
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "型について"
                   , description = ""
-                  , url = "https://guide.elm-lang.jp/types/"
+                  , url = Just "https://guide.elm-lang.jp/types/"
                   , url_ja = "https://guide.elm-lang.jp/types/"
-                  , tag = "Types"
+                  , tag = Just "Types"
                   }
                 , { title = "型を読む"
                   , description = ""
-                  , url = "https://guide.elm-lang.jp/types/reading_types.html"
+                  , url = Just "https://guide.elm-lang.jp/types/reading_types.html"
                   , url_ja = "https://guide.elm-lang.jp/types/reading_types.html"
-                  , tag = "Types"
+                  , tag = Just "Types"
                   }
                 , { title = "型エイリアス"
                   , description = ""
-                  , url = "https://guide.elm-lang.jp/types/type_aliases.html"
+                  , url = Just "https://guide.elm-lang.jp/types/type_aliases.html"
                   , url_ja = "https://guide.elm-lang.jp/types/type_aliases.html"
-                  , tag = "Type Aliases"
+                  , tag = Just "Type Aliases"
                   }
                 , { title = "カスタム型（Custom type）"
                   , description = ""
-                  , url = "https://guide.elm-lang.jp/types/custom_types.html"
+                  , url = Just "https://guide.elm-lang.jp/types/custom_types.html"
                   , url_ja = "https://guide.elm-lang.jp/types/custom_types.html"
-                  , tag = "Custom Types"
+                  , tag = Just "Custom Types"
                   }
                 , { title = "パターンマッチ"
                   , description = ""
-                  , url = "https://guide.elm-lang.jp/types/pattern_matching.html"
+                  , url = Just "https://guide.elm-lang.jp/types/pattern_matching.html"
                   , url_ja = "https://guide.elm-lang.jp/types/pattern_matching.html"
-                  , tag = "Pattern Matching"
+                  , tag = Just "Pattern Matching"
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "エラーハンドリング"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/error_handling/"
+                  , url = Just "https://guide.elm-lang.org/error_handling/"
                   , url_ja = "https://guide.elm-lang.jp/error_handling/"
-                  , tag = "Maybe"
+                  , tag = Just "Maybe"
                   }
                 , { title = "Maybe"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/error_handling/maybe.html"
+                  , url = Just "https://guide.elm-lang.org/error_handling/maybe.html"
                   , url_ja = "https://guide.elm-lang.jp/error_handling/maybe.html"
-                  , tag = "Maybe"
+                  , tag = Just "Maybe"
                   }
                 , { title = "Result"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/error_handling/result.html"
+                  , url = Just "https://guide.elm-lang.org/error_handling/result.html"
                   , url_ja = "https://guide.elm-lang.jp/error_handling/result.html"
-                  , tag = "Result"
+                  , tag = Just "Result"
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "コマンドとサブスクリプション"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/effects/"
+                  , url = Just "https://guide.elm-lang.org/effects/"
                   , url_ja = "https://guide.elm-lang.jp/effects/"
-                  , tag = "elm/browser"
+                  , tag = Just "elm/browser"
                   }
                 , { title = "HTTP"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/effects/http.html"
+                  , url = Just "https://guide.elm-lang.org/effects/http.html"
                   , url_ja = "https://guide.elm-lang.jp/effects/http.html"
-                  , tag = "HTTP"
+                  , tag = Just "HTTP"
                   }
                 , { title = "JSON"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/effects/json.html"
+                  , url = Just "https://guide.elm-lang.org/effects/json.html"
                   , url_ja = "https://guide.elm-lang.jp/effects/json.html"
-                  , tag = "JSON"
+                  , tag = Just "JSON"
                   }
                 , { title = "Random"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/effects/random.html"
+                  , url = Just "https://guide.elm-lang.org/effects/random.html"
                   , url_ja = "https://guide.elm-lang.jp/effects/random.html"
-                  , tag = "elm/random"
+                  , tag = Just "elm/random"
                   }
                 , { title = "Time"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/effects/time.html"
+                  , url = Just "https://guide.elm-lang.org/effects/time.html"
                   , url_ja = "https://guide.elm-lang.jp/effects/time.html"
-                  , tag = "Task"
+                  , tag = Just "Task"
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "JavaScriptとの相互運用"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/interop/"
+                  , url = Just "https://guide.elm-lang.org/interop/"
                   , url_ja = "https://guide.elm-lang.jp/interop/"
-                  , tag = ""
+                  , tag = Nothing
                   }
                 , { title = "フラグ"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/interop/flags.html"
+                  , url = Just "https://guide.elm-lang.org/interop/flags.html"
                   , url_ja = "https://guide.elm-lang.jp/interop/flags.html"
-                  , tag = "Flags"
+                  , tag = Just "Flags"
                   }
                 , { title = "ポート"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/interop/ports.html"
+                  , url = Just "https://guide.elm-lang.org/interop/ports.html"
                   , url_ja = "https://guide.elm-lang.jp/interop/ports.html"
-                  , tag = "Ports"
+                  , tag = Just "Ports"
                   }
                 , { title = "Custom Elements"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/interop/custom_elements.html"
+                  , url = Just "https://guide.elm-lang.org/interop/custom_elements.html"
                   , url_ja = "https://guide.elm-lang.jp/interop/custom_elements.html"
-                  , tag = "Custom Elements"
+                  , tag = Just "Custom Elements"
                   }
                 , { title = "The Limits of Elm/JS Interop"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/interop/limits.html"
+                  , url = Just "https://guide.elm-lang.org/interop/limits.html"
                   , url_ja = ""
-                  , tag = "Ports"
+                  , tag = Just "Ports"
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "Web アプリケーション"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/webapps/"
+                  , url = Just "https://guide.elm-lang.org/webapps/"
                   , url_ja = "https://guide.elm-lang.jp/webapps/"
-                  , tag = "elm/browser"
+                  , tag = Just "elm/browser"
                   }
                 , { title = "ナビゲーション"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/webapps/url_parsing.html"
+                  , url = Just "https://guide.elm-lang.org/webapps/url_parsing.html"
                   , url_ja = "https://guide.elm-lang.jp/webapps/navigation.html"
-                  , tag = "elm/url"
+                  , tag = Just "elm/url"
                   }
                 , { title = "URLのパース"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/webapps/modules.html"
+                  , url = Just "https://guide.elm-lang.org/webapps/modules.html"
                   , url_ja = "https://guide.elm-lang.jp/webapps/url_parsing.html"
-                  , tag = "elm/url"
+                  , tag = Just "elm/url"
                   }
                 , { title = "モジュール"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/webapps/modules.html"
+                  , url = Just "https://guide.elm-lang.org/webapps/modules.html"
                   , url_ja = "https://guide.elm-lang.jp/webapps/modules.html"
-                  , tag = "Modules"
+                  , tag = Just "Modules"
                   }
                 , { title = "Webアプリケーションの構造化"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/webapps/structure.html"
+                  , url = Just "https://guide.elm-lang.org/webapps/structure.html"
                   , url_ja = "https://guide.elm-lang.jp/webapps/structure.html"
-                  , tag = "Modules"
+                  , tag = Just "Modules"
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "最適化"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/optimization/"
+                  , url = Just "https://guide.elm-lang.org/optimization/"
                   , url_ja = "https://guide.elm-lang.jp/optimization/"
-                  , tag = ""
+                  , tag = Nothing
                   }
                 , { title = "Html.Lazy"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/optimization/lazy.html"
+                  , url = Just "https://guide.elm-lang.org/optimization/lazy.html"
                   , url_ja = "https://guide.elm-lang.jp/optimization/lazy.html"
-                  , tag = "Lazy"
+                  , tag = Just "Lazy"
                   }
                 , { title = "Html.Keyed"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/optimization/keyed.html"
+                  , url = Just "https://guide.elm-lang.org/optimization/keyed.html"
                   , url_ja = "https://guide.elm-lang.jp/optimization/keyed.html"
-                  , tag = "Keyed"
+                  , tag = Just "Keyed"
                   }
                 , { title = "アセットサイズの縮小"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/optimization/asset_size.html"
+                  , url = Just "https://guide.elm-lang.org/optimization/asset_size.html"
                   , url_ja = "https://guide.elm-lang.jp/optimization/asset_size.html"
-                  , tag = ""
+                  , tag = Nothing
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "次への一歩"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/next_steps.html"
+                  , url = Just "https://guide.elm-lang.org/next_steps.html"
                   , url_ja = "https://guide.elm-lang.jp/next_steps.html"
-                  , tag = ""
+                  , tag = Nothing
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "集合としての型"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/appendix/types_as_sets.html"
+                  , url = Just "https://guide.elm-lang.org/appendix/types_as_sets.html"
                   , url_ja = "https://guide.elm-lang.jp/appendix/types_as_sets.html"
-                  , tag = "Types"
+                  , tag = Just "Types"
                   }
                 , { title = "型のビット表現"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/appendix/types_as_bits.html"
+                  , url = Just "https://guide.elm-lang.org/appendix/types_as_bits.html"
                   , url_ja = "https://guide.elm-lang.jp/appendix/types_as_bits.html"
-                  , tag = "Types"
+                  , tag = Just "Types"
                   }
                 , { title = "関数の型"
                   , description = ""
-                  , url = "https://guide.elm-lang.org/appendix/function_types.html"
+                  , url = Just "https://guide.elm-lang.org/appendix/function_types.html"
                   , url_ja = "https://guide.elm-lang.jp/appendix/function_types.html"
-                  , tag = "Types"
+                  , tag = Just "Types"
                   }
                 ]
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "翻訳について"
                   , description = ""
-                  , url = ""
+                  , url = Nothing
                   , url_ja = "https://guide.elm-lang.jp/about_translation.html"
-                  , tag = ""
+                  , tag = Nothing
                   }
                 ]
         ]
@@ -311,25 +311,29 @@ view _ =
 listItem :
     { title : String
     , description : String
-    , url : String
+    , url : Maybe String
     , url_ja : String
-    , tag : String
+    , tag : Maybe String
     }
     -> Html msg
 listItem { title, description, url, url_ja, tag } =
+    let
+        searchLink tag_ =
+            a
+                [ class "ui right labeled icon tiny button"
+                , href (Route.toString <| Route.Tags__Tag_String { tag = Tag.fromString tag_ })
+                ]
+                [ i [ class "search icon" ] []
+                , span [ class "meta" ] [ text (tag_ ++ " を検索") ]
+                ]
+    in
     div [ class "ui basic horizontally fitted segment" ]
         [ div [ class "ui header" ] [ text (title ++ " ") ]
         , p [] [ text description ]
         , div []
             [ externalLink { label = "邦訳版", url = url_ja }
-            , externalLink { label = "原文", url = url }
-            , a
-                [ class "ui right labeled icon tiny button"
-                , href (Route.toString <| Route.Tags__Tag_String { tag = Tag.fromString tag })
-                ]
-                [ i [ class "search icon" ] []
-                , span [ class "meta" ] [ text (tag ++ " を検索") ]
-                ]
+            , Maybe.withDefault (text "") <| Maybe.map (\url_ -> externalLink { label = "原文", url = url_ }) url
+            , Maybe.withDefault (text "") <| Maybe.map searchLink tag
             ]
         ]
 
