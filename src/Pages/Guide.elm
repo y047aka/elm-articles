@@ -3,7 +3,6 @@ module Pages.Guide exposing (Model, Msg, Params, page)
 import Data.Tag as Tag exposing (fromString, toString)
 import Html exposing (..)
 import Html.Attributes exposing (class, href, rel, target)
-import Shared
 import Spa.Document exposing (Document)
 import Spa.Generated.Route as Route
 import Spa.Page as Page exposing (Page)
@@ -12,65 +11,29 @@ import Spa.Url exposing (Url)
 
 page : Page Params Model Msg
 page =
-    Page.application
-        { init = init
-        , update = update
-        , subscriptions = \_ -> Sub.none
-        , view = view
-        , save = \model _ -> model.shared
-        , load = load
+    Page.static
+        { view = view
         }
 
 
-
--- INIT
+type alias Model =
+    Url Params
 
 
 type alias Params =
     ()
 
 
-type alias Model =
-    { shared : Shared.Model }
-
-
-init : Shared.Model -> Url Params -> ( Model, Cmd Msg )
-init shared _ =
-    ( { shared = shared }, Cmd.none )
-
-
-
--- UPDATE
-
-
 type alias Msg =
     Never
-
-
-update : Msg -> Model -> ( Model, Cmd Msg )
-update _ model =
-    ( model, Cmd.none )
-
-
-load : Shared.Model -> Model -> ( Model, Cmd Msg )
-load shared model =
-    let
-        shared_ =
-            model.shared
-    in
-    ( { model
-        | shared = { shared_ | guideArticles = shared.guideArticles }
-      }
-    , Cmd.none
-    )
 
 
 
 -- VIEW
 
 
-view : Model -> Document Msg
-view m =
+view : Url Params -> Document Msg
+view _ =
     { title = "elm-articles"
     , body =
         [ h2 [] [ text "Elmを学ぶ" ]
