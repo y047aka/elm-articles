@@ -228,7 +228,7 @@
     "private": false,
     "reactions_count": 0,
     "language": "ja",
-    "tags": ["関数型プログラミング"],
+    "tags": ["Functional Programming"],
     "tags_": [
       { "name": "Elm", "versions": [] },
       { "name": "関数型プログラミング", "versions": [] },
