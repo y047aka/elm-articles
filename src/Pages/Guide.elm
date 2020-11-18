@@ -61,25 +61,25 @@ view _ =
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "The Elm Architecture"
-                  , description = ""
+                  , description = "The Elm Architecture の基本的なパターンを見てみましょう"
                   , url = Just "https://guide.elm-lang.org/architecture/"
                   , url_ja = "https://guide.elm-lang.jp/architecture/"
                   , tag = Just "The Elm Architecture"
                   }
                 , { title = "ボタン"
-                  , description = ""
+                  , description = "インクリメントやデクリメントを行うカウンタを作成します"
                   , url = Just "https://guide.elm-lang.org/architecture/buttons.html"
                   , url_ja = "https://guide.elm-lang.jp/architecture/buttons.html"
                   , tag = Just "The Elm Architecture"
                   }
                 , { title = "テキスト入力"
-                  , description = ""
+                  , description = "テキスト入力の内容を逆さまに表示するシンプルなアプリケーションを作りましょう"
                   , url = Just "https://guide.elm-lang.org/architecture/text_fields.html"
                   , url_ja = "https://guide.elm-lang.jp/architecture/text_fields.html"
                   , tag = Just "The Elm Architecture"
                   }
                 , { title = "フォーム"
-                  , description = ""
+                  , description = "基本的なフォームを作成し、簡単なバリデーションも行います"
                   , url = Just "https://guide.elm-lang.org/architecture/forms.html"
                   , url_ja = "https://guide.elm-lang.jp/architecture/forms.html"
                   , tag = Just "The Elm Architecture"
@@ -88,7 +88,7 @@ view _ =
         , section [ class "ui vertical segment" ] <|
             List.map listItem
                 [ { title = "型について"
-                  , description = ""
+                  , description = "型について学びましょう！"
                   , url = Just "https://guide.elm-lang.jp/types/"
                   , url_ja = "https://guide.elm-lang.jp/types/"
                   , tag = Just "Types"
@@ -106,13 +106,13 @@ view _ =
                   , tag = Just "Type Aliases"
                   }
                 , { title = "カスタム型（Custom type）"
-                  , description = ""
+                  , description = "カスタム型の作り方まで"
                   , url = Just "https://guide.elm-lang.jp/types/custom_types.html"
                   , url_ja = "https://guide.elm-lang.jp/types/custom_types.html"
                   , tag = Just "Custom Types"
                   }
                 , { title = "パターンマッチ"
-                  , description = ""
+                  , description = "カスタム型の作り方は分かりましたが、実際にはどのように使えば良いのでしょうか？"
                   , url = Just "https://guide.elm-lang.jp/types/pattern_matching.html"
                   , url_ja = "https://guide.elm-lang.jp/types/pattern_matching.html"
                   , tag = Just "Pattern Matching"
@@ -328,7 +328,7 @@ listItem { title, description, url, url_ja, tag } =
                 ]
     in
     div [ class "ui basic horizontally fitted segment" ]
-        [ div [ class "ui header" ] [ text (title ++ " ") ]
+        [ h4 [] [ text (title ++ " ") ]
         , p [] [ text description ]
         , div []
             [ externalLink { label = "邦訳版", url = url_ja }
